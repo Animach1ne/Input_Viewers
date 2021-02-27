@@ -1,0 +1,57 @@
+/*
+8BitDo M30 Gamepad Viewer skin by @Animach1ne twitch.tv/animach1ne
+CSS help from zantomun & BenInSweden
+Original CSS by @jayraydee
+Free for personal use and non-profit sharing!
+*/
+/*BEGIN 8BitDo M30 Controller Styling*/
+
+.controller.custom{
+    background: url(https://i.imgur.com/2AybQDC.png);
+    height: 759px;
+    width: 1500px;
+}
+.custom.disconnected { /* This class shows an image when the controller is disconnected */
+    background: url(https://i.imgur.com/7BJl8PS.png);
+}
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+/* The bumpers follow the same methodology as the triggers in terms of
+placement */
+.custom .bumpers{
+    position: absolute;
+    width: 1111px;
+    height: 63px;
+    left: 194px;
+    top: 4px;
+}
+.custom .bumper{
+    width: 345px;
+    height: 63px;
+    background: url(https://i.imgur.com/5kgMzMg.png);
+    opacity: 0;
+}
+.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
+    opacity: 1;
+}
+.custom .bumper.left{
+  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
+  and I can just rotate them in the browser? Also, note that you most likely won't need
+  to use a browser speficic prefix unless it's something that is indeed browser specific.
+  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
+    position: absolute;
+    left: 194px;
+    top: 4px;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+	position: absolute;
+    left: 961px;
+    top: 4px;
+    float: right;
+}
+
+/*END 8bitDo M30 Controller Styling*/
