@@ -48,7 +48,7 @@ placement */
 .custom .bumper.right{
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-	position: absolute;
+    position: absolute;
     left: 961px;
     top: 4px;
     float: right;
