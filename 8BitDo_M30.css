@@ -39,6 +39,14 @@ placement */
 
 /* Dpad possitioning and sizing */
 
+.custom .dpad{
+    position: absolute;
+    width: 278px;
+    height: 278px;
+    top: 201px;
+    left: 228px;
+}
+
 .custom .face{
     background: url(https://i.imgur.com/vo7Eo6l.png);
     position: absolute;
