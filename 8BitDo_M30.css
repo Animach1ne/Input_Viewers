@@ -8,29 +8,23 @@ Free for personal use and non-profit sharing!
 
 .controller.custom{
     background: url(https://i.imgur.com/2AybQDC.png);
-    height: 759px;
     width: 1500px;
+    height: 759px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(https://i.imgur.com/7BJl8PS.png);
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
-.custom .bumper{
-    width: 345px;
-    height: 63px;
-    background: url(https://i.imgur.com/MG38Oac.png);
-    opacity: 0;
-}
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
 .custom .bumper.left{
-  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
-  and I can just rotate them in the browser? Also, note that you most likely won't need
-  to use a browser speficic prefix unless it's something that is indeed browser specific.
-  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
+    background: url(https://i.imgur.com/MG38Oac.png);
+    width: 345px;
+    height: 63px;
     position: absolute;
     left: 194px;
     top: 4px;
+    opacity: 0;
 }
 /*END 8bitDo M30 Controller Styling*/
