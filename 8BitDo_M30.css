@@ -27,12 +27,6 @@ placement */
     left: 194px;
     top: 4px;
 }
-.custom .bumper{
-    width: 345px;
-    height: 63px;
-    background: url(https://i.imgur.com/5kgMzMg.png);
-    opacity: 0;
-}
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
@@ -41,13 +35,14 @@ placement */
   and I can just rotate them in the browser? Also, note that you most likely won't need
   to use a browser speficic prefix unless it's something that is indeed browser specific.
   NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
+    position: absolute;
     left: 194px;
     top: 4px;
 }
 .custom .bumper.right{
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-	position: absolute;
+    position: absolute;
     left: 961px;
     top: 4px;
     float: right;
