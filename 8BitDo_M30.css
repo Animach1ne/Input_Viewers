@@ -33,6 +33,7 @@ placement */
     position: absolute;
     left: 194px;
     top: 4px;
+    float: left;
 }
 
 .custom .bumper.right{
