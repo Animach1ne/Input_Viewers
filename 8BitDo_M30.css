@@ -4,32 +4,28 @@ CSS help from zantomun & BenInSweden
 Original CSS by @jayraydee
 Free for personal use and non-profit sharing!
 */
-/*BEGIN 8BitDo M30 Controller Styling*/
 
+/*BEGIN 8BitDo M30 Controller Styling*/
 .controller.custom{
     background: url(https://i.imgur.com/2AybQDC.png);
     height: 759px;
     width: 1500px;
 }
-
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(https://i.imgur.com/7BJl8PS.png);
 }
 
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
-
 .custom .bumper{
     width: 345px;
     height: 63px;
     background: url(https://i.imgur.com/MG38Oac.png);
     opacity: 0;
 }
-
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
-
 .custom .bumper.left{
     position: absolute;
     left: 194px;
@@ -38,20 +34,17 @@ placement */
 }
 
 /* Dpad possitioning and sizing */
-
 .custom .dpad{
     position: absolute;
-    width: 278px;
-    height: 278px;
-    top: 201px;
-    left: 228px;
+    width: 140px;
+    height: 132px;
+    top: 192px;
+    left: 74px;
 }
-
 .custom .face{
     background: url(https://i.imgur.com/vo7Eo6l.png);
     position: absolute;
 }
-
 .custom .face.up{
     width: 71px;
     height: 138px;
