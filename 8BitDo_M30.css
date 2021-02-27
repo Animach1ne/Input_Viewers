@@ -21,7 +21,6 @@ Free for personal use and non-profit sharing!
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumpers{
-    position: absolute;
     width: 1111px;
     height: 63px;
     left: 194px;
