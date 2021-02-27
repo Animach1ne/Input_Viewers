@@ -50,34 +50,59 @@ placement */
 .custom .face{
     background: url(https://i.imgur.com/vo7Eo6l.png);
     position: absolute;
-    opacity: 0;
 }
-.custom .face.up, .custom .face.down{
+
+.custom .face.up{
     width: 71px;
     height: 138px;
+	top: 201px;
+    left: 332px;
 }
-.custom .face.left, .custom .face.right{
+.custom .face.down{
+    width: 71px;
+    height: 138px;
+	top: 341px;
+    left: 332px;
+}
+.custom .face.left{
     width: 138px;
     height: 71px;
+	top: 306px;
+    left: 228px;
+}
+.custom .face.right{
+    width: 138px;
+    height: 71px;
+	top: 306px;
+    left: 368px;
+}
+.custom .face.left, .custom .face.right{
+    width: 52px;
+    height: 38px;
 }
 .custom .face.up{
-    left: 332px;
-    top: 201px;
+    left: 50px;
+    top: 0;
+    background-position: 92px 0px;
 }
 .custom .face.down{
     left: 50px;
     top: 79px;
+    background-position: 131px 0;
 }
 .custom .face.left{
     top: 47px;
     left: 0;
+    background-position: 0px 0;
 }
 .custom .face.right{
     top: 47px;
     right: 0px;
+    background-position: 53px 0;
 }
 .custom .face.pressed{
-    opacity: 1;
+    margin-top: 5px;
+    background-position-y: 52px;
 }
 
 /*END 8bitDo M30 Controller Styling*/
