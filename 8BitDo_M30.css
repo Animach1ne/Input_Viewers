@@ -49,6 +49,7 @@ placement */
 
 .custom .face{
     background: url(https://i.imgur.com/vo7Eo6l.png);
+    position: absolute;
     opacity: 0;
 }
 .custom .face.up, .custom .face.down{
