@@ -47,14 +47,15 @@ placement */
 .custom .face{
     background: url(https://i.imgur.com/vo7Eo6l.png);
     position: absolute;
+    opacity: 0;
 }
 .custom .face.up, .custom .face.down{
-    width: 38px;
-    height: 52px;
+    width: 71px;
+    height: 138px;
 }
 .custom .face.left, .custom .face.right{
-    width: 52px;
-    height: 38px;
+    width: 138px;
+    height: 71px;
 }
 .custom .face.up{
     left: 50px;
