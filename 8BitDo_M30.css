@@ -23,7 +23,7 @@ placement */
 .custom .bumper{
     width: 345px;
     height: 63px;
-    background: url(https://i.imgur.com/5kgMzMg.png);
+    background: url(https://i.imgur.com/MG38Oac.png);
     opacity: 0;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
@@ -37,13 +37,4 @@ placement */
     position: absolute;
     left: 194px;
     top: 4px;
-}
-.custom .bumper.right{
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    position: absolute;
-    left: 961px;
-    top: 4px;
-    float: right;
-}
 /*END 8bitDo M30 Controller Styling*/
