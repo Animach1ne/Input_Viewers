@@ -46,6 +46,7 @@ placement */
     position: absolute;
 }
 .custom .face.up{
+    position: absolute;
     width: 71px;
     height: 138px;
     top: 201px;
