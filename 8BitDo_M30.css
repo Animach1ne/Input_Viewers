@@ -27,6 +27,12 @@ placement */
     left: 194px;
     top: 4px;
 }
+.custom .bumper{
+    width: 345px;
+    height: 63px;
+    background: url(https://i.imgur.com/5kgMzMg.png);
+    opacity: 0;
+}
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
