@@ -54,11 +54,10 @@ placement */
     position: absolute;
 }
 .custom .face.up{
-    position: absolute;
     width: 71px;
     height: 138px;
-    top: 201px;
-    left: 332px;
+    top: 0px;
+    left: 104px; /*or 105*/
 }
 .custom .face.down{
     width: 71px;
