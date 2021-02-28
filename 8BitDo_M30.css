@@ -20,14 +20,14 @@ placement */
 .custom .bumper{
     width: 345px;
     height: 63px;
-    background: url(https://i.imgur.com/MG38Oac.png);
+    position: absolute;
     opacity: 0;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
 .custom .bumper.left{
-    position: absolute;
+    background: url(https://i.imgur.com/MG38Oac.png);
     left: 194px;
     top: 4px;
     float: left;
