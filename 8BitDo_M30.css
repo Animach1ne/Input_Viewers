@@ -37,10 +37,10 @@ placement */
     background: url(https://i.imgur.com/MG38Oac.png);
     float: left;
 }
-/*.custom .bumper.right{
-    transform: rotateY(180deg);
+.custom .bumper.right{
+    background: url(https://i.imgur.com/5kgMzMg.png);
     float: right;
-}*/
+}
 
 /* Dpad possitioning and sizing */
 .custom .dpad{
