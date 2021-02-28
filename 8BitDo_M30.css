@@ -37,10 +37,10 @@ placement */
 .custom .bumper.left{
     float: left;
 }
-.custom .bumper.right{
+/*.custom .bumper.right{
     transform: rotateY(180deg);
     float: right;
-}
+}*/
 
 /* Dpad possitioning and sizing */
 .custom .dpad{
