@@ -50,7 +50,7 @@ Free for personal use and non-profit sharing!
     height: 278px;	
     top: 201px;	
     left: 228px;	
-}*/
+}
 .custom .face{
     position: absolute;	
     background: url(https://i.imgur.com/vo7Eo6l.png);
@@ -61,7 +61,6 @@ Free for personal use and non-profit sharing!
     height: 138px;
     top: 201px;
     left: 332px;
-}
 }
 .custom .face.pressed{
     opacity: 1;
