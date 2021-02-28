@@ -30,7 +30,11 @@ placement */
     background: url(https://i.imgur.com/MG38Oac.png);
     left: 194px;
     top: 4px;
-    float: left;
+}
+.custom .bumper.right{
+    background: url(https://i.imgur.com/5kgMzMg.png);
+    left: 1111px;
+    top: 4px;
 }
 
 /* Dpad possitioning and sizing */
