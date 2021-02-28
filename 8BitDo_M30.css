@@ -28,14 +28,12 @@ placement */
     opacity: 1;
 }
 .custom .bumper.left{
-    float: left;
     left: 194px;
     top: 4px;
 }
 .custom .bumper.right{
     transform: rotateY(180deg);
-    float: right;
-    left: 194px;
+    left: 1111px;
     top: 4px;
 }
 
