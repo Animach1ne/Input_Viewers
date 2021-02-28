@@ -6,6 +6,7 @@ Free for personal use and non-profit sharing!
 */
 
 /* Base 8BitDo M30 */
+
 .controller.custom{
     background: url(https://i.imgur.com/2AybQDC.png);
     width: 1500px;
@@ -16,6 +17,7 @@ Free for personal use and non-profit sharing!
 }
 
 /* Bumpers */
+
 .custom .bumper{
     background: url(https://i.imgur.com/MG38Oac.png);
     width: 345px;
@@ -41,7 +43,16 @@ Free for personal use and non-profit sharing!
 }
 
 /* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 278px;	
+    height: 278px;	
+    top: 201px;	
+    left: 228px;	
+}*/
 .custom .face{
+    position: absolute;	
     background: url(https://i.imgur.com/vo7Eo6l.png);
     opacity: 0;
 }
