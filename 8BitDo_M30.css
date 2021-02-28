@@ -19,7 +19,6 @@ Free for personal use and non-profit sharing!
 placement */
 .custom .bumper{
     position: relative;
-    background: url(https://i.imgur.com/MG38Oac.png);
     width: 345px;
     height: 63px;
     opacity: 0;
@@ -35,6 +34,7 @@ placement */
     opacity: 1;
 }
 .custom .bumper.left{
+    background: url(https://i.imgur.com/MG38Oac.png);
     float: left;
 }
 /*.custom .bumper.right{
