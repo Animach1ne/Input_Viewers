@@ -18,6 +18,7 @@ Free for personal use and non-profit sharing!
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
+    position: relative;
     background: url(https://i.imgur.com/MG38Oac.png);
     width: 345px;
     height: 63px;
