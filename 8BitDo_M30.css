@@ -5,7 +5,7 @@ Original CSS by @jayraydee
 Free for personal use and non-profit sharing!
 */
 
-/*BEGIN 8BitDo M30 Controller Styling*/
+/* Base 8BitDo M30 */
 .controller.custom{
     background: url(https://i.imgur.com/2AybQDC.png);
     width: 1500px;
@@ -15,8 +15,7 @@ Free for personal use and non-profit sharing!
     background: url(https://i.imgur.com/7BJl8PS.png);
 }
 
-/* The bumpers follow the same methodology as the triggers in terms of
-placement */
+/* Bumpers */
 .custom .bumper{
     background: url(https://i.imgur.com/MG38Oac.png);
     width: 345px;
@@ -41,30 +40,20 @@ placement */
     float: right;
 }
 
-/* Dpad possitioning and sizing 
-.custom .dpad{
-    position: absolute;
-    width: 278px;
-    height: 278px;
-    top: 201px;
-    left: 228px;
-}*/
-
+/* Dpad */
 .custom .face{
     background: url(https://i.imgur.com/vo7Eo6l.png);
     opacity: 0;
 }
-
 .custom .face.up{
     width: 71px;
     height: 138px;
     top: 201px;
     left: 332px;
 }
-
 }
 .custom .face.pressed{
-    opacity: 0;
+    opacity: 1;
 }
 
 /*END 8bitDo M30 Controller Styling*/
