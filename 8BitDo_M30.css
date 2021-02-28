@@ -41,14 +41,15 @@ placement */
     float: right;
 }
 
-/* Dpad possitioning and sizing */
+/* Dpad possitioning and sizing 
 .custom .dpad{
     position: absolute;
     width: 278px;
     height: 278px;
     top: 201px;
     left: 228px;
-}
+}*/
+
 .custom .face{
     background: url(https://i.imgur.com/vo7Eo6l.png);
     position: absolute;
@@ -56,8 +57,8 @@ placement */
 .custom .face.up{
     width: 71px;
     height: 138px;
-    top: 0px;
-    left: 104px; /*or 105*/
+    top: 201px;
+    left: 332px;
 }
 .custom .face.down{
     width: 71px;
