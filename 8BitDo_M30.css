@@ -69,6 +69,7 @@
 .custom .face.left{
     width: 71px;
     height: 138px;
+    transform-origin: bottom center;
     -webkit-transform: rotate(270deg);
     top: 0px;
     left: 0px;
