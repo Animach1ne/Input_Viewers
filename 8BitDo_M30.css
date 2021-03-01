@@ -86,4 +86,16 @@
     opacity: 1;
 }
 
+/* Mid buttons */
+
+.custom .start{
+    background: url(https://i.imgur.com/LLnB0nF.png);
+	top: 323px;
+    left: 680px;
+}
+
+.custom .start.pressed{
+    opacity: 1;
+}
+
 /*END 8bitDo M30 Controller Styling*/
