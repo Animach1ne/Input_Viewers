@@ -59,8 +59,8 @@ Free for personal use and non-profit sharing!
 .custom .face.up{
     width: 71px;
     height: 138px;
-    top: 201px;
-    left: 332px;
+    top: 0px;
+    left: 104px;
 }
 .custom .face.pressed{
     opacity: 1;
