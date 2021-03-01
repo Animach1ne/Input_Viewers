@@ -72,14 +72,15 @@
     transform-origin: bottom center;
     -webkit-transform: rotate(270deg);
     top: 0px;
-    left: 0px;
+    left: 138px;
 }
 .custom .face.right{
     width: 71px;
     height: 138px;
+    transform-origin: bottom center;
     -webkit-transform: rotate(90deg);
     top: 0px;
-    left: 0px;
+    left: 278px;
 }
 .custom .face.pressed{
     opacity: 1;
