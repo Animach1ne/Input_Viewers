@@ -68,13 +68,13 @@
     transform-origin: bottom center;
     -webkit-transform: rotate(270deg);
     top: 2px;
-    left: 102px;
+    left: 101px; /* Roughly equal to width + width/2 + empty space between left an right */
 }
 .custom .face.right{
     transform-origin: bottom center;
     -webkit-transform: rotate(90deg);
     top: 3px;
-    left: 106px;
+    left: 106px; /* Roughly equal to width + width/2 + empty space between left an right */
 }
 .custom .face.pressed{
     opacity: 1;
