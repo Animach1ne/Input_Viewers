@@ -47,7 +47,7 @@ Free for personal use and non-profit sharing!
 .custom .dpad{	
     position: absolute;	
     width: 278px;	
-    height: 278px;	
+    height: 280px;	
     top: 201px;	
     left: 228px;	
 }
@@ -66,7 +66,7 @@ Free for personal use and non-profit sharing!
     -webkit-transform: rotateX(180deg);
     width: 71px;
     height: 138px;
-    top: 141px;
+    top: 142px;
     left: 104px;
 }
 .custom .face.pressed{
