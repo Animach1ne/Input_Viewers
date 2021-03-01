@@ -63,6 +63,7 @@ Free for personal use and non-profit sharing!
     left: 104px;
 }
 .custom .face.down{
+    -webkit-transform: rotateY(180deg);
     width: 71px;
     height: 138px;
     top: 140px;
