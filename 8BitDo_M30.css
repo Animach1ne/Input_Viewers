@@ -70,14 +70,14 @@
     width: 71px;
     height: 138px;
     -webkit-transform: rotate(270deg);
-    top: 68px;
+    top: 0px;
     left: 0px;
 }
 .custom .face.right{
     width: 71px;
     height: 138px;
     -webkit-transform: rotate(90deg);
-    top: 68px;
+    top: 0px;
     left: 140px;
 }
 .custom .face.pressed{
