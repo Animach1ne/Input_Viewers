@@ -51,32 +51,26 @@
 .custom .face{
     position: absolute;	
     background: url(https://i.imgur.com/vo7Eo6l.png);
+    width: 71px;
+    height: 138px;
     opacity: 0;
 }
 .custom .face.up{
-    width: 71px;
-    height: 138px;
     top: 0px;
     left: 104px;
 }
 .custom .face.down{
     -webkit-transform: rotateX(180deg);
-    width: 71px;
-    height: 138px;
     top: 142px;
     left: 104px;
 }
 .custom .face.left{
-    width: 71px;
-    height: 138px;
     transform-origin: bottom center;
     -webkit-transform: rotate(270deg);
     top: 2px;
     left: 115px;
 }
 .custom .face.right{
-    width: 71px;
-    height: 138px;
     transform-origin: bottom center;
     -webkit-transform: rotate(90deg);
     top: 2px;
