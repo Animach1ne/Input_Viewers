@@ -69,20 +69,6 @@ Free for personal use and non-profit sharing!
     top: 141px;
     left: 104px;
 }
-.custom .face.left{
-    -webkit-transform: rotate(270deg);
-    width: 71px;
-    height: 138px;
-    top: 103px;
-    left: 0px;
-}
-.custom .face.right{
-    -webkit-transform: rotate(90deg);
-    width: 138px;
-    height: 71px;
-    top: 103px;
-    left: 140px;
-}
 .custom .face.pressed{
     opacity: 1;
 }
