@@ -78,7 +78,7 @@
     height: 138px;
     -webkit-transform: rotate(90deg);
     top: 0px;
-    left: 140px;
+    left: 0px;
 }
 .custom .face.pressed{
     opacity: 1;
