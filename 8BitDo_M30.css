@@ -62,6 +62,24 @@ Free for personal use and non-profit sharing!
     top: 0px;
     left: 104px;
 }
+.custom .face.down{
+    width: 71px;
+    height: 138px;
+    top: 140px;
+    left: 104px;
+}
+.custom .face.left{
+    width: 138px;
+    height: 71px;
+    top: 103px;
+    left: 0px;
+}
+.custom .face.right{
+    width: 138px;
+    height: 71px;
+    top: 103px;
+    left: 140px;
+}
 .custom .face.pressed{
     opacity: 1;
 }
