@@ -80,7 +80,7 @@
     opacity: 1;
 }
 
-/* Select & Start */
+/* Back & Start */
 
 .custom .back{ 
     position: absolute;
@@ -104,6 +104,33 @@
     opacity: 0;
 }
 .custom .start.pressed{
+    opacity: 1;
+}
+
+/* ABC */
+
+.custom .button{
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/LLnB0nF.png);
+    top: 411px;
+    left: 945px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/yHpjHQu.png);
+    top: 333px;
+    left: 1084px;
+    opacity: 1;
+}
+.custom .button.c.pressed{
+    background: url(https://i.imgur.com/cL4NwyI.png);
+    top: 289px;
+    left: 1238px;
     opacity: 1;
 }
 
