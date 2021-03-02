@@ -81,22 +81,23 @@
 }
 
 /* Select & Start */
-.custom .back, .custom .start{
+
+.custom .back{
+    background: url(https://i.imgur.com/nLKbles.png);
     width: 63px;
     height: 63px;
-}
-.custom .back.pressed, .custom .start.pressed{
-    opacity: 1;
-}
-.custom .back{
-    background: url(https://i.imgur.com/LLnB0nF.png);
     top: 462px;
     left: 708px;
 }
 .custom .start{
     background: url(https://i.imgur.com/LLnB0nF.png);
+    width: 119px;
+    height: 38px;
     top: 323px;
     left: 680px;
+}
+.custom .back.pressed, .custom .start.pressed{
+    opacity: 1;
 }
 
 /*END 8bitDo M30 Controller Styling*/
