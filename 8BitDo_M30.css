@@ -80,7 +80,19 @@
     opacity: 1;
 }
 
-/* Select & Start */
+/* Start & Select */
+
+.custom .start{
+    background: url(https://i.imgur.com/LLnB0nF.png);
+    width: 119px;
+    height: 38px;
+    top: 323px;
+    left: 680px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
 
 .custom .back{
     background: url(https://i.imgur.com/nLKbles.png);
@@ -88,15 +100,9 @@
     height: 63px;
     top: 462px;
     left: 708px;
+    opacity: 0;
 }
-.custom .start{
-    background: url(https://i.imgur.com/LLnB0nF.png);
-    width: 119px;
-    height: 38px;
-    top: 323px;
-    left: 680px;
-}
-.custom .back.pressed, .custom .start.pressed{
+.custom .back.pressed{
     opacity: 1;
 }
 
