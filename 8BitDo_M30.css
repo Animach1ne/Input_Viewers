@@ -111,26 +111,57 @@
 
 .custom .button{
     position: absolute;
-    width: 118px;
-    height: 118px;
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/LLnB0nF.png);
+    background: url(https://i.imgur.com/JlhU5T1.png);
+    width: 118px;
+    height: 118px;
     top: 411px;
     left: 945px;
     opacity: 1;
 }
 .custom .button.b.pressed{
     background: url(https://i.imgur.com/yHpjHQu.png);
+    width: 118px;
+    height: 118px;
     top: 333px;
     left: 1084px;
     opacity: 1;
 }
 .custom .button.c.pressed{
     background: url(https://i.imgur.com/cL4NwyI.png);
+    width: 118px;
+    height: 118px;
     top: 289px;
     left: 1238px;
+    opacity: 1;
+}
+
+/* XYZ */
+
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/In52dsg.png);
+    width: 93px;
+    height: 93px;
+    top: 264px;
+    left: 909px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    background: url(https://i.imgur.com/m9hyZuI.png);
+    width: 93px;
+    height: 93px;
+    top: 201px;
+    left: 1039px;
+    opacity: 1;
+}
+.custom .button.z.pressed{
+    background: url(https://i.imgur.com/99m0J1O.png);
+    width: 93px;
+    height: 93px;
+    top: 162px;
+    left: 1172px;
     opacity: 1;
 }
 
