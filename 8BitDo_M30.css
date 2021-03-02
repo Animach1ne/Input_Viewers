@@ -151,6 +151,13 @@
 
 /* CZ - Tricking Gamepadviewer to think they're triggers */
 
+ .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+    width: 184px;
+    height: 255px;
+    top: 162px;
+    left: 1172px;
+    position: absolute;
+} 
 .custom .trigger{
     position: absolute;
     opacity: 0;
