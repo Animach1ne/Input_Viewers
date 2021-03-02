@@ -162,21 +162,21 @@
     position: absolute;
     opacity: 0;
 }
-.custom .trigger.left.pressed{ /* Actually Z */
+.custom .trigger-button.left.pressed{ /* Actually Z */
     background: url(https://i.imgur.com/99m0J1O.png);
     width: 93px;
     height: 93px;
-    top: 162px;
-    left: 1172px;
     opacity: 1;
+    position: absolute;
 }
-.custom .trigger.right.pressed{ /* Actually C */
+.custom .trigger-button.right.pressed{ /* Actually C */
     background: url(https://i.imgur.com/cL4NwyI.png);
     width: 118px;
     height: 118px;
-    top: 289px;
-    left: 1238px;
+    bottom: 9px;
+    right: 0;
     opacity: 1;
+    position: absolute;
 }
 
 /*END 8bitDo M30 Controller Styling*/
