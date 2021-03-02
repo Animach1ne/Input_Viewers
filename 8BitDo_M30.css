@@ -107,7 +107,7 @@
     opacity: 1;
 }
 
-/* ABC */
+/* AB */
 
 .custom .button{
     position: absolute;
@@ -129,16 +129,8 @@
     left: 1084px;
     opacity: 1;
 }
-.custom .button.c.pressed{
-    background: url(https://i.imgur.com/cL4NwyI.png);
-    width: 118px;
-    height: 118px;
-    top: 289px;
-    left: 1238px;
-    opacity: 1;
-}
 
-/* XYZ */
+/* XY */
 
 .custom .button.x.pressed{
     background: url(https://i.imgur.com/In52dsg.png);
@@ -156,12 +148,27 @@
     left: 1039px;
     opacity: 1;
 }
-.custom .button.z.pressed{
+
+/* CZ - Tricking Gamepadviewer to think they're triggers */
+
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger.left.pressed{ /* Actually Z */
     background: url(https://i.imgur.com/99m0J1O.png);
     width: 93px;
     height: 93px;
     top: 162px;
     left: 1172px;
+    opacity: 1;
+}
+.custom .trigger.right.pressed{ /* Actually C */
+    background: url(https://i.imgur.com/cL4NwyI.png);
+    width: 118px;
+    height: 118px;
+    top: 289px;
+    left: 1238px;
     opacity: 1;
 }
 
