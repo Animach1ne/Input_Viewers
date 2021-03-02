@@ -151,18 +151,7 @@
 
 /* CZ - Tricking Gamepadviewer to think they're triggers */
 
- .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 184px;
-    height: 255px;
-    top: 162px;
-    left: 1172px;
-    position: absolute;
-} 
-.custom .trigger{
-    position: absolute;
-    opacity: 0;
-}
-.custom .trigger.pressed.left{ /* Actually Z */
+.custom .trigger.left.pressed{ /* Actually Z */
     background: url(https://i.imgur.com/99m0J1O.png);
     width: 93px;
     height: 93px;
@@ -170,7 +159,7 @@
     left: 1172px;
     opacity: 1;
 }
-.custom .trigger.pressed.right{ /* Actually C */
+.custom .trigger.right.pressed{ /* Actually C */
     background: url(https://i.imgur.com/cL4NwyI.png);
     width: 118px;
     height: 118px;
