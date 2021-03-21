@@ -46,7 +46,7 @@ With the help of BenInSweden https://www.twitch.tv/beninsweden
     width: 166px;	
     height: 164px;	
     top: 116px;	
-    left: 152px;	
+    left: 151px;	
 }
 .custom .face{
     position: absolute;	
@@ -68,13 +68,13 @@ With the help of BenInSweden https://www.twitch.tv/beninsweden
     transform-origin: bottom center;
     -webkit-transform: rotate(270deg);
     top: 1px;
-    left: 64px; /* Roughly equal to width + width/2 + empty space between left an right */
+    left: 66px; /* Roughly equal to width + width/2 + empty space between left an right */
 }
 .custom .face.right{
     transform-origin: bottom center;
     -webkit-transform: rotate(90deg);
     top: 1px;
-    left: 65px; /* Roughly equal to width + width/2 + empty space between left an right */
+    left: 66px; /* Roughly equal to width + width/2 + empty space between left an right */
 }
 .custom .face.pressed{
     opacity: 1;
