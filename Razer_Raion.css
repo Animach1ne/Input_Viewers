@@ -1,0 +1,183 @@
+/*
+Razer Raion Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
+With the help of BenInSweden https://www.twitch.tv/beninsweden
+*/
+
+/* Base Razer Raion */
+
+.controller.custom{
+    background: url(https://i.imgur.com/woFAsqp.png);
+    width: 1047px;
+    height: 613px;
+}
+.custom.disconnected { /* This class shows an image when the controller is disconnected */
+    background: url(https://i.imgur.com/3JU3iRp.png);
+}
+
+/* Bumpers */
+
+.custom .bumper{
+    background: url(https://i.imgur.com/qUUxRuH.png);
+    width: 345px;
+    height: 63px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 786px;
+    top: 140px;
+}
+.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    float: right;
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 166px;	
+    height: 164px;	
+    top: 116px;	
+    left: 152px;	
+}
+.custom .face{
+    position: absolute;	
+    background: url(https://i.imgur.com/FKK8il3.png);
+    width: 40px;
+    height: 82px;
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 64px;
+}
+.custom .face.down{
+    -webkit-transform: rotateX(180deg);
+    top: 83px;
+    left: 64px;
+}
+.custom .face.left{
+    transform-origin: bottom center;
+    -webkit-transform: rotate(270deg);
+    top: 2px;
+    left: 101px; /* Roughly equal to width + width/2 + empty space between left an right */
+}
+.custom .face.right{
+    transform-origin: bottom center;
+    -webkit-transform: rotate(90deg);
+    top: 3px;
+    left: 106px; /* Roughly equal to width + width/2 + empty space between left an right */
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/nLKbles.png);
+    width: 63px;
+    height: 63px;
+    top: 462px;
+    left: 708px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/LLnB0nF.png);
+    width: 119px;
+    height: 38px;
+    top: 323px;
+    left: 680px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* AB */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/JlhU5T1.png);
+    width: 118px;
+    height: 118px;
+    top: 411px;
+    left: 945px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/yHpjHQu.png);
+    width: 118px;
+    height: 118px;
+    top: 333px;
+    left: 1084px;
+    opacity: 1;
+}
+
+/* XY */
+
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/In52dsg.png);
+    width: 93px;
+    height: 93px;
+    top: 264px;
+    left: 909px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    background: url(https://i.imgur.com/m9hyZuI.png);
+    width: 93px;
+    height: 93px;
+    top: 201px;
+    left: 1039px;
+    opacity: 1;
+}
+
+/* CZ - Tricking Gamepadviewer to think they're triggers */
+
+ .custom .triggers{
+    width: 184px;
+    height: 255px;
+    top: 162px;
+    left: 1172px;
+    position: absolute;
+} 
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.left.pressed{ /* Actually Z */
+    background: url(https://i.imgur.com/99m0J1O.png);
+    width: 93px;
+    height: 93px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.right.pressed{ /* Actually C */
+    background: url(https://i.imgur.com/cL4NwyI.png);
+    width: 118px;
+    height: 118px;
+    bottom: 9px;
+    right: 0;
+    opacity: 1;
+    position: absolute;
+}
+
+/*END 8bitDo M30 Controller Styling*/
