@@ -68,7 +68,7 @@ With the help of BenInSweden https://www.twitch.tv/beninsweden
     transform-origin: bottom center;
     -webkit-transform: rotate(270deg);
     top: 0px;
-    left: 64px; /* Roughly equal to width + width/2 + empty space between left an right */
+    left: 63px; /* Roughly equal to width + width/2 + empty space between left an right */
 }
 .custom .face.right{
     transform-origin: bottom center;
