@@ -26,8 +26,8 @@ With the help of BenInSweden https://www.twitch.tv/beninsweden
     position: absolute;
     width: 76px;
     height: 76px;
-    left: 786px;
-    top: 140px;
+    left: 788px;
+    top: 142px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -36,7 +36,6 @@ With the help of BenInSweden https://www.twitch.tv/beninsweden
     float: left;
 }
 .custom .bumper.right{
-    -webkit-transform: rotateY(180deg);
     float: right;
 }
 
@@ -85,7 +84,7 @@ With the help of BenInSweden https://www.twitch.tv/beninsweden
 
 .custom .back{ 
     position: absolute;
-    background: url(https://i.imgur.com/nLKbles.png);
+    background: url(https://i.imgur.com/bi3tXG2.png);
     width: 63px;
     height: 63px;
     top: 462px;
@@ -97,7 +96,7 @@ With the help of BenInSweden https://www.twitch.tv/beninsweden
 }
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/LLnB0nF.png);
+    background: url(https://i.imgur.com/bi3tXG2.png);
     width: 119px;
     height: 38px;
     top: 323px;
@@ -115,69 +114,67 @@ With the help of BenInSweden https://www.twitch.tv/beninsweden
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/JlhU5T1.png);
-    width: 118px;
-    height: 118px;
-    top: 411px;
-    left: 945px;
+    background: url(https://i.imgur.com/zPm0xe7.png);
+    width: 76px;
+    height: 76px;
+    top: 342px;
+    left: 690px;
     opacity: 1;
 }
 .custom .button.b.pressed{
-    background: url(https://i.imgur.com/yHpjHQu.png);
-    width: 118px;
-    height: 118px;
-    top: 333px;
-    left: 1084px;
+    background: url(https://i.imgur.com/W67HjVh.png);
+    width: 76px;
+    height: 76px;
+    top: 272px;
+    left: 762px;
     opacity: 1;
 }
 
 /* XY */
 
 .custom .button.x.pressed{
-    background: url(https://i.imgur.com/In52dsg.png);
-    width: 93px;
-    height: 93px;
+    background: url(https://i.imgur.com/Sk5RGkW.png);
+    width: 76px;
+    height: 76px;
     top: 264px;
-    left: 909px;
+    left: 629px;
     opacity: 1;
 }
 .custom .button.y.pressed{
-    background: url(https://i.imgur.com/m9hyZuI.png);
-    width: 93px;
-    height: 93px;
-    top: 201px;
-    left: 1039px;
+    background: url(https://i.imgur.com/ZnKNPZ4.png);
+    width: 76px;
+    height: 76px;
+    top: 193px;
+    left: 700px;
     opacity: 1;
 }
 
-/* CZ - Tricking Gamepadviewer to think they're triggers */
+/* CZ - Tricking Gamepadviewer to think R2 is a trigger */
 
  .custom .triggers{
-    width: 184px;
-    height: 255px;
-    top: 162px;
-    left: 1172px;
+    width: 76px;
+    height: 76px;
+    top: 221px;
+    left: 849px;
     position: absolute;
 } 
 .custom .trigger{
     position: absolute;
     opacity: 0;
 }
-.custom .trigger-button.left.pressed{ /* Actually Z */
-    background: url(https://i.imgur.com/99m0J1O.png);
-    width: 93px;
-    height: 93px;
+.custom .trigger-button.left.pressed{ /* Actually R2 */
+    background: url(https://i.imgur.com/A08Nwd1.png);
+    width: 76px;
+    height: 76px;
     opacity: 1;
     position: absolute;
 }
-.custom .trigger-button.right.pressed{ /* Actually C */
-    background: url(https://i.imgur.com/cL4NwyI.png);
-    width: 118px;
-    height: 118px;
-    bottom: 9px;
-    right: 0;
+.custom .trigger-button.right.pressed{ /* Actually Nothing */
+    background: url(https://i.imgur.com/A08Nwd1.png);
+    width: 76px;
+    height: 76px;
     opacity: 1;
     position: absolute;
 }
 
-/*END 8bitDo M30 Controller Styling*/
+/*END Razer Raion Controller Styling*/
