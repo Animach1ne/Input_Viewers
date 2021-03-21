@@ -46,7 +46,7 @@ With the help of BenInSweden https://www.twitch.tv/beninsweden
     width: 166px;	
     height: 164px;	
     top: 113px;	
-    left: 152px;	
+    left: 150px;	
 }
 .custom .face{
     position: absolute;	
@@ -61,7 +61,7 @@ With the help of BenInSweden https://www.twitch.tv/beninsweden
 }
 .custom .face.down{
     -webkit-transform: rotateX(180deg);
-    top: 83px;
+    top: 82px;
     left: 64px;
 }
 .custom .face.left{
