@@ -68,13 +68,13 @@ samuraigunn2.com
 }
 .custom .face.left{
     -webkit-transform: rotate(270deg);
-    top: 22px;
-    left: 0px;
+    top: 18px;
+    left: 4px;
 }
 .custom .face.right{
     -webkit-transform: rotate(90deg);
-    top: 21px;
-    left: 35px;
+    top: 17px;
+    left: 39px;
 }
 .custom .face.pressed{
     opacity: 1;
@@ -114,19 +114,19 @@ samuraigunn2.com
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/C6wGAm.pngj);
+    background: url(https://i.imgur.com/C6wGAmj.png);
     width: 16px;
     height: 20px;
-    top: 40px;
-    left: 22px;
+    top: 114px;
+    left: 211px;
     opacity: 1;
 }
 .custom .button.b.pressed{
     background: url(https://i.imgur.com/fq9ty8t.png);
     width: 20px;
     height: 16px;
-    top: 22px;
-    left: 40px;
+    top: 96px;
+    left: 229px;
     opacity: 1;
 }
 
@@ -136,16 +136,16 @@ samuraigunn2.com
     background: url(https://i.imgur.com/Vi8cC9A.png);
     width: 20px;
     height: 16px;
-    top: 22px;
-    left: 0px;
+    top: 96px;
+    left: 189px;
     opacity: 1;
 }
 .custom .button.y.pressed{
     background: url(https://i.imgur.com/iE1Fiah.png);
     width: 16px;
     height: 20px;
-    top: 0px;
-    left: 22px;
+    top: 74px;
+    left: 211px;
     opacity: 1;
 }
 
