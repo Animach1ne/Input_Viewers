@@ -1,31 +1,31 @@
 /*
-Nekochan SG2 Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
+Nekochan Hayao SG2 Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
 Using sprites from Samurai Gunn 2 EA2 7.20.21
 samuraigunn2.com
 */
 
-/* Base Nekochan SG2*/
+/* Base Nekochan Hayao SG2*/
 
 .controller.custom{
-    background: url(https://i.imgur.com/5WvnWi8.png);
-    width: 218px;
+    background: url(https://i.imgur.com/5A7hyLZ.png);
+    width: 216px;
     height: 147px;
 }
 .custom.disconnected {
-    background: url(https://i.imgur.com/YWPbybV.png);
+    background: url(https://i.imgur.com/9IwWSMy.png);
 }
 
 /* Bumpers */
 
 .custom .bumper{
-    width: 69px;
-    height: 35px;
+    width: 67px;
+    height: 31px;
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    width: 170px;
-    height: 35px;
+    width: 168px;
+    height: 31px;
     left: 24px;
     top: 32px;
 }
@@ -34,12 +34,12 @@ samuraigunn2.com
 }
 .custom .bumper.left{
     float: left;
-    background: url(https://i.imgur.com/8WZUNYW.png);
+    background: url(https://i.imgur.com/BATln50.png);
 
 }
 .custom .bumper.right{
     float: right;
-    background: url(https://i.imgur.com/U31m7UL.png);
+    background: url(https://i.imgur.com/pS45S7c.png);
 
 }
 
@@ -47,8 +47,8 @@ samuraigunn2.com
 
 .custom .dpad{	
     position: absolute;	
-    width: 62px;	
-    height: 64px;	
+    width: 60px;	
+    height: 60px;	
     top: 73px;	
     left:10px;	
 }
@@ -59,33 +59,33 @@ samuraigunn2.com
 .custom .face.up{
     top: 0px;
     left: 21px;
-    background: url(https://i.imgur.com/ozCnNcB.png);
-    width: 19px;
-    height: 29px;
+    background: url(https://i.imgur.com/QLEbbkh.png);
+    width: 17px;
+    height: 25px;
 
 }
 .custom .face.down{
     top: 35px;
     left: 22px;
-    background: url(https://i.imgur.com/M7rYsrM.png);
-    width: 19px;
-    height: 29px;
+    background: url(https://i.imgur.com/MaNyeFK.png);
+    width: 17px;
+    height: 25px;
 
 }
 .custom .face.left{
     top: 22px;
     left: 0px;
-    background: url(https://i.imgur.com/rzVZdeS.png);
-    width: 29px;
-    height: 19px;
+    background: url(https://i.imgur.com/5YuofcW.png);
+    width: 25px;
+    height: 17px;
 
 }
 .custom .face.right{
     top: 21px;
     left: 35px;
-    background: url(https://i.imgur.com/U9LLw2n.png);
-    width: 29px;
-    height: 19px;
+    background: url(https://i.imgur.com/mfcUY0V.png);
+    width: 25px;
+    height: 17px;
 }
 .custom .face.pressed{
     opacity: 1;
@@ -95,11 +95,11 @@ samuraigunn2.com
 
 .custom .back{ 
     position: absolute;
-    background: url(https://i.imgur.com/jTLYCZg.png);
+    background: url(https://i.imgur.com/5DivT1m.png);
     width: 23px;
     height: 23px;
-    top: 89px;
-    left: 101px;
+    top: 76px;
+    left: 80px;
     opacity: 0;
 }
 .custom .back.pressed{
@@ -107,11 +107,11 @@ samuraigunn2.com
 }
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/5IrON3M.png);
+    background: url(https://i.imgur.com/qnISMk7.png);
     width: 23px;
     height: 23px;
-    top: 89px;
-    left: 134px;
+    top: 76px;
+    left: 113px;
     opacity: 0;
 }
 .custom .start.pressed{
@@ -125,7 +125,7 @@ samuraigunn2.com
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/C6wGAmj.png);
+    background: url(https://i.imgur.com/Uukok05.png);
     width: 16px;
     height: 20px;
     top: 113px;
@@ -133,7 +133,7 @@ samuraigunn2.com
     opacity: 1;
 }
 .custom .button.b.pressed{
-    background: url(https://i.imgur.com/fq9ty8t.png);
+    background: url(https://i.imgur.com/0ofrNK0.png);
     width: 20px;
     height: 16px;
     top: 95px;
@@ -144,7 +144,7 @@ samuraigunn2.com
 /* XY */
 
 .custom .button.x.pressed{
-    background: url(https://i.imgur.com/Vi8cC9A.png);
+    background: url(https://i.imgur.com/CVNHbGs.png);
     width: 20px;
     height: 16px;
     top: 95px;
@@ -152,7 +152,7 @@ samuraigunn2.com
     opacity: 1;
 }
 .custom .button.y.pressed{
-    background: url(https://i.imgur.com/iE1Fiah.png);
+    background: url(https://i.imgur.com/VIH5MIR.png);
     width: 16px;
     height: 20px;
     top: 73px;
@@ -190,4 +190,4 @@ samuraigunn2.com
     position: absolute;
 }
 
-/*END Nekochan SG2 Input Viewer*/
+/*END Nekochan Hayao SG2 Input Viewer*/
