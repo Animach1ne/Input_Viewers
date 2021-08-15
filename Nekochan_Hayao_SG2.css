@@ -26,19 +26,19 @@ samuraigunn2.com
     position: absolute;
     width: 168px;
     height: 31px;
-    left: 24px;
-    top: 32px;
 }
 .custom .bumper.pressed{ 
     opacity: 1;
 }
 .custom .bumper.left{
-    float: left;
+    left: 0px;
+    top: 0px;
     background: url(https://i.imgur.com/qOZYog6.png);
 
 }
 .custom .bumper.right{
-    float: right;
+    left: 125px;
+    top: 32px;
     background: url(.https://i.imgur.com/AnE2OAe.png);
 
 }
