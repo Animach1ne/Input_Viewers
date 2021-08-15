@@ -59,7 +59,7 @@ samuraigunn2.com
 .custom .face.up{
     top: 0px;
     left: 21px;
-    background: url(https://i.imgur.com/3sRLU8T.png);
+    background: url(https://i.imgur.com/ozCnNcB.png);
     width: 19px;
     height: 29px;
 
@@ -67,7 +67,7 @@ samuraigunn2.com
 .custom .face.down{
     top: 35px;
     left: 22px;
-    background: url(https://i.imgur.com/onG2ABR.png);
+    background: url(https://i.imgur.com/M7rYsrM.png);
     width: 19px;
     height: 29px;
 
@@ -75,17 +75,17 @@ samuraigunn2.com
 .custom .face.left{
     top: 22px;
     left: 0px;
-    background: url(https://i.imgur.com/g5P8rHx.png);
-    width: 30px;
-    height: 21px;
+    background: url(https://i.imgur.com/rzVZdeS.png);
+    width: 29px;
+    height: 19px;
 
 }
 .custom .face.right{
     top: 21px;
     left: 35px;
-    background: url(https://i.imgur.com/oDD4Yee.png);
-    width: 30px;
-    height: 21px;
+    background: url(https://i.imgur.com/U9LLw2n.png);
+    width: 29px;
+    height: 19px;
 }
 .custom .face.pressed{
     opacity: 1;
