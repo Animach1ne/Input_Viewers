@@ -35,12 +35,10 @@ samuraigunn2.com
 .custom .bumper.left{
     float: left;
     background: url(https://i.imgur.com/8WZUNYW.png);
-
 }
 .custom .bumper.right{
     float: right;
     background: url(https://i.imgur.com/U31m7UL.png);
-
 }
 
 /* Dpad */
@@ -89,105 +87,6 @@ samuraigunn2.com
 }
 .custom .face.pressed{
     opacity: 1;
-}
-
-/* Back & Start */
-
-.custom .back{ 
-    position: absolute;
-    background: url(https://i.imgur.com/jTLYCZg.png);
-    width: 23px;
-    height: 23px;
-    top: 89px;
-    left: 101px;
-    opacity: 0;
-}
-.custom .back.pressed{
-    opacity: 1;
-}
-.custom .start{
-    position: absolute;
-    background: url(https://i.imgur.com/5IrON3M.png);
-    width: 23px;
-    height: 23px;
-    top: 89px;
-    left: 134px;
-    opacity: 0;
-}
-.custom .start.pressed{
-    opacity: 1;
-}
-
-/* AB */
-
-.custom .button{
-    position: absolute;
-    opacity: 0;
-}
-.custom .button.a.pressed{
-    background: url(https://i.imgur.com/C6wGAmj.png);
-    width: 16px;
-    height: 20px;
-    top: 113px;
-    left: 210px;
-    opacity: 1;
-}
-.custom .button.b.pressed{
-    background: url(https://i.imgur.com/fq9ty8t.png);
-    width: 20px;
-    height: 16px;
-    top: 95px;
-    left: 228px;
-    opacity: 1;
-}
-
-/* XY */
-
-.custom .button.x.pressed{
-    background: url(https://i.imgur.com/Vi8cC9A.png);
-    width: 20px;
-    height: 16px;
-    top: 95px;
-    left: 188px;
-    opacity: 1;
-}
-.custom .button.y.pressed{
-    background: url(https://i.imgur.com/iE1Fiah.png);
-    width: 16px;
-    height: 20px;
-    top: 73px;
-    left: 210px;
-    opacity: 1;
-}
-
-/* Triggers */
-
- .custom .triggers{
-    width: 218px;
-    height: 34px;
-    top: 10px;
-    left: 20px;
-    position: absolute;
-} 
-.custom .trigger{
-    position: absolute;
-    opacity: 0;
-}
-.custom .trigger-button.left.pressed{
-    background: url(https://i.imgur.com/xH53Eb6.png);
-    width: 64px;
-    height: 34px;
-    opacity: 1;
-    position: absolute;
-}
-.custom .trigger-button.right.pressed{
-    background: url(https://i.imgur.com/z8I9E5A.png);
-    width: 64px;
-    height: 34px;
-    top: 0px;
-    left: 154px;
-    opacity: 1;
-    position: absolute;
 }
 
 /*END Nekochan SG2 Hayao Input Viewer*/
