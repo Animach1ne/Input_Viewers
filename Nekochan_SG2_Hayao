@@ -1,0 +1,193 @@
+/*
+Nekochan SG2 Hayao Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
+Using sprites from Samurai Gunn 2 EA2 7.20.21
+samuraigunn2.com
+*/
+
+/* Base Nekochan SG2 Hayao*/
+
+.controller.custom{
+    background: url(https://i.imgur.com/EnW46wl.png);
+    width: 218px;
+    height: 147px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/YWPbybV.png);
+}
+
+/* Bumpers */
+
+.custom .bumper{
+    width: 69px;
+    height: 35px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 170px;
+    height: 35px;
+    left: 24px;
+    top: 32px;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+    background: url(https://i.imgur.com/8WZUNYW.png);
+
+}
+.custom .bumper.right{
+    float: right;
+    background: url(https://i.imgur.com/U31m7UL.png);
+
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 62px;	
+    height: 64px;	
+    top: 73px;	
+    left:10px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 21px;
+    background: url(https://i.imgur.com/3sRLU8T.png);
+    width: 19px;
+    height: 29px;
+
+}
+.custom .face.down{
+    top: 35px;
+    left: 22px;
+    background: url(https://i.imgur.com/onG2ABR.png);
+    width: 19px;
+    height: 29px;
+
+}
+.custom .face.left{
+    top: 18px;
+    left: 4px;
+    background: url(https://i.imgur.com/g5P8rHx.png);
+    width: 29px;
+    height: 19px;
+
+}
+.custom .face.right{
+    top: 17px;
+    left: 39px;
+    background: url(https://i.imgur.com/oDD4Yee.png);
+    width: 29px;
+    height: 19px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/jTLYCZg.png);
+    width: 23px;
+    height: 23px;
+    top: 89px;
+    left: 101px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/5IrON3M.png);
+    width: 23px;
+    height: 23px;
+    top: 89px;
+    left: 134px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* AB */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/C6wGAmj.png);
+    width: 16px;
+    height: 20px;
+    top: 113px;
+    left: 210px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/fq9ty8t.png);
+    width: 20px;
+    height: 16px;
+    top: 95px;
+    left: 228px;
+    opacity: 1;
+}
+
+/* XY */
+
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/Vi8cC9A.png);
+    width: 20px;
+    height: 16px;
+    top: 95px;
+    left: 188px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    background: url(https://i.imgur.com/iE1Fiah.png);
+    width: 16px;
+    height: 20px;
+    top: 73px;
+    left: 210px;
+    opacity: 1;
+}
+
+/* Triggers */
+
+ .custom .triggers{
+    width: 218px;
+    height: 34px;
+    top: 10px;
+    left: 20px;
+    position: absolute;
+} 
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/xH53Eb6.png);
+    width: 64px;
+    height: 34px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/z8I9E5A.png);
+    width: 64px;
+    height: 34px;
+    top: 0px;
+    left: 154px;
+    opacity: 1;
+    position: absolute;
+}
+
+/*END Nekochan SG2 Hayao Input Viewer*/
