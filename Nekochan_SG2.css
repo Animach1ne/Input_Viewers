@@ -151,7 +151,7 @@ samuraigunn2.com
 
 /* Triggers */
 
-.custom .triggers{
+ .custom .triggers{
     width: 218px;
     height: 34px;
     top: 10px;
@@ -159,21 +159,24 @@ samuraigunn2.com
     position: absolute;
 } 
 .custom .trigger{
-    width:64px;
-    height:34px;
-    background: url(https://i.imgur.com/xH53Eb6.png);
+    position: absolute;
     opacity: 0;
 }
-
-.custom .trigger.left.pressed{ 
-    float: left;
+.custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/xH53Eb6.png);
+    width: 64px;
+    height: 34px;
     opacity: 1;
+    position: absolute;
 }
-
-.custom .trigger.right.pressed{
-    -webkit-transform: rotateY(180deg);
-    float: right;
+.custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/z8I9E5A.png);
+    width: 64px;
+    height: 34px;
+    top: 0px;
+    left: 155px;
     opacity: 1;
+    position: absolute;
 }
 
 /*END Nekochan SG2 Input Viewer*/
