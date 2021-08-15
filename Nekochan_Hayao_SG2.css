@@ -39,7 +39,7 @@ samuraigunn2.com
 }
 .custom .bumper.right{
     float: right;
-    background: url(.https://i.imgur.com/AnE2OAepng);
+    background: url(.https://i.imgur.com/AnE2OAe.png);
 
 }
 
@@ -129,7 +129,7 @@ samuraigunn2.com
     width: 16px;
     height: 20px;
     top: 113px;
-    left: 210px;
+    left: 168px;
     opacity: 1;
 }
 .custom .button.b.pressed{
@@ -137,7 +137,7 @@ samuraigunn2.com
     width: 20px;
     height: 16px;
     top: 95px;
-    left: 228px;
+    left: 186px;
     opacity: 1;
 }
 
@@ -148,7 +148,7 @@ samuraigunn2.com
     width: 20px;
     height: 16px;
     top: 95px;
-    left: 188px;
+    left: 146px;
     opacity: 1;
 }
 .custom .button.y.pressed{
@@ -156,7 +156,7 @@ samuraigunn2.com
     width: 16px;
     height: 20px;
     top: 73px;
-    left: 210px;
+    left: 168px;
     opacity: 1;
 }
 
