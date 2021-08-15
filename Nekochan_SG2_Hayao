@@ -18,6 +18,7 @@ samuraigunn2.com
 /* Bumpers */
 
 .custom .bumper{
+    background: url(https://i.imgur.com/8WZUNYW.png);
     width: 69px;
     height: 35px;
     opacity: 0;
@@ -34,11 +35,9 @@ samuraigunn2.com
 }
 .custom .bumper.left{
     float: left;
-    background: url(https://i.imgur.com/8WZUNYW.png);
 }
 .custom .bumper.right{
     float: right;
-    background: url(https://i.imgur.com/U31m7UL.png);
 }
 
 /*END Nekochan SG2 Hayao Input Viewer*/
