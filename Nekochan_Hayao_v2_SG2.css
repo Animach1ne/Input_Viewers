@@ -25,9 +25,9 @@ samuraigunn2.com
 }
 .custom .bumpers{
     position: absolute;
-    width: 151px;
+    width: 150px;
     height: 34px;
-    left: 15px;
+    left: 16px;
     top: 4px;
 }
 .custom .bumper.pressed{ 
