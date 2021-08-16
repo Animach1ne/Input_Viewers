@@ -7,18 +7,18 @@ samuraigunn2.com
 /* Base Nekochan Hayao v2 SG2*/
 
 .controller.custom{
-    background: url(.png);
+    background: url(https://i.imgur.com/0TK5SEY.png);
     width: 182px;
     height: 113px;
 }
 .custom.disconnected {
-    background: url(.png);
+    background: url(https://i.imgur.com/nJWs9kg.png);
 }
 
 /* Bumpers */
 
 .custom .bumper{
-    background: url(.png);
+    background: url(https://i.imgur.com/uhtRf7V.png);
     width: 67px;
     height: 34px;
     opacity: 0;
@@ -57,7 +57,7 @@ samuraigunn2.com
 .custom .face.up{
     top: 0px;
     left: 25px;
-    background: url(.png);
+    background: url(https://i.Imgur.com/qaikQmE.png);
     width: 17px;
     height: 28px;
 
@@ -65,7 +65,7 @@ samuraigunn2.com
 .custom .face.down{
     top: 42px;
     left: 25px;
-    background: url(.png);
+    background: url(https://i.imgur.com/TvSsk9s.png);
     width: 17px;
     height: 28px;
 
@@ -73,7 +73,7 @@ samuraigunn2.com
 .custom .face.left{
     top: 25px;
     left: 0px;
-    background: url(.png);
+    background: url(https://i.imgur.com/qyGTvaH.png);
     width: 25px;
     height: 20px;
 
@@ -81,7 +81,7 @@ samuraigunn2.com
 .custom .face.right{
     top: 25px;
     left: 42px;
-    background: url(.png);
+    background: url(https://i.imgur.com/1zySYo9.png);
     width: 25px;
     height: 20px;
 }
@@ -93,7 +93,7 @@ samuraigunn2.com
 
 .custom .back{ 
     position: absolute;
-    background: url(.png);
+    background: url(https://i.imgur.com/mhnu1xV.png);
     width: 12px;
     height: 15px;
     top: 51px;
@@ -105,7 +105,7 @@ samuraigunn2.com
 }
 .custom .start{
     position: absolute;
-    background: url(.png);
+    background: url(https://i.imgur.com/ymm9OoF.png);
     width: 12px;
     height: 15px;
     top: 51px;
@@ -123,7 +123,7 @@ samuraigunn2.com
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(.png);
+    background: url(https://i.imgur.com/n02z4rW.png);
     width: 16px;
     height: 23px;
     top: 86px;
@@ -131,7 +131,7 @@ samuraigunn2.com
     opacity: 1;
 }
 .custom .button.b.pressed{
-    background: url(.png);
+    background: url(https://i.imgur.com/NMGNcEw.png);
     width: 20px;
     height: 19px;
     top: 64px;
@@ -142,7 +142,7 @@ samuraigunn2.com
 /* XY */
 
 .custom .button.x.pressed{
-    background: url(.png);
+    background: url(https://i.imgur.com/MU5bTaS.png);
     width: 20px;
     height: 19px;
     top: 64px;
@@ -150,7 +150,7 @@ samuraigunn2.com
     opacity: 1;
 }
 .custom .button.y.pressed{
-    background: url(.png);
+    background: url(https://i.imgur.com/f2XawEq.png);
     width: 16px;
     height: 23px;
     top: 39px;
