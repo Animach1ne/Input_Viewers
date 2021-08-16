@@ -125,17 +125,17 @@ samuraigunn2.com
 .custom .button.a.pressed{
     background: url(.png);
     width: 16px;
-    height: 20px;
-    top: 113px;
-    left: 168px;
+    height: 23px;
+    top: 86px;
+    left: 137px;
     opacity: 1;
 }
 .custom .button.b.pressed{
     background: url(.png);
     width: 20px;
-    height: 16px;
-    top: 95px;
-    left: 186px;
+    height: 19px;
+    top: 64px;
+    left: 158px;
     opacity: 1;
 }
 
@@ -144,17 +144,17 @@ samuraigunn2.com
 .custom .button.x.pressed{
     background: url(.png);
     width: 20px;
-    height: 16px;
-    top: 95px;
-    left: 146px;
+    height: 19px;
+    top: 64px;
+    left: 111px;
     opacity: 1;
 }
 .custom .button.y.pressed{
     background: url(.png);
     width: 16px;
-    height: 20px;
-    top: 73px;
-    left: 168px;
+    height: 23px;
+    top: 39px;
+    left: 137px;
     opacity: 1;
 }
 
