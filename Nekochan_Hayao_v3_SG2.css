@@ -1,0 +1,191 @@
+/*
+Nekochan Hayao v3 SG2 Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
+Using sprites from Samurai Gunn 2 EA2 7.20.21
+samuraigunn2.com
+*/
+
+/* Base Nekochan Hayao v3 SG2*/
+
+.controller.custom{
+    background: url(.png);
+    width: px;
+    height: px;
+}
+.custom.disconnected {
+    background: url(.png);
+}
+
+/* Bumpers */
+
+.custom .bumper{
+    background: url(.png);
+    width: px;
+    height: px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: px;
+    height: px;
+    left: px;
+    top: px;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    float: right;
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: px;	
+    height: px;	
+    top: px;	
+    left: px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: px;
+    left: px;
+    background: url(.png);
+    width: px;
+    height: px;
+
+}
+.custom .face.down{
+    top: px;
+    left: px;
+    background: url(.png);
+    width: px;
+    height: px;
+
+}
+.custom .face.left{
+    top: px;
+    left: px;
+    background: url(.png);
+    width: px;
+    height: px;
+
+}
+.custom .face.right{
+    top: px;
+    left: px;
+    background: url(.png);
+    width: px;
+    height: px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(.png);
+    width: px;
+    height: px;
+    top: px;
+    left: px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(.png);
+    width: px;
+    height: px;
+    top: px;
+    left: px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* AB */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(.png);
+    width: px;
+    height: px;
+    top: px;
+    left: px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(.png);
+    width: px;
+    height: px;
+    top: px;
+    left: px;
+    opacity: 1;
+}
+
+/* XY */
+
+.custom .button.x.pressed{
+    background: url(.png);
+    width: px;
+    height: px;
+    top: px;
+    left: px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    background: url(.png);
+    width: px;
+    height: px;
+    top: px;
+    left: px;
+    opacity: 1;
+}
+
+/* Triggers */
+
+ .custom .triggers{
+    width: px;
+    height: px;
+    top: px;
+    left: px;
+    position: absolute;
+} 
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.left.pressed{
+    background: url(.png);
+    width: px;
+    height: px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.right.pressed{
+    background: url(.png);
+    width: px;
+    height: px;
+    top: px;
+    left: px;
+    opacity: 1;
+    position: absolute;
+}
+
+/*END Nekochan Hayao v3 SG2 Input Viewer*/
