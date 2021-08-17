@@ -25,10 +25,10 @@ samuraigunn2.com
 }
 .custom .bumpers{
     position: absolute;
-    width: 648px;
-    height: 148px;
-    left: 76px;
-    top: 16px;
+    width: 616px;
+    height: 136px;
+    left: 92px;
+    top: 104px;
 }
 .custom .bumper.pressed{ 
     opacity: 1;
@@ -161,10 +161,10 @@ samuraigunn2.com
 /* Triggers */
 
  .custom .triggers{
-    width: px;
-    height: px;
-    top: px;
-    left: px;
+    width: 648px;
+    height: 148px;
+    top: 16px;
+    left: 76px;
     position: absolute;
 } 
 .custom .trigger{
@@ -182,7 +182,7 @@ samuraigunn2.com
     background: url(https://i.imgur.com/EPxc14k.png);
     width: 256px;
     height: 148px;
-    top: 0px;
+    top: 16px;
     left: 468px;
     opacity: 1;
     position: absolute;
