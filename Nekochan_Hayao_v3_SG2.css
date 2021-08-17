@@ -8,8 +8,8 @@ samuraigunn2.com
 
 .controller.custom{
     background: url(.png);
-    width: px;
-    height: px;
+    width: 800px;
+    height: 528px;
 }
 .custom.disconnected {
     background: url(.png);
@@ -19,16 +19,16 @@ samuraigunn2.com
 
 .custom .bumper{
     background: url(.png);
-    width: px;
-    height: px;
+    width: 268px;
+    height: 136px;
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    width: px;
-    height: px;
-    left: px;
-    top: px;
+    width: 648px;
+    height: 148px;
+    left: 76px;
+    top: 16px;
 }
 .custom .bumper.pressed{ 
     opacity: 1;
@@ -45,45 +45,45 @@ samuraigunn2.com
 
 .custom .dpad{	
     position: absolute;	
-    width: px;	
-    height: px;	
-    top: px;	
-    left: px;	
+    width: 240px;	
+    height: 252px;	
+    top: 260px;	
+    left: 16px;	
 }
 .custom .face{
     position: absolute;	
     opacity: 0;
 }
 .custom .face.up{
-    top: px;
-    left: px;
+    top: 0px;
+    left: 84px;
     background: url(.png);
-    width: px;
-    height: px;
+    width: 68px;
+    height: 112px;
 
 }
 .custom .face.down{
-    top: px;
-    left: px;
+    top: 140px;
+    left: 88px;
     background: url(.png);
-    width: px;
-    height: px;
+    width: 68px;
+    height: 112px;
 
 }
 .custom .face.left{
-    top: px;
-    left: px;
+    top: 88px;
+    left: 0px;
     background: url(.png);
-    width: px;
-    height: px;
+    width: 100px;
+    height: 80px;
 
 }
 .custom .face.right{
-    top: px;
-    left: px;
+    top: 140px;
+    left: 84px;
     background: url(.png);
-    width: px;
-    height: px;
+    width: 100px;
+    height: 80px;
 }
 .custom .face.pressed{
     opacity: 1;
@@ -94,10 +94,10 @@ samuraigunn2.com
 .custom .back{ 
     position: absolute;
     background: url(.png);
-    width: px;
-    height: px;
-    top: px;
-    left: px;
+    width: 92px;
+    height: 116px;
+    top: 284px;
+    left: 288px;
     opacity: 0;
 }
 .custom .back.pressed{
@@ -106,10 +106,10 @@ samuraigunn2.com
 .custom .start{
     position: absolute;
     background: url(.png);
-    width: px;
-    height: px;
-    top: px;
-    left: px;
+    width: 92px;
+    height: 116px;
+    top: 284px;
+    left: 420px;
     opacity: 0;
 }
 .custom .start.pressed{
@@ -124,18 +124,18 @@ samuraigunn2.com
 }
 .custom .button.a.pressed{
     background: url(.png);
-    width: px;
-    height: px;
-    top: px;
-    left: px;
+    width: 64px;
+    height: 92px;
+    top: 420px;
+    left: 632px;
     opacity: 1;
 }
 .custom .button.b.pressed{
     background: url(.png);
-    width: px;
-    height: px;
-    top: px;
-    left: px;
+    width: 80px;
+    height: 76px;
+    top: 348px;
+    left: 704px;
     opacity: 1;
 }
 
@@ -143,18 +143,18 @@ samuraigunn2.com
 
 .custom .button.x.pressed{
     background: url(.png);
-    width: px;
-    height: px;
-    top: px;
-    left: px;
+    width: 80px;
+    height: 76px;
+    top: 348px;
+    left: 544px;
     opacity: 1;
 }
 .custom .button.y.pressed{
     background: url(.png);
-    width: px;
-    height: px;
-    top: px;
-    left: px;
+    width: 64px;
+    height: 92px;
+    top: 260px;
+    left: 632px;
     opacity: 1;
 }
 
@@ -173,17 +173,17 @@ samuraigunn2.com
 }
 .custom .trigger-button.left.pressed{
     background: url(.png);
-    width: px;
-    height: px;
+    width: 256px;
+    height: 148px;
     opacity: 1;
     position: absolute;
 }
 .custom .trigger-button.right.pressed{
     background: url(.png);
-    width: px;
-    height: px;
-    top: px;
-    left: px;
+    width: 256px;
+    height: 148px;
+    top: 0px;
+    left: 468px;
     opacity: 1;
     position: absolute;
 }
