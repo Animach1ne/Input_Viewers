@@ -79,8 +79,8 @@ samuraigunn2.com
 
 }
 .custom .face.right{
-    top: 140px;
-    left: 84px;
+    top: 84px;
+    left: 140px;
     background: url(https://i.imgur.com/HfRcXBx.png);
     width: 100px;
     height: 80px;
@@ -123,7 +123,7 @@ samuraigunn2.com
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(.png);
+    background: url(https://i.imgur.com/87b4B15.png);
     width: 64px;
     height: 92px;
     top: 420px;
