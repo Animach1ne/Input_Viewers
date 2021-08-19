@@ -172,14 +172,14 @@ samuraigunn2.com
     opacity: 0;
 }
 .custom .trigger-button.left.pressed{
-    background: url(.png);
+    background: url(https://i.imgur.com/vY20sQQ.png);
     width: 256px;
     height: 148px;
     opacity: 1;
     position: absolute;
 }
 .custom .trigger-button.right.pressed{
-    background: url(.png);
+    background: url(https://i.imgur.com/0o20R8C.png);
     width: 256px;
     height: 148px;
     top: 0px;
