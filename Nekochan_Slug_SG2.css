@@ -1,0 +1,191 @@
+/*
+Nekochan Slug SG2 Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
+Using sprites from Samurai Gunn 2 EA2 7.20.21
+samuraigunn2.com
+*/
+
+/* Base Nekochan Slug SG2*/
+
+.controller.custom{
+    background: url(.png);
+    width: 800px;
+    height: 528px;
+}
+.custom.disconnected {
+    background: url(.png);
+}
+
+/* Bumpers */
+
+.custom .bumper{
+    background: url(.png);
+    width: 268px;
+    height: 136px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 616px;
+    height: 136px;
+    left: 92px;
+    top: 104px;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    float: right;
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 240px;	
+    height: 252px;	
+    top: 260px;	
+    left: 16px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 84px;
+    background: url(.png);
+    width: 68px;
+    height: 112px;
+
+}
+.custom .face.down{
+    top: 140px;
+    left: 88px;
+    background: url(.png);
+    width: 68px;
+    height: 112px;
+
+}
+.custom .face.left{
+    top: 88px;
+    left: 0px;
+    background: url(.png);
+    width: 100px;
+    height: 80px;
+
+}
+.custom .face.right{
+    top: 84px;
+    left: 140px;
+    background: url(.png);
+    width: 100px;
+    height: 80px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(.png);
+    width: 92px;
+    height: 116px;
+    top: 284px;
+    left: 288px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(.png);
+    width: 92px;
+    height: 116px;
+    top: 284px;
+    left: 420px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* AB */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(.png);
+    width: 64px;
+    height: 92px;
+    top: 420px;
+    left: 632px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(.png);
+    width: 80px;
+    height: 76px;
+    top: 348px;
+    left: 704px;
+    opacity: 1;
+}
+
+/* XY */
+
+.custom .button.x.pressed{
+    background: url(.png);
+    width: 80px;
+    height: 76px;
+    top: 348px;
+    left: 544px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    background: url(.png);
+    width: 64px;
+    height: 92px;
+    top: 260px;
+    left: 632px;
+    opacity: 1;
+}
+
+/* Triggers */
+
+ .custom .triggers{
+    width: 648px;
+    height: 148px;
+    top: 16px;
+    left: 76px;
+    position: absolute;
+} 
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.left.pressed{
+    background: url(.png);
+    width: 256px;
+    height: 148px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.right.pressed{
+    background: url(.png);
+    width: 256px;
+    height: 148px;
+    top: 0px;
+    left: 392px;
+    opacity: 1;
+    position: absolute;
+}
+
+/*END Nekochan Slug SG2 Input Viewer*/
