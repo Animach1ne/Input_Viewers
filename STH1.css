@@ -35,7 +35,7 @@ Sonic the Hedgehog 1 Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
 
 }
 .custom .face.down{
-    top: 60px;
+    top: 64px;
     left: 32px;
     background: url(https://i.imgur.com/fbjmndx.png);
     width: 24px;
@@ -46,16 +46,16 @@ Sonic the Hedgehog 1 Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
     top: 28px;
     left: 0px;
     background: url(https://i.imgur.com/QtXce2B.png);
-    width: 28px;
-    height: 24px;
+    width: 24px;
+    height: 28px;
 
 }
 .custom .face.right{
     top: 28px;
     left: 64px;
     background: url(https://i.imgur.com/JxM0paB.png);
-    width: 28px;
-    height: 24px;
+    width: 24px;
+    height: 28px;
 }
 .custom .face.pressed{
     opacity: 1;
