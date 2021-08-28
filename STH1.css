@@ -28,60 +28,48 @@ Sonic the Hedgehog 1 Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
 }
 .custom .face.up{
     top: 0px;
-    left: 84px;
+    left: 32px;
     background: url(https://i.imgur.com/0wj4IJA.png);
-    width: 68px;
-    height: 112px;
+    width: 24px;
+    height: 28px;
 
 }
 .custom .face.down{
-    top: 140px;
-    left: 88px;
+    top: 60px;
+    left: 32px;
     background: url(https://i.imgur.com/fbjmndx.png);
-    width: 68px;
-    height: 112px;
+    width: 24px;
+    height: 28px;
 
 }
 .custom .face.left{
-    top: 88px;
+    top: 28px;
     left: 0px;
     background: url(https://i.imgur.com/QtXce2B.png);
-    width: 100px;
-    height: 80px;
+    width: 28px;
+    height: 24px;
 
 }
 .custom .face.right{
-    top: 84px;
-    left: 140px;
+    top: 28px;
+    left: 64px;
     background: url(https://i.imgur.com/JxM0paB.png);
-    width: 100px;
-    height: 80px;
+    width: 28px;
+    height: 24px;
 }
 .custom .face.pressed{
     opacity: 1;
 }
 
-/* Back & Start */
+/* Start */
 
-.custom .back{ 
-    position: absolute;
-    background: url(https://i.imgur.com/Qy3ZJuu.png);
-    width: 92px;
-    height: 116px;
-    top: 284px;
-    left: 288px;
-    opacity: 0;
-}
-.custom .back.pressed{
-    opacity: 1;
-}
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/Ahp8WpP.png);
-    width: 92px;
-    height: 116px;
-    top: 284px;
-    left: 420px;
+    background: url(https://i.imgur.com/N5NxLQC.png);
+    width: 28px;
+    height: 28px;
+    top: 12px;
+    left: 176px;
     opacity: 0;
 }
 .custom .start.pressed{
@@ -95,69 +83,32 @@ Sonic the Hedgehog 1 Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/PbIZ8nc.png);
-    width: 64px;
-    height: 92px;
-    top: 420px;
-    left: 632px;
+    background: url(https://i.imgur.com/UENwKQK.png);
+    width: 28px;
+    height: 28px;
+    top: 60px;
+    left: 128px;
     opacity: 1;
 }
 .custom .button.b.pressed{
-    background: url(https://i.imgur.com/xkgKvU6.png);
-    width: 80px;
-    height: 76px;
-    top: 348px;
-    left: 704px;
+    background: url(https://i.imgur.com/sDrf3bB.png);
+    width: 28px;
+    height: 28px;
+    top: 60px;
+    left: 176px;
     opacity: 1;
 }
 
-/* XY */
+/* C */
 
 .custom .button.x.pressed{
-    background: url(https://i.imgur.com/fCHUw9T.png);
-    width: 80px;
-    height: 76px;
-    top: 348px;
-    left: 544px;
-    opacity: 1;
-}
-.custom .button.y.pressed{
-    background: url(https://i.imgur.com/QwiJwkN.png);
-    width: 64px;
-    height: 92px;
-    top: 260px;
-    left: 632px;
+    background: url(https://i.imgur.com/ukxFmcZ.png);
+    width: 28px;
+    height: 28px;
+    top: 60px;
+    left: 224px;
     opacity: 1;
 }
 
-/* Triggers */
-
- .custom .triggers{
-    width: 648px;
-    height: 148px;
-    top: 16px;
-    left: 76px;
-    position: absolute;
-} 
-.custom .trigger{
-    position: absolute;
-    opacity: 0;
-}
-.custom .trigger-button.left.pressed{
-    background: url(https://i.imgur.com/n780FqZ.png);
-    width: 256px;
-    height: 148px;
-    opacity: 1;
-    position: absolute;
-}
-.custom .trigger-button.right.pressed{
-    background: url(https://i.imgur.com/rSFku8R.png);
-    width: 256px;
-    height: 148px;
-    top: 0px;
-    left: 392px;
-    opacity: 1;
-    position: absolute;
-}
 
 /*END Sonic the Hedgehog 1 Gamepad Viewer*/
