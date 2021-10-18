@@ -57,7 +57,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     height:388px;
     opacity: 1;
     position: absolute;
-	left: 1437px;
+	left: 1436px;
 	top:	245px;
 }
 .custom .trigger-button.right.pressed{ /* Actually A*/
@@ -83,7 +83,7 @@ above to achieve the desired position. */
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 3100px;
+    width: 852px;
     height: 348px;
     background: url(https://i.imgur.com/8vOHpsp.png);
     opacity: 0;
@@ -137,15 +137,6 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 .custom .p3{
     background-position: 0 -70px;
 }
-/* This is to size and position the containing div for the 
-start and select buttons. */
-/*.custom .arrows{
-    position: absolute;
-    width: 205px;
-    height: 19px;
-    top: 250px;
-    left: 291px;
-}
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .start{
     position: absolute;
@@ -188,23 +179,23 @@ start and select buttons. */
     opacity: 0;
 }
 .custom .button.a.pressed{
-    top: 831px;
-    left: 2658px;
+    top: 416px;
+    left: 208px;
     opacity: 1;
 }
 .custom .button.x.pressed{
-    top: 623px;
-    left: 2450px;
+    top: 208px;
+    left: 0px;
     opacity: 1;
 }
 .custom .button.b.pressed{
-    top: 623px;
-    left: 2866px;
+    top: 208px;
+    left: 416px;
     opacity: 1;
 }
 .custom .button.y.pressed{
-    top: 415px;
-    left: 2658px;
+    top: 0px;
+    left: 208px;
     opacity: 1;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
