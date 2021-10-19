@@ -57,7 +57,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     height:388px;
     opacity: 1;
     position: absolute;
-	left: 1436px;
+	left: 1435px;
 	top:	245px;
 }
 .custom .trigger-button.right.pressed{ /* Actually A*/
@@ -92,8 +92,6 @@ placement */
     position: absolute;
     width: 852px;
     height: 348px;
-    left: 0px;
-    top: 0px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -103,11 +101,15 @@ placement */
   and I can just rotate them in the browser? Also, note that you most likely won't need
   to use a browser speficic prefix unless it's something that is indeed browser specific.
   NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    float: left;
+    left: 0px;
+    top: 0px;
+	float: left;
 }
 .custom .bumper.right{
+	-webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+	left: 2247px;
+    top: 0px;
     float: right;
 }
 /* This bit of code is for the player indicator, which is represented in
@@ -143,8 +145,8 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
     background: url(https://i.imgur.com/R9AB7nP.png);
     width: 326px;
     height: 326px;
-    top: 53px;
-    left: 707px;
+    top: 798px;
+    left: 1386px;
     opacity: 0;
 }
 .custom .start.pressed{
@@ -152,7 +154,7 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 }
 .custom .back{ /*Actually B*/
     position: absolute;
-    background: url(https://i.imgur.com/ERqrcK6.png);
+    background: url(https://i.imgur.com/VbsRoWn.png);
     width: 346px;
     height: 346px;
     top: 764px;
