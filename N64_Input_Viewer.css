@@ -79,7 +79,7 @@ above to achieve the desired position. */
 /*.custom .trigger.right{
     float: right;
 }
-
+/*
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
@@ -109,6 +109,32 @@ placement */
 	-webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 	left: 2247px;
+    top: 0px;
+    float: right;
+}
+*/
+
+
+/* The bumpers follow the same methodology as the triggers in terms of
+placement */
+.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
+    opacity: 1;
+}
+.custom .bumper.left{
+    width: 852px;
+    height: 348px;
+    background: url(https://i.imgur.com/8vOHpsp.png);
+    left: 0px;
+    top: 0px;
+    float: left;
+}
+.custom .bumper.right{
+    width: 852px;
+    height: 348px;
+    background: url(https://i.imgur.com/8vOHpsp.png);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    left: 2247px;
     top: 0px;
     float: right;
 }
