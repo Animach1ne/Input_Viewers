@@ -88,33 +88,32 @@ placement */
     background: url(https://i.imgur.com/8vOHpsp.png);
     opacity: 0;
 }
-.custom .bumpers{
+/*.custom .bumpers{
     position: absolute;
     width: 852px;
     height: 3100px;
-}
+}*/
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
 .custom .bumper.left{
-  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
-  and I can just rotate them in the browser? Also, note that you most likely won't need
-  to use a browser speficic prefix unless it's something that is indeed browser specific.
-  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
+    width: 852px;
+    height: 348px;
+    background: url(https://i.imgur.com/8vOHpsp.png);
     left: 0px;
     top: 0px;
-	float: left;
+    float: left;
 }
 .custom .bumper.right{
-	-webkit-transform: rotateY(180deg);
+    width: 852px;
+    height: 348px;
+    background: url(https://i.imgur.com/8vOHpsp.png);
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-	left: 2247px;
+    left: 2247px;
     top: 0px;
     float: right;
 }
-*/
-
-
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
@@ -245,10 +244,10 @@ the CSS inline. */
 .custom .stick.pressed.left{
     background-position-x: -106px;
 }
-/*.custom .stick.pressed.right{
+.custom .stick.pressed.right{
     background-position-x: -211px;
 }
-.custom .stick.left{
+/*.custom .stick.left{
     top: 0;
     left: 0;
 }
