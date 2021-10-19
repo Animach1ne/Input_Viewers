@@ -91,7 +91,7 @@ placement */
 .custom .bumpers{
     position: absolute;
     width: 852px;
-    height: 348px;
+    height: 3100px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
