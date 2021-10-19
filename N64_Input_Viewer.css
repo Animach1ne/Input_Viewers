@@ -1,5 +1,5 @@
 /*BEGIN N64 Controller Styling*/
-
+/* *********************************************************** */
 .controller.custom{
     background: url(https://i.imgur.com/pQHaaWg.png); 
     height: 2115px;
@@ -8,16 +8,14 @@
 .custom.disconnected {
     background: url(https://i.imgur.com/HfZbSww.png);
 }
-
 .custom.disconnected div {
     display: none;
 }
-
+/* *********************************************************** */
 .custom .trigger{
     position: absolute;
     opacity: 0;
 }
-
 .custom .trigger-button.left.pressed{ /* Actually Z */
     background: url(https://i.imgur.com/mthzkVN.png);
     width:225px;
@@ -27,7 +25,6 @@
     left: 1435px;
     top: 245px;
 }
-
 .custom .trigger-button.right.pressed{ /* Actually A*/
     background: url(https://i.imgur.com/ERqrcK6.png);
     width: 346px;
@@ -37,14 +34,13 @@
     left: 2329px;
     top: 1028px;
 }
-
+/* *********************************************************** */
 .custom .bumper{
     width: 852px;
     height: 348px;
     background: url(https://i.imgur.com/8vOHpsp.png);
     opacity: 0;
 }
-
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
@@ -66,59 +62,7 @@
     top: 0px;
     float: right;
 }
-
-/*
-.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
-    opacity: 1;
-}
-.custom .bumper.left{
-    width: 852px;
-    height: 348px;
-    background: url(https://i.imgur.com/8vOHpsp.png);
-    left: 0px;
-    top: 0px;
-    float: left;
-}
-.custom .bumper.right{
-    width: 852px;
-    height: 348px;
-    background: url(https://i.imgur.com/8vOHpsp.png);
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    left: 2247px;
-    top: 0px;
-    float: right;
-}
-*/
-
-/* This bit of code is for the player indicator, which is represented in
-quandrants on the xbox controller. That's note what it's called on the
-PS3 controller but it'd be pointless for me to change the HTML for 
-something as pedantic as a name. */
-/*.custom .quadrant{
-    position: absolute;
-    background: url(ps3-assets/player-n.png);
-    height: 17px;
-    width: 111px;
-    top: 140px;
-    left: 240px;
-}
-/* Since the player indicator is just a CSS sprite, we change the 
-position of the background to match the player number.
-NOTE: Player orderin starts at 0, so p0 = Player 1 */
-/*.custom .p0{
-    background-position: 0 -6px;
-}
-.custom .p1{
-    background-position: 0 -28px;
-}
-.custom .p2{
-    background-position: 0 -49px;
-}
-.custom .p3{
-    background-position: 0 -70px;
-}
-/* Setting the size and CSS sprite for the start adn select buttons */
+/* *********************************************************** */
 .custom .start{
     position: absolute;
     background: url(https://i.imgur.com/R9AB7nP.png);
@@ -131,6 +75,7 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 .custom .start.pressed{
     opacity: 1;
 }
+
 .custom .back{ /*Actually B*/
     position: absolute;
     background: url(https://i.imgur.com/VbsRoWn.png);
@@ -143,7 +88,7 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 .custom .back.pressed{
     opacity: 1;
 }
-/* Positioning and size of the container for the face buttons */
+/* *********************************************************** */
 .custom .abxy{
     position: absolute;
     width: 618px;
@@ -179,15 +124,13 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
     left: 208px;
     opacity: 1;
 }
-/* Analog sticks follow the same principles as the triggers in terms of positioning
-Note that the rotation of the sticks in hard coded with javascript, so it applies 
-the CSS inline. */
+/* *********************************************************** */
 .custom .sticks{
     position: absolute;
     width: 350px;
     height: 350px;
-    top: 1527px;
-    left: 1375px;
+    top: 1528px;
+    left: 1376px;
 }
 .custom .stick{
     position: absolute;
@@ -198,10 +141,10 @@ the CSS inline. */
 .custom .stick.pressed.left{
     background-position-x: -106px;
 }
-.custom .stick.pressed.right{
+/* .custom .stick.pressed.right{
     background-position-x: -211px;
 }
-/*.custom .stick.left{
+.custom .stick.left{
     top: 0;
     left: 0;
 }
@@ -209,7 +152,7 @@ the CSS inline. */
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }*/
-/* Dpad positioning and sizing
+/* *********************************************************** */
 .custom .dpad{
     position: absolute;
     width: 640px;
