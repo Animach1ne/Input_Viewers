@@ -1,98 +1,50 @@
-/*
--How to use Custom CSS for the Gamepad Viewer-
-http://mrmcpowned.com/gamepad
-Enabling a custom CSS is as easy as adding &css=[url to css file]
-to the end of the url like so:
-http://mrmcpowned.com/gamepad?p=1&css=https://gist.github.com/anonymous/526491dc02014099cd14/raw/d7bb0477ba984f794497f3f0f82cb33484dc7889/ps3.css
-If you're going to be using custom CSS for the gamepad viewer
-to design your own skin, we're assuming you have some sort of
-basic knowledge on how CSS works. I'd also suggest uploading
-your custom CSS to GitHub's gist as you can easily get the
-direct link for the file by copying the link address on the
-"Raw" button at the top right of the code.
-NOTE: If you're using gist, MAKE SURE TO NAME YOUR CSS FILE!
-It doesn't matter what you call it, so long as it ends in .css
-else the site won't read it and think it's just a plain text.
-Each CSS entry must be preceded by '.custom' since that's the 
-hardcoded class for a custom style. It doesn't make sense to 
-change this as you can only have one custom skin loaded at a time.
-If you're using images, they have to be uploaded to an image host of
-your choice. Personally, I'd go with Imgur since it's simple to upload
-and get the direct URL of the image. None of the images in this example
-will load because they're pointing to a location relative of the css 
-files, since this is normally in the main CSS file of the site.
-The following is a copy of the code used for displaying the PS3 controller
-skin on the Gamepad viewer. You can scroll below and read the comments to
-get an understanding of how the styling works and whatnot. Happy skinning!
-P.S. If you use this tool often and would like to 'buy me a coffee' you can
-do so via my Imraising page: https://imraising.tv/u/mrmcpowned
-*/
+/*BEGIN N64 Controller Styling*/
 
-/*BEGIN PS3 Controller Styling*/
-/*This class defines the base attributes of the skin*/
 .controller.custom{
-    /* The background image is basically the base for the controller's skin. The 
-    PS3 controller's skin can be found at http://mrmcpowned.com/gamepad/ps3-assets/base.png
-    and you can observe it as an example. The sticks, buttons, and directional arrows are missing
-    because their appropriate elements will be incorperated when their styling is defined below.
-    The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(https://i.imgur.com/pQHaaWg.png); 
     height: 2115px;
     width: 3100px;
 }
-.custom.disconnected { /* This class shows an image when the controller is disconnected */
+.custom.disconnected {
     background: url(https://i.imgur.com/HfZbSww.png);
 }
-/* This hides the controller's button when disconnected so only the background image remains */ 
+
 .custom.disconnected div {
     display: none;
 }
+
 .custom .trigger{
     position: absolute;
     opacity: 0;
 }
+
 .custom .trigger-button.left.pressed{ /* Actually Z */
     background: url(https://i.imgur.com/mthzkVN.png);
     width:225px;
     height:388px;
     opacity: 1;
     position: absolute;
-	left: 1435px;
-	top:	245px;
+    left: 1435px;
+    top: 245px;
 }
+
 .custom .trigger-button.right.pressed{ /* Actually A*/
     background: url(https://i.imgur.com/ERqrcK6.png);
     width: 346px;
     height: 346px;
     opacity: 1;
     position: absolute;
-	left: 2329px;
-	top:	1028px;
+    left: 2329px;
+    top: 1028px;
 }
-/* The left and right classes below are used to position the triggers
-within the div they're contained in. Since their positions is realtive
-to the size of the parent element, we simply resize the parent element 
-above to achieve the desired position. */
-/*.custom .trigger.left{ 
-    float: left;
-}
-/*.custom .trigger.right{
-    float: right;
-}
-/*
-/* The bumpers follow the same methodology as the triggers in terms of
-placement */
+
 .custom .bumper{
     width: 852px;
     height: 348px;
     background: url(https://i.imgur.com/8vOHpsp.png);
     opacity: 0;
 }
-/*.custom .bumpers{
-    position: absolute;
-    width: 852px;
-    height: 3100px;
-}*/
+
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
@@ -114,8 +66,8 @@ placement */
     top: 0px;
     float: right;
 }
-/* The bumpers follow the same methodology as the triggers in terms of
-placement */
+
+/*
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
@@ -137,6 +89,8 @@ placement */
     top: 0px;
     float: right;
 }
+*/
+
 /* This bit of code is for the player indicator, which is represented in
 quandrants on the xbox controller. That's note what it's called on the
 PS3 controller but it'd be pointless for me to change the HTML for 
