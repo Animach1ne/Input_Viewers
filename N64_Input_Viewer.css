@@ -207,23 +207,26 @@ the CSS inline. */
     position: absolute;
     width: 350px;
     height: 350px;
-    top: 328px;
-    left: 210px;
+    top: 1375px;
+    left: 1528px;
 }
 .custom .stick{
+    position: absolute;
     background: url(https://i.imgur.com/5C9woxS.png);
+    height:350px;
+    width: 350px;
 }
-/*.custom .stick.pressed.left{
+.custom .stick.pressed.left{
     background-position-x: -106px;
 }
 .custom .stick.pressed.right{
     background-position-x: -211px;
-}*/
-.custom .stick.left{
-    top: 1528;
-    left: 1375;
 }
-/*.custom .stick.right{
+.custom .stick.left{
+    top: 0;
+    left: 0;
+}
+.custom .stick.right{
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
