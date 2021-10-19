@@ -245,7 +245,7 @@ the CSS inline. */
 .custom .stick.pressed.left{
     background-position-x: -106px;
 }
-.custom .stick.pressed.right{
+/*.custom .stick.pressed.right{
     background-position-x: -211px;
 }
 .custom .stick.left{
@@ -255,7 +255,7 @@ the CSS inline. */
 .custom .stick.right{
     top: calc(100% - 105px);
     left: calc(100% - 105px);
-}
+}*/
 /* Dpad positioning and sizing
 .custom .dpad{
     position: absolute;
