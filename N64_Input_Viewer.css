@@ -230,46 +230,44 @@ the CSS inline. */
 /* Dpad positioning and sizing
 .custom .dpad{
     position: absolute;
-    width: 140px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
+    width: 640px;
+    height: 640px;
+    top: 536px;
+    left: 75px;
 }
 .custom .face{
-    background: url(ps3-assets/dpad.png);
+    background: url(https://i.imgur.com/pgQAwdy.png);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
-    width: 38px;
-    height: 52px;
+    width: 240px;
+    height: 276px;
 }
 .custom .face.left, .custom .face.right{
-    width: 52px;
-    height: 38px;
+    width: 276px;
+    height: 240px;
 }
 .custom .face.up{
-    left: 50px;
+    left: 200px;
     top: 0;
-    background-position: 92px 0px;
 }
 .custom .face.down{
-    left: 50px;
-    top: 79px;
-    background-position: 131px 0;
+    left: 200px;
+    top: 364px;
+	-webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
 }
 .custom .face.left{
-    top: 47px;
+    top: 200px;
     left: 0;
-    background-position: 0px 0;
+	-webkit-transform: rotateX(270deg);
+    transform: rotateX(90deg);
 }
 .custom .face.right{
-    top: 47px;
-    right: 0px;
-    background-position: 53px 0;
-}
-.custom .face.pressed{
-    margin-top: 5px;
-    background-position-y: 52px;
+    top: 200px;
+    left: 0;
+	-webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
 }
 
 /*END N64 Controller Styling*/
