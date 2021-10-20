@@ -1,12 +1,12 @@
 /*BEGIN N64 Controller Styling*/
 /* *********************************************************** */
 .controller.custom{
-    background: url(https://i.imgur.com/5BAXEZl.png); 
-    height: 546px;
-    width: 800px;
+    background: url(https://i.imgur.com/mcXo9hO.png); 
+    height: 388px;
+    width: 265px;
 }
 .custom.disconnected {
-    background: url(https://i.imgur.com/mBggANC.png);
+    background: url(https://i.imgur.com/8leqvhF.png);
 }
 .custom.disconnected div {
     display: none;
@@ -14,11 +14,11 @@
 /* *********************************************************** */
 .custom .stick.left{
     position: absolute;
-    width: 88px;
-    height: 88px;
-    top: 396px;
-    left: 356px;
-    background: url(https://i.imgur.com/Z5vyNOP.png);
+    width: 44px;
+    height: 44px;
+    top: 192px;
+    left: 171px;
+    background: url(https://i.imgur.com/tNTSU7I.png);
 }
 /* *********************************************************** */
 /*END N64 Controller Styling*/
