@@ -1,0 +1,24 @@
+/*BEGIN N64 Controller Styling*/
+/* *********************************************************** */
+.controller.custom{
+    background: url(https://i.imgur.com/5BAXEZl.png); 
+    height: 546px;
+    width: 800px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/mBggANC.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+/* *********************************************************** */
+.custom .stick.left{
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    top: 382px;
+    left: 344px;
+    background: url(https://i.imgur.com/Z5vyNOP.png);
+}
+/* *********************************************************** */
+/*END N64 Controller Styling*/
