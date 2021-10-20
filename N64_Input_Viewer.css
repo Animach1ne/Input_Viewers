@@ -2,8 +2,8 @@
 /* *********************************************************** */
 .controller.custom{
     background: url(https://i.imgur.com/mcXo9hO.png); 
-    height: 388px;
-    width: 265px;
+    height: 265px;
+    width: 388px;
 }
 .custom.disconnected {
     background: url(https://i.imgur.com/8leqvhF.png);
