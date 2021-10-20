@@ -124,7 +124,34 @@
     opacity: 1;
 }
 /* *********************************************************** */
+.custom .sticks{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 328px;
+    left: 210px;
+}
+.custom .stick{
+    position: absolute;
+    background: url(https://i.imgur.com/5C9woxS.png);
+    height:350px;
+    width: 350px;
+}
+.custom .stick.pressed.left{
+    background-position-x: -106px;
+}
+.custom .stick.pressed.right{
+    background-position-x: -211px;
+}
 .custom .stick.left{
+    top: 1528px;
+    left: 1376px;
+}
+.custom .stick.right{
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
+}
+/*.custom .stick.left{
     position: absolute;
     width: 350px;
     height: 350px;
@@ -132,10 +159,7 @@
     left: 1376px;
     background: url(https://i.imgur.com/5C9woxS.png);
 }
-.custom .stick.left{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
-}
+*/
 /* *********************************************************** */
 .custom .dpad{
     position: absolute;
