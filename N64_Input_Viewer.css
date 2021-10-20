@@ -198,8 +198,8 @@
 .custom .face.right{
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    top: 210px;
-    left: 365px;
+    top: 224px;
+    left: 375px;
 }
 .custom .face.pressed{
     opacity: 1;
