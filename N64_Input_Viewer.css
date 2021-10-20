@@ -171,7 +171,7 @@
     position: absolute;
     opacity: 0;
 }
-.custom .face.up, .custom.face.down{
+.custom .face.up, .custom .face.down{
     width: 240px;
     height: 276px;
 }
