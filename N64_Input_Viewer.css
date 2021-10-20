@@ -131,7 +131,7 @@
     height: 350px;
     top: 1528px;
     left: 1376px;
-}*/
+}
 .custom .stick{
     position: absolute;
     width: 350px;
@@ -143,14 +143,18 @@
 /*.custom .stick.pressed.left{
     background-position-x: -106px;
 }
-/* .custom .stick.pressed.right{
+.custom .stick.pressed.right{
     background-position-x: -211px;
 }*/
 .custom .stick.left{
-    top: 0;
-    left: 0;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 1528px;
+    left: 1376px;
+    background: url(https://i.imgur.com/5C9woxS.png);
 }
-.custom .stick.right{
+/*.custom .stick.right{
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }*/
@@ -167,7 +171,7 @@
     position: absolute;
     opacity: 0;
 }
-.custom .face.up, .custom .face.down{
+.custom .face.up, .custom.face.down{
     width: 240px;
     height: 276px;
 }
@@ -182,20 +186,20 @@
 .custom .face.down{
     left: 200px;
     top: 364px;
-	-webkit-transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 .custom .face.left{
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
     top: 200px;
     left: 0;
-	-webkit-transform: rotateX(270deg);
-    transform: rotateX(90deg);
 }
 .custom .face.right{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
     top: 200px;
     left: 0;
-	-webkit-transform: rotateX(90deg);
-    transform: rotateX(90deg);
 }
 .custom .face.pressed{
     opacity: 1;
