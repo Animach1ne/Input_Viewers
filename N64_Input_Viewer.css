@@ -75,7 +75,6 @@
 .custom .start.pressed{
     opacity: 1;
 }
-
 .custom .back{ /*Actually B*/
     position: absolute;
     background: url(https://i.imgur.com/VbsRoWn.png);
@@ -125,27 +124,6 @@
     opacity: 1;
 }
 /* *********************************************************** */
-/*.custom .sticks{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    top: 1528px;
-    left: 1376px;
-}
-.custom .stick{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    top: 1528px;
-    left: 1376px;
-    background: url(https://i.imgur.com/5C9woxS.png);
-}
-/*.custom .stick.pressed.left{
-    background-position-x: -106px;
-}
-.custom .stick.pressed.right{
-    background-position-x: -211px;
-}*/
 .custom .stick.left{
     position: absolute;
     width: 350px;
@@ -154,10 +132,10 @@
     left: 1376px;
     background: url(https://i.imgur.com/5C9woxS.png);
 }
-/*.custom .stick.right{
+.custom .stick.left{
     top: calc(100% - 105px);
     left: calc(100% - 105px);
-}*/
+}
 /* *********************************************************** */
 .custom .dpad{
     position: absolute;
