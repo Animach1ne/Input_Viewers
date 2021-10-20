@@ -74,11 +74,11 @@
 /* *********************************************************** */
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/R9AB7nP.png);
-    width: 326px;
-    height: 326px;
-    top: 798px;
-    left: 1386px;
+    background: url(https://i.imgur.com/U9VUBvD.png);
+    width: 42px;
+    height: 42px;
+    top: 99px;
+    left: 173px;
     opacity: 0;
 }
 .custom .start.pressed{
@@ -86,11 +86,11 @@
 }
 .custom .back{ /*Actually B*/
     position: absolute;
-    background: url(https://i.imgur.com/VbsRoWn.png);
-    width: 346px;
-    height: 346px;
-    top: 764px;
-    left: 2065px;
+    background: url(https://i.imgur.com/dMSHebf.png);
+    width: 44px;
+    height: 44px;
+    top: 95px;
+    left: 258px;
     opacity: 0;
 }
 .custom .back.pressed{
@@ -99,80 +99,80 @@
 /* *********************************************************** */
 .custom .abxy{
     position: absolute;
-    width: 618px;
-    height: 618px;
-    top: 415px;
-    left: 2450px;
+    width: 78px;
+    height: 78px;
+    top: 52px;
+    left: 306px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:202px;
-    height:202px;
-    background: url(https://i.imgur.com/Lo28TOr.png);
+    width:26px;
+    height:26px;
+    background: url(https://i.imgur.com/m1M39nS.png);
     opacity: 0;
 }
 .custom .button.a.pressed{
-    top: 416px;
-    left: 208px;
+    top: 52px;
+    left: 26px;
     opacity: 1;
 }
 .custom .button.x.pressed{
-    top: 208px;
+    top: 26px;
     left: 0px;
     opacity: 1;
 }
 .custom .button.b.pressed{
-    top: 208px;
-    left: 416px;
+    top: 26px;
+    left: 52px;
     opacity: 1;
 }
 .custom .button.y.pressed{
     top: 0px;
-    left: 208px;
+    left: 26px;
     opacity: 1;
 }
 /* *********************************************************** */
 .custom .dpad{
     position: absolute;
-    width: 640px;
-    height: 640px;
-    top: 536px;
-    left: 75px;
+    width: 79px;
+    height: 79px;
+    top: 68px;
+    left: 10px;
 }
 .custom .face{
     position: absolute;
     opacity: 0;
 }
 .custom .face.up, .custom .face.down{
-    background: url(https://i.imgur.com/pgQAwdy.png);
-    width: 240px;
-    height: 276px;
+    background: url(https://i.imgur.com/OGeKi2q.png);
+    width: 29px;
+    height: 34px;
 }
 .custom .face.left, .custom .face.right{
-    background: url(https://i.imgur.com/w7GGyf1.png);
-    width: 276px;
-    height: 240px;
+    background: url(https://i.imgur.com/cxsWhvl.png);
+    width: 34px;
+    height: 29px;
 }
 .custom .face.up{
-    left: 200px;
+    left: 25px;
     top: 0;
 }
 .custom .face.down{
-    left: 200px;
-    top: 365px;
+    left: 25px;
+    top: 45px;
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
 .custom .face.left{
-    top: 200px;
+    top: 25px;
     left: 0px;
 }
 .custom .face.right{
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    top: 200px;
-    left: 364px;
+    top: 25px;
+    left: 45px;
 }
 .custom .face.pressed{
     opacity: 1;
