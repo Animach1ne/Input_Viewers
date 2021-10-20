@@ -22,7 +22,7 @@
     height:388px;
     opacity: 1;
     position: absolute;
-    left: 1435px;
+    left: 1436px;
     top: 245px;
 }
 .custom .trigger-button.right.pressed{ /* Actually A*/
@@ -124,22 +124,13 @@
     opacity: 1;
 }
 /* *********************************************************** */
-.custom .sticks{
+.custom .stick.left{
     position: absolute;
-    width: 700px;
-    height: 700px;
-    top: 0px;
-    left: 0px;
-}
-.custom .stick{
-    position: absolute;
-    background: url(https://i.imgur.com/5C9woxS.png);
+    background: url(https://i.imgur.com/tv8jzTT.png);
     height:700px;
     width: 700px;
-}
-.custom .stick.left{
-    top: 1528px;
-    left: 1376px;
+    top: 1178px;
+    left: 1126px;
 }
 /*.custom .stick.left{
     position: absolute;
@@ -185,7 +176,7 @@
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     top: 182px;
-    left: 0;
+    left: 9;
 }
 .custom .face.right{
     -webkit-transform: rotate(90deg);
