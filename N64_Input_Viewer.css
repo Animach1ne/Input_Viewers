@@ -134,8 +134,8 @@
 .custom .stick{
     position: absolute;
     background: url(https://i.imgur.com/5C9woxS.png);
-    height:105px;
-    width: 105px;
+    height:350px;
+    width: 350px;
 }
 .custom .stick.pressed.left{
     background-position-x: -106px;
@@ -195,7 +195,7 @@
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     top: 182px;
-    left: 59;
+    left: 0px;
 }
 .custom .face.right{
     -webkit-transform: rotate(90deg);
