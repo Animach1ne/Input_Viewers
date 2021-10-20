@@ -148,8 +148,8 @@
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    top: calc(100% - 1050px);
+    left: calc(100% - 1050px);
 }
 /*.custom .stick.left{
     position: absolute;
@@ -192,8 +192,7 @@
     transform: rotateX(180deg);
 }
 .custom .face.left{
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+    background: url(https://i.imgur.com/w7GGyf1.png);
     top: 182px;
     left: 0px;
 }
