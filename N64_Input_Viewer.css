@@ -99,7 +99,7 @@
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-	width:202px;
+    width:202px;
     height:202px;
     background: url(https://i.imgur.com/Lo28TOr.png);
     opacity: 0;
@@ -125,18 +125,20 @@
     opacity: 1;
 }
 /* *********************************************************** */
-.custom .sticks{
+/*.custom .sticks{
     position: absolute;
     width: 350px;
     height: 350px;
     top: 1528px;
     left: 1376px;
-}
+}*/
 .custom .stick{
     position: absolute;
-    background: url(https://i.imgur.com/5C9woxS.png);
-    height:350px;
     width: 350px;
+    height: 350px;
+    top: 1528px;
+    left: 1376px;
+    background: url(https://i.imgur.com/5C9woxS.png);
 }
 .custom .stick.pressed.left{
     background-position-x: -106px;
@@ -163,6 +165,7 @@
 .custom .face{
     background: url(https://i.imgur.com/pgQAwdy.png);
     position: absolute;
+    opacity: 0;
 }
 .custom .face.up, .custom .face.down{
     width: 240px;
@@ -194,5 +197,7 @@
 	-webkit-transform: rotateX(90deg);
     transform: rotateX(90deg);
 }
-
+.custom .face.pressed{
+    opacity: 1;
+}
 /*END N64 Controller Styling*/
