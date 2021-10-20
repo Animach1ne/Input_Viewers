@@ -126,8 +126,8 @@
 /* *********************************************************** */
 .custom .sticks{
     position: absolute;
-    width: 364px;
-    height: 105px;
+    width: 700px;
+    height: 700px;
     top: 328px;
     left: 210px;
 }
@@ -137,19 +137,9 @@
     height:350px;
     width: 350px;
 }
-.custom .stick.pressed.left{
-    background-position-x: -106px;
-}
-.custom .stick.pressed.right{
-    background-position-x: -211px;
-}
 .custom .stick.left{
-    top: 0;
-    left: 0;
-}
-.custom .stick.right{
-    top: calc(100% - 1050px);
-    left: calc(100% - 1050px);
+    top: 1528px;
+    left: 1376px;
 }
 /*.custom .stick.left{
     position: absolute;
@@ -178,8 +168,8 @@
     height: 276px;
 }
 .custom .face.left, .custom .face.right{
-    width: 240px;
-    height: 276px;
+    width: 276px;
+    height: 240px;
 }
 .custom .face.up{
     left: 200px;
