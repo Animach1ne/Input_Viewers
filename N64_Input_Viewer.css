@@ -22,7 +22,7 @@
     height:388px;
     opacity: 1;
     position: absolute;
-    left: 1435px;
+    left: 1433px;
     top: 245px;
 }
 .custom .trigger-button.right.pressed{ /* Actually A*/
@@ -193,12 +193,12 @@
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
     top: 183px;
-    left: 17;
+    left: 0;
 }
 .custom .face.right{
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    top: 181px;
+    top: 182px;
     left: 382px;
 }
 .custom .face.pressed{
