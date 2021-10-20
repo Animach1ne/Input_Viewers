@@ -192,14 +192,14 @@
 .custom .face.left{
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
-    top: 185px;
-    left: 4;
+    top: 183px;
+    left: 17;
 }
 .custom .face.right{
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    top: 187px;
-    left: 381px;
+    top: 181px;
+    left: 382px;
 }
 .custom .face.pressed{
     opacity: 1;
