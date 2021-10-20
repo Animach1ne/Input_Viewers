@@ -176,8 +176,8 @@
     height: 276px;
 }
 .custom .face.left, .custom .face.right{
-    width: 276px;
-    height: 240px;
+    width: 240px;
+    height: 276px;
 }
 .custom .face.up{
     left: 200px;
@@ -185,7 +185,7 @@
 }
 .custom .face.down{
     left: 200px;
-    top: 364px;
+    top: 365px;
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
 }
