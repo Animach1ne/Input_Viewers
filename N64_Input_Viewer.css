@@ -124,13 +124,32 @@
     opacity: 1;
 }
 /* *********************************************************** */
-.custom .stick.left{
+.custom .sticks{
     position: absolute;
-    background: url(https://i.imgur.com/tv8jzTT.png);
-    height:700px;
-    width: 700px;
-    top: 1178px;
-    left: 1126px;
+    width: 364px;
+    height: 105px;
+    top: 328px;
+    left: 210px;
+}
+.custom .stick{
+    position: absolute;
+    background: url(https://i.imgur.com/5C9woxS.png);
+    height:105px;
+    width: 105px;
+}
+.custom .stick.pressed.left{
+    background-position-x: -106px;
+}
+.custom .stick.pressed.right{
+    background-position-x: -211px;
+}
+.custom .stick.left{
+    top: 0;
+    left: 0;
+}
+.custom .stick.right{
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
 }
 /*.custom .stick.left{
     position: absolute;
