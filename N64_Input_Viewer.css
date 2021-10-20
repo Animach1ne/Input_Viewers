@@ -127,21 +127,12 @@
 }
 .custom .stick.left{
     position: absolute;
-    top: 1528px;
-    left: 1376px;
-    background: url(https://i.imgur.com/5C9woxS.png);
-    height:350px;
-    width: 350px;
-}
-/*.custom .stick.left{
-    position: absolute;
     width: 350px;
     height: 350px;
     top: 1528px;
     left: 1376px;
     background: url(https://i.imgur.com/5C9woxS.png);
 }
-*/
 /* *********************************************************** */
 .custom .dpad{
     position: absolute;
@@ -182,7 +173,7 @@
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     top: 200px;
-    left: 382px;
+    left: 364px;
 }
 .custom .face.pressed{
     opacity: 1;
