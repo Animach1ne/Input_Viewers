@@ -192,8 +192,8 @@
 .custom .face.left{
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
-    top: 210px;
-    left: 0;
+    top: 196px;
+    left: -10;
 }
 .custom .face.right{
     -webkit-transform: rotate(90deg);
