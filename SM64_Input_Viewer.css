@@ -53,15 +53,9 @@
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
-.custom .bumper.left{
-    left: 289px;
-    top: 17px;
-    float: left;
-}
 .custom .bumper.right{
     left: 289px;
     top: 17px;
-    float: right;
 }
 /* *********************************************************** */
 .custom .start{
