@@ -47,6 +47,8 @@
 .custom .bumper{
     width: 107px;
     height: 35px;
+    left: 289px;
+    top: 17px;
     background: url(https://i.imgur.com/bC82SKp.png);
     opacity: 0;
 }
@@ -54,8 +56,6 @@
     opacity: 1;
 }
 .custom .bumper.right{
-    left: 274px;
-    top: 2px;
     float: right;
 }
 /* *********************************************************** */
