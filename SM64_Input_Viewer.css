@@ -45,15 +45,20 @@
 }
 /* *********************************************************** */
 .custom .bumper{
-    background: url(https://i.imgur.com/bC82SKp.png);
+    width: 107px;
+    height: 35px;
+    background: url(https://https://i.imgur.com/bC82SKp.png);
     opacity: 0;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
+.custom .bumper.left{
+    left: 289px;
+    top: 17px;
+    float: left;
+}
 .custom .bumper.right{
-    width: 107px;
-    height: 35px;
     left: 289px;
     top: 17px;
     float: right;
