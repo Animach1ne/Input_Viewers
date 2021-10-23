@@ -56,7 +56,7 @@
 .custom .bumper.left{
     width: 107px;
     height: 44px;
-    background: url(https://i.imgur.com/3JaULzK.png);
+    background: url();
     left: 0px;
     top: 0px;
     float: left;
@@ -67,8 +67,8 @@
     background: url(https://i.imgur.com/3JaULzK.png);
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    left: 281px;
-    top: 0px;
+    left: 268px;
+    top: 17px;
     float: right;
 }
 /* *********************************************************** */
