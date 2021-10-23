@@ -1,0 +1,115 @@
+/*N64 Controller Styling by Animach1ne*/
+/* *********************************************************** */
+.controller.custom{
+    background: url(https://i.imgur.com/Xd2YGBb.png); 
+    height: 174px;
+    width: 415px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/CedTF4s.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+/* *********************************************************** */
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.left.pressed{ /* Actually Z */
+    background: url(https://i.imgur.com/KuL5QPU.png);
+    width:30px;
+    height:50px;
+    opacity: 1;
+    position: absolute;
+    left: 151px;
+    top: 91px;
+}
+.custom .trigger-button.right.pressed{ /* Actually A*/
+    background: url(https://i.imgur.com/dw83QRr.png);
+    width: 44px;
+    height: 45px;
+    opacity: 1;
+    position: absolute;
+    left: 237px;
+    top: 80px;
+}
+/* *********************************************************** */
+.custom .stick.left{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 86px;
+    left: 84px;
+    background: url(https://i.imgur.com/tNTSU7I.png);
+}
+/* *********************************************************** */
+.custom .bumper.right{
+    width: 107px;
+    height: 35px;
+    background: url(https://i.imgur.com/bC82SKp.png);
+    left: 289px;
+    top: 17px;
+}
+/* *********************************************************** */
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/U9VUBvD.png);
+    width: 42px;
+    height: 42px;
+    top: 32px;
+    left: 144px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+.custom .back{ /*Actually B*/
+    position: absolute;
+    background: url(https://i.imgur.com/dMSHebf.png);
+    width: 44px;
+    height: 44px;
+    top: 47px;
+    left: 204px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+/* *********************************************************** */
+.custom .abxy{
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    top: 73px;
+    left: 303px;
+}
+/* base class used to simplify the sprite mapping */
+.custom .button{
+    position: absolute;
+    width:26px;
+    height:26px;
+    background: url(https://i.imgur.com/m1M39nS.png);
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    top: 52px;
+    left: 26px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    top: 26px;
+    left: 0px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    top: 26px;
+    left: 52px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    top: 0px;
+    left: 26px;
+    opacity: 1;
+}
+/*END N64 Controller Styling*/
