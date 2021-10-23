@@ -47,7 +47,7 @@
 .custom .bumper{
     width: 107px;
     height: 35px;
-    background: url(https://https://i.imgur.com/bC82SKp.png);
+    background: url(https://i.imgur.com/bC82SKp.png);
     opacity: 0;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
