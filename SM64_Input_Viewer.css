@@ -63,24 +63,6 @@
     background: url(https://i.imgur.com/3JaULzK.png);
     float: right;
 }
-.custom .bumper{
-    left: 0px;
-    top: 17px;
-    width: 415px;
-    height: 35px;
-    opacity: 0;
-}
-.custom .bumper.pressed{
-    opacity: 1;
-}
-.custom .bumper.right{
-    background: url(https://i.imgur.com/bC82SKp.png);
-    width: 107px;
-    height: 35px;
-    left: 289px;
-    top: 17px;
-    float: right;
-}
 /* *********************************************************** */
 .custom .start{
     position: absolute;
