@@ -52,7 +52,7 @@
     background: url(https://i.imgur.com/bC82SKp.png);
     opacity: 0;
 }
-.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
+.custom .bumper.pressed{
     opacity: 1;
 }
 .custom .bumper.right{
