@@ -45,20 +45,23 @@
 }
 /* *********************************************************** */
 .custom .bumper{
+    background: url(https://i.imgur.com/bC82SKp.png);
+    width: 107px;
+    height: 35px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
     width: 107px;
     height: 35px;
     left: 289px;
     top: 17px;
-    background: url(https://i.imgur.com/bC82SKp.png);
-    opacity: 0;
 }
-.custom .bumper.pressed{
+.custom .bumper.pressed{ 
     opacity: 1;
 }
 .custom .bumper.right{
     float: right;
-    left: -15px;
-    top: 15px;
 }
 /* *********************************************************** */
 .custom .start{
