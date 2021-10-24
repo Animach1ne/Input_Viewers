@@ -45,28 +45,16 @@
 }
 /* *********************************************************** */
 .custom .bumper{
-    width: 107px;
-    height: 35px;
-    left: 289px;
-    top: 17px;
-    background: url(https://i.imgur.com/3JaULzK.png);
     opacity: 0;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
 }
-.custom .bumper.left{
-    width: 107px;
-    height: 35px;
-    background: url(https://i.imgur.com/bC82SKp.png);
-    float: left;
-}
 .custom .bumper.right{
     width: 107px;
     height: 35px;
-    background: url(https://i.imgur.com/bC82SKp.png);
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    left: 289px;
+    top: 17px;
     float: right;
 }
 /* *********************************************************** */
