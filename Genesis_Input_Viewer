@@ -1,0 +1,103 @@
+/*Genesis Controller Styling by Animach1ne*/
+/* *********************************************************** */
+.controller.custom{
+    background: url(https://i.imgur.com/Zya66PC.png); 
+    height: 297px;
+    width: 781px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/EtuaVMK.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+/* *********************************************************** */
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/KjI5TDK.png);
+    width: 150px;
+    height: 101px;
+    top: 26px;
+    left: 304px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+/* *********************************************************** */
+.custom .abxy{
+    position: absolute;
+    width: 758px;
+    height: 251px;
+    top: 23px;
+    left: 347px;
+}
+/* base class used to simplify the sprite mapping */
+.custom .button{
+    position: absolute;
+    width:121px;
+    height:121px;
+    background: url(https://i.imgur.com/SK3yMYl.png);
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    top: 130px;
+    left: 0px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    top: 79px;
+    left: 141px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    top: 0px;
+    left: 290px;
+    opacity: 1;
+}
+/* *********************************************************** */
+.custom .dpad{
+    position: absolute;
+    width: 238px;
+    height: 238px;
+    top: 29px;
+    left: 23px;
+}
+.custom .face{
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.up, .custom .face.down{
+    background: url(https://i.imgur.com/OGeKi2q.png);
+    width: 54px;
+    height: 98px;
+}
+.custom .face.left, .custom .face.right{
+    background: url(https://i.imgur.com/QJWKQhk.png;
+    width: 98px;
+    height: 54px;
+}
+.custom .face.up{
+    left: 92px;
+    top: 0;
+}
+.custom .face.down{
+    left: 92px;
+    top: 140px;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+.custom .face.left{
+    top: 92px;
+    left: 0px;
+}
+.custom .face.right{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    top: 92px;
+    left: 140px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+/*END Genesis Controller Styling*/
