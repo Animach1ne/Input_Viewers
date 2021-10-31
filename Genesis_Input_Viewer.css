@@ -71,31 +71,29 @@
     background: url(https://i.imgur.com/Fnb7wh2.png);
     width: 54px;
     height: 98px;
-}
-.custom .face.left, .custom .face.right{
-    background: url(https://i.imgur.com/QJWKQhk.png);
-    width: 98px;
-    height: 54px;
-}
-.custom .face.up{
     left: 92px;
-    top: 0;
+    top: 0px;
 }
 .custom .face.down{
-    -webkit-transform: rotateX(180deg);
-    transform: rotateX(180deg);
+    background: url(https://i.imgur.com/v3OXuu5.png);
+    width: 54px;
+    height: 98px;
     left: 92px;
     top: 140px;
 }
 .custom .face.left{
-    top: 92px;
+    background: url(https://i.imgur.com/QJWKQhk.png);
+    width: 98px;
+    height: 54px;
     left: 0px;
+    top: 92px;
 }
 .custom .face.right{
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    top: 92px;
+    background: url(https://i.imgur.com/mCSgmtz.png);
+    width: 98px;
+    height: 54px;
     left: 140px;
+    top: 92px;
 }
 .custom .face.pressed{
     opacity: 1;
