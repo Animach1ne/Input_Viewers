@@ -62,10 +62,10 @@
 /* *********************************************************** */
 .custom .dpad{
     position: absolute;
-    width: 980px;
+    width: 280px;
     height: 140px;
     top: 0px;
-    left: 0px;
+    left: 280px;
 }
 .custom .face{
     position: absolute;
@@ -75,14 +75,14 @@
     background: url(https://i.imgur.com/hffaQnH.png);
     width: 140px;
     height: 140px;
-    left: 280px;
+    left: 0px;
     top: 0px;
 }
 .custom .face.right{
     background: url(https://i.imgur.com/3M0pVwo.png);
     width: 140px;
     height: 140px;
-    left: 420px;
+    left: 140px;
     top: 0px;
 }
 .custom .face.pressed{
