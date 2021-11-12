@@ -1,0 +1,91 @@
+/*Super Mombo Quest Controller Styling by Animach1ne*/
+/* *********************************************************** */
+.controller.custom{
+    background: url(https://i.imgur.com/m3HJuxL.png); 
+    height: 140px;
+    width: 980px;
+}
+.custom.disconnected div {
+    display: none;
+}
+/* *********************************************************** */
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/o42k7kc.png);
+    width: 140px;
+    height: 140px;
+    top: 0px;
+    left: 140px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+/* *********************************************************** */
+.custom .abxy{
+    position: absolute;
+    width: 980px;
+    height: 140px;
+    top: 0px;
+    left: 0px;
+}
+.custom .button{
+    position: absolute;
+    width:140px;
+    height:140px;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/4DgqC1u.png);
+    top: 0px;
+    left: 560px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/l1KWt3M.png);
+    top: 0px;
+    left: 840px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/dYCRbg7.png);
+    top: 0px;
+    left: 700px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    background: url(https://i.imgur.com/L5CCeV0.png);
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+/* *********************************************************** */
+.custom .dpad{
+    position: absolute;
+    width: 980px;
+    height: 140px;
+    top: 0px;
+    left: 0px;
+}
+.custom .face{
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.left{
+    background: url(https://i.imgur.com/hffaQnH.png);
+    width: 140px;
+    height: 140px;
+    left: 280px;
+    top: 0px;
+}
+.custom .face.right{
+    background: url(https://i.imgur.com/3M0pVwo.png);
+    width: 140px;
+    height: 140px;
+    left: 320px;
+    top: 0px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+/*END Super Mombo Quest Controller Styling*/
