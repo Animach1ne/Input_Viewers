@@ -63,13 +63,13 @@
     opacity: 1;
 }
 /* *********************************************************** */
-.custom .dpad{
+/*.custom .dpad{
     position: absolute;
     width: 189px;
     height: 189px;
     top: 94px;
     left: 53px;
-}
+}*/
 .custom .face{
     position: absolute;
     opacity: 0;
