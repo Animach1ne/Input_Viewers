@@ -1,0 +1,108 @@
+/*NES Controller Styling by Animach1ne*/
+/* *********************************************************** */
+.controller.custom{
+    background: url(https://i.imgur.com/OXx863W.png); 
+    height: 247px;
+    width: 557px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/PmzXsks.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+/* *********************************************************** */
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/482nS5n.png);
+    width: 58px;
+    height: 32px;
+    top: 156px;
+    left: 276px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+.custom .back{
+    position: absolute;
+    background: url(https://i.imgur.com/482nS5n.png);
+    width: 58px;
+    height: 32px;
+    top: 156px;
+    left: 203px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+/* *********************************************************** */
+.custom .abxy{
+    position: absolute;
+    width: 126px;
+    height: 54px;
+    top: 143px;
+    left: 374px;
+}
+/* base class used to simplify the sprite mapping */
+.custom .button{
+    position: absolute;
+    width:54px;
+    height:54px;
+    background: url(https://i.imgur.com/V0AHRC6.png);
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    top: 0px;
+    left: 72px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+/* *********************************************************** */
+.custom .dpad{
+    position: absolute;
+    width: 189px;
+    height: 189px;
+    top: 94px;
+    left: 53px;
+}
+.custom .face{
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.up{
+    background: url(https://i.imgur.com/E4Dk7uX.png);
+    width: 33px;
+    height: 39px;
+    left: 85px;
+    top: 93px;
+}
+.custom .face.down{
+    background: url(https://i.imgur.com/ICf3QHV.png);
+    width: 33px;
+    height: 39px;
+    left: 85px;
+    top: 153px;
+}
+.custom .face.left{
+    background: url(https://i.imgur.com/7buDCmv.png);
+    width: 39px;
+    height: 33px;
+    left: 52px;
+    top: 126px;
+}
+.custom .face.right{
+    background: url(https://i.imgur.com/8ZhLQLn.png);
+    width: 39px;
+    height: 33px;
+    left: 111px;
+    top: 126px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+/*END NES Controller Styling*/
