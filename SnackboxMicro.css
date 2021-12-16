@@ -13,33 +13,6 @@ Snackbox Micro Viewer skin by Animach1ne twitch.tv/animach1ne
     background: url(https://i.imgur.com/OhgmM4u.png);
 }
 
-/* Bumpers */
-
-.custom .bumper{
-    background: url(https://i.imgur.com/CDxnHm5.png);
-    width: 89px;
-    height: 89px;
-    opacity: 0;
-}
-.custom .bumpers{
-    position: absolute;
-    width: 708px;
-    height: 412px;
-    left: 0px;
-    top: 0px;
-}
-.custom .bumper.pressed{ 
-    opacity: 1;
-}
-.custom .bumper.left{
-    top: 51px;
-    left: 602px;
-}
-.custom .bumper.right{
-    top: 17px;
-    left: 501px;
-}
-
 /* Dpad */
 
 .custom .dpad{	
@@ -85,6 +58,33 @@ Snackbox Micro Viewer skin by Animach1ne twitch.tv/animach1ne
     height: 89px;
 }
 .custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/CDxnHm5.png);
+    width: 89px;
+    height: 89px;
+    top: 51px;
+    left: 602px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/CDxnHm5.png);
+    width: 89px;
+    height: 89px;
+    top: 17px;
+    left: 501px;
+    opacity: 0;
+}
+.custom .start.pressed{
     opacity: 1;
 }
 
