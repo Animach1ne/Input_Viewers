@@ -39,10 +39,10 @@
 /* *********************************************************** */
 .custom .abxy{
     position: absolute;
-    width: 758px;
-    height: 251px;
-    top: 23px;
-    left: 347px;
+    width: 64px;
+    height: 20px;
+    top: 24px;
+    left: 62px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
