@@ -53,18 +53,18 @@
     opacity: 0;
 }
 .custom .button.a.pressed{
-    top: 24px;
-    left: 62px;
+    top: 0px;
+    left: 0px;
     opacity: 1;
 }
 .custom .button.b.pressed{
-    top: 24px;
-    left: 84px;
+    top: 0px;
+    left: 22px;
     opacity: 1;
 }
 .custom .button.y.pressed{
     top: 24px;
-    left: 108px;
+    left: 44px;
     opacity: 1;
 }
 /* *********************************************************** */
