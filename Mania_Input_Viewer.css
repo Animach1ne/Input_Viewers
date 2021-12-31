@@ -1,5 +1,5 @@
 /*Mania Input Viewer Styling by Animach1ne*/
-/* *********************************************************** */
+/* ************************************************************/
 .controller.custom{
     background: url(https://i.imgur.com/G3yifTW.png);
     height: 224px;
@@ -11,7 +11,7 @@
 .custom.disconnected div {
     display: none;
 }
-/* *********************************************************** */
+/* ************************************************************/
 .custom .start{
     position: absolute;
     background: url(https://i.imgur.com/CQek5WG.png);
@@ -36,7 +36,7 @@
 .custom .back.pressed{
     opacity: 1;
 }
-/* *********************************************************** */
+/* ************************************************************/
 .custom .abxy{
     position: absolute;
     width: 256px;
@@ -67,7 +67,7 @@
     left: 176px;
     opacity: 1;
 }
-/* *********************************************************** */
+/* ************************************************************/
 .custom .dpad{
     position: absolute;
     width: 208px;
