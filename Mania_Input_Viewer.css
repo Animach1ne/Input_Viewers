@@ -1,12 +1,12 @@
 /*Mania Input Viewer Styling by Animach1ne*/
 /* *********************************************************** */
 .controller.custom{
-    background: url(https://i.imgur.com/7iUr9Uu.png); 
-    height: 56px;
-    width: 128px;
+    background: url(https://i.imgur.com/G3yifTW.png);
+    height: 224px;
+    width: 512px;
 }
 .custom.disconnected {
-    background: url(https://i.imgur.com/PNeRGLz.png);
+    background: url(https://i.imgur.com/CIzJcQD.png);
 }
 .custom.disconnected div {
     display: none;
@@ -14,11 +14,11 @@
 /* *********************************************************** */
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/zlWMzXk.png);
-    width: 15px;
-    height: 8px;
-    top: 12px;
-    left: 75px;
+    background: url(https://i.imgur.com/CQek5WG.png);
+    width: 60px;
+    height: 32px;
+    top: 48px;
+    left: 392px;
     opacity: 0;
 }
 .custom .start.pressed{
@@ -26,11 +26,11 @@
 }
 .custom .back{
     position: absolute;
-    background: url(https://i.imgur.com/zlWMzXk.png);
-    width: 15px;
-    height: 8px;
-    top: 12px;
-    left: 98px;
+    background: url(https://i.imgur.com/CQek5WG.png);
+    width: 60px;
+    height: 32px;
+    top: 48px;
+    left: 300px;
     opacity: 0;
 }
 .custom .back.pressed{
@@ -39,17 +39,17 @@
 /* *********************************************************** */
 .custom .abxy{
     position: absolute;
-    width: 64px;
-    height: 20px;
-    top: 24px;
-    left: 62px;
+    width: 256px;
+    height: 80px;
+    top: 96px;
+    left: 248px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:20px;
-    height:20px;
-    background: url(https://i.imgur.com/1wuG3u1.png);
+    width:80px;
+    height:80px;
+    background: url(https://i.imgur.com/S2KM42d.png);
     opacity: 0;
 }
 .custom .button.a.pressed{
@@ -59,21 +59,21 @@
 }
 .custom .button.b.pressed{
     top: 0px;
-    left: 22px;
+    left: 88px;
     opacity: 1;
 }
 .custom .button.y.pressed{
     top: 0px;
-    left: 44px;
+    left: 156px;
     opacity: 1;
 }
 /* *********************************************************** */
 .custom .dpad{
     position: absolute;
-    width: 52px;
-    height: 52px;
-    top: 2px;
-    left: 2px;
+    width: 208px;
+    height: 208px;
+    top: 8px;
+    left: 8px;
 }
 .custom .face{
     position: absolute;
@@ -81,31 +81,31 @@
 }
 .custom .face.up{
     background: url(https://i.imgur.com/1wuG3u1.png);
-    width: 20px;
-    height: 20px;
-    left: 16px;
+    width: 80px;
+    height: 80px;
+    left: 64px;
     top: 0px;
 }
 .custom .face.down{
     background: url(https://i.imgur.com/1wuG3u1.png);
-    width: 20px;
-    height: 20px;
-    left: 16px;
-    top: 32px;
+    width: 80px;
+    height: 80px;
+    left: 64px;
+    top: 128px;
 }
 .custom .face.left{
     background: url(https://i.imgur.com/1wuG3u1.png);
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
     left: 0px;
-    top: 16px;
+    top: 64px;
 }
 .custom .face.right{
     background: url(https://i.imgur.com/1wuG3u1.png);
-    width: 20px;
-    height: 20px;
-    left: 32px;
-    top: 16px;
+    width: 80px;
+    height: 80px;
+    left: 126px;
+    top: 64px;
 }
 .custom .face.pressed{
     opacity: 1;
