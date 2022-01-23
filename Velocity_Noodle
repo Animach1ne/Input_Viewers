@@ -1,0 +1,86 @@
+/*
+Velocity Noodle skin by Animach1ne twitch.tv/animach1ne
+*/
+
+/* Base Velocity Noodle*/
+
+.controller.custom{
+    background: url(https://i.imgur.com/4lMp0QN.png);
+    width: 288px;
+    height: 252px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/wyjU4TY.png);
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 81px;	
+    height: 81px;	
+    top: 90px;	
+    left: 45px;	
+}
+.custom .face{
+    position: absolute;
+    opacity: 0;
+    background: url(https://i.imgur.com/5VkL3za.png);
+    width: 27px;
+    height: 27px;
+}
+.custom .face.up{
+    top: 0px;
+    left: 27px;
+}
+.custom .face.down{
+    top: 54px;
+    left: 27px;
+}
+.custom .face.left{
+    top: 27px;
+    left: 0px;
+
+}
+.custom .face.right{
+    top: 27px;
+    left: 54px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* AB */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+    background: url(https://i.imgur.com/5VkL3za.png);
+    width: 27px;
+    height: 27px;
+}
+.custom .button.a.pressed{
+    top: 144px;
+    left: 189px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    top: 117px;
+    left: 216px;
+    opacity: 1;
+}
+
+/* XY */
+
+.custom .button.x.pressed{
+    top: 117px;
+    left: 162px;
+    opacity: 1;
+}
+.custom .button.y.pressed{;
+    top: 90px;
+    left: 189px;
+    opacity: 1;
+}
+
+/*END Velocity Noodle skin*/
