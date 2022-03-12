@@ -29,15 +29,15 @@
     position: absolute;
     width: 168px;
     height: 64px;
-    top: 40px;
-    left: 168px;
+    top: 36px;
+    left: 164px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:56px;
-    height:56px;
-    background: url(https://i.imgur.com/rII92Bt.png);
+    width:48px;
+    height:48px;
+    background: url(https://i.imgur.com/dvBenCF.png);
     opacity: 0;
 }
 .custom .button.a.pressed{
@@ -58,10 +58,10 @@
 /* ************************************************************/
 .custom .dpad{
     position: absolute;
-    width: 120px;
-    height: 120px;
-    top: 12px;
-    left: 12px;
+    width: 128px;
+    height: 128px;
+    top: 8px;
+    left: 8px;
 }
 .custom .face{
     position: absolute;
