@@ -29,8 +29,8 @@
     position: absolute;
     width: 168px;
     height: 64px;
-    top: 36px;
-    left: 164px;
+    top: 40px;
+    left: 168px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
@@ -71,14 +71,14 @@
     background: url(https://i.imgur.com/vqeinI4.png);
     width: 32px;
     height: 60px;
-    left: 25px;
+    left: 48px;
     top: 0px;
 }
 .custom .face.down{
     background: url(https://i.imgur.com/IXUzFNR.png);
     width: 32px;
     height: 60px;
-    left: 25px;
+    left: 48px;
     top: 68px;
 }
 .custom .face.left{
