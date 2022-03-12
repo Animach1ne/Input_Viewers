@@ -58,10 +58,10 @@
 /* ************************************************************/
 .custom .dpad{
     position: absolute;
-    width: 208px;
-    height: 208px;
-    top: 8px;
-    left: 8px;
+    width: 120px;
+    height: 120px;
+    top: 12px;
+    left: 12px;
 }
 .custom .face{
     position: absolute;
@@ -69,33 +69,33 @@
 }
 .custom .face.up{
     background: url(https://i.imgur.com/vqeinI4.png);
-    width: 80px;
-    height: 80px;
-    left: 64px;
+    width: 32px;
+    height: 60px;
+    left: 25px;
     top: 0px;
 }
 .custom .face.down{
     background: url(https://i.imgur.com/IXUzFNR.png);
-    width: 80px;
-    height: 80px;
-    left: 64px;
-    top: 128px;
+    width: 32px;
+    height: 60px;
+    left: 25px;
+    top: 68px;
 }
 .custom .face.left{
     background: url(https://i.imgur.com/22KVoHf.png);
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 32px;
     left: 0px;
-    top: 64px;
+    top: 48px;
 }
 .custom .face.right{
     background: url(https://i.imgur.com/VXPhp4M.png);
-    width: 80px;
-    height: 80px;
-    left: 128px;
-    top: 64px;
+    width: 60px;
+    height: 32px;
+    left: 68px;
+    top: 48px;
 }
 .custom .face.pressed{
     opacity: 1;
 }
-/*END Mania Input Viewer Styling*/
+/*END Freedom Planet Input Viewer Styling*/
