@@ -35,9 +35,9 @@
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:48px;
-    height:48px;
-    background: url(https://i.imgur.com/V7UbRee.png);
+    width:56px;
+    height:56px;
+    background: url(https://i.imgur.com/rII92Bt.png);
     opacity: 0;
 }
 .custom .button.a.pressed{
