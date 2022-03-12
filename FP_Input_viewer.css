@@ -1,0 +1,101 @@
+/*Freedom Planet Input Viewer Styling by Animach1ne*/
+/* ************************************************************/
+.controller.custom{
+    background: url(https://i.imgur.com/GmJLhiD.png);
+    height: 144px;
+    width: 344px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/OCesIBI.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+/* ************************************************************/
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/pQHWKGO.png);
+    width: 44px;
+    height: 32px;
+    top: 12px;
+    left: 148px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+/* ************************************************************/
+.custom .abxy{
+    position: absolute;
+    width: 168px;
+    height: 64px;
+    top: 40px;
+    left: 168px;
+}
+/* base class used to simplify the sprite mapping */
+.custom .button{
+    position: absolute;
+    width:48px;
+    height:48px;
+    background: url(https://i.imgur.com/V7UbRee.png);
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    top: 16px;
+    left: 0px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    top: 8px;
+    left: 60px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    top: 0px;
+    left: 120px;
+    opacity: 1;
+}
+/* ************************************************************/
+.custom .dpad{
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    top: 8px;
+    left: 8px;
+}
+.custom .face{
+    position: absolute;
+    opacity: 0;
+}
+.custom .face.up{
+    background: url(https://i.imgur.com/vqeinI4.png);
+    width: 80px;
+    height: 80px;
+    left: 64px;
+    top: 0px;
+}
+.custom .face.down{
+    background: url(https://i.imgur.com/IXUzFNR.png);
+    width: 80px;
+    height: 80px;
+    left: 64px;
+    top: 128px;
+}
+.custom .face.left{
+    background: url(https://i.imgur.com/22KVoHf.png);
+    width: 80px;
+    height: 80px;
+    left: 0px;
+    top: 64px;
+}
+.custom .face.right{
+    background: url(https://i.imgur.com/VXPhp4M.png);
+    width: 80px;
+    height: 80px;
+    left: 128px;
+    top: 64px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+/*END Mania Input Viewer Styling*/
