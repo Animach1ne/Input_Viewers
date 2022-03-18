@@ -27,7 +27,7 @@ Using sprites from the game
     width: 532px;
     height: 109px;
     left: 0px;
-    top: 0px;
+    top: 10px;
 }
 .custom .bumper.pressed{ 
     opacity: 1;
