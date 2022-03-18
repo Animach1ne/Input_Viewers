@@ -17,24 +17,27 @@ Using sprites from the game
 /* Bumpers */
 
 .custom .bumper{
-    width: 162px;
+    background: url(https://i.imgur.com/DmZvTG3.png);
+    width: 172px;
     height: 109px;
     opacity: 0;
 }
-
+.custom .bumpers{
+    position: absolute;
+    width: 532px;
+    height: 109px;
+    left: 0px;
+    top: 0px;
+}
 .custom .bumper.pressed{ 
     opacity: 1;
 }
-
 .custom .bumper.left{
-    background: url(https://i.imgur.com/dMg6ueL.png);
-    left: 10px;
-    top: 10px;
+    float: left;
 }
 .custom .bumper.right{
-    background: url(https://i.imgur.com/aKEz8gk.png);
-    left: 361px;
-    top: 10px;
+    -webkit-transform: rotateY(180deg);
+    float: right;
 }
 
 /* Dpad */
