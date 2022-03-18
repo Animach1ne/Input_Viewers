@@ -17,27 +17,24 @@ Using sprites from the game
 /* Bumpers */
 
 .custom .bumper{
-    background: url(https://i.imgur.com/dMg6ueL.png);
     width: 162px;
     height: 109px;
     opacity: 0;
 }
-.custom .bumpers{
-    position: absolute;
-    width: 522px;
-    height: 109px;
-    left: 10px;
-    top: 10px;
-}
+
 .custom .bumper.pressed{ 
     opacity: 1;
 }
+
 .custom .bumper.left{
-    float: left;
+    background: url(https://i.imgur.com/dMg6ueL.png);
+    left: 10px;
+    top: 10px;
 }
 .custom .bumper.right{
-    -webkit-transform: rotateY(180deg);
-    float: right;
+    background: url(https://i.imgur.com/aKEz8gk.png);
+    left: 361px;
+    top: 10px;
 }
 
 /* Dpad */
@@ -126,7 +123,7 @@ Using sprites from the game
     width: 96px;
     height: 96px;
     top: 186px;
-    left: 409px;
+    left: 408px;
     opacity: 1;
 }
 .custom .button.x.pressed{
@@ -134,7 +131,7 @@ Using sprites from the game
     width: 96px;
     height: 96px;
     top: 151px;
-    left: 307px;
+    left: 306px;
     opacity: 1;
 }
 
