@@ -16,38 +16,72 @@ GBA input viewer skin by Animach1ne twitch.tv/animach1ne
 /* Bumpers */
 
 .custom .bumper{
-    width: 1517px;
-    height: 1138px;
+    background: url(https://i.imgur.com/UBQf7rN.png);
+    width: 366px;
+    height: 110px;
     opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 1517px;
+    height: 110px;
+    left: 0px;
+    top: 202px;
 }
 .custom .bumper.pressed{ 
     opacity: 1;
 }
 .custom .bumper.left{
-    background: url(https://i.imgur.com/rk8nwtp.png);
+    float: left;
 }
 .custom .bumper.right{
-    background: url(https://i.imgur.com/3VZn80f.png);
+    -webkit-transform: rotateY(180deg);
+    float: right;
 }
 
 /* Dpad */
 
+.custom .dpad{	
+    position: absolute;	
+    width: 131px;	
+    height: 131px;	
+    top: 151px;	
+    left: 61px;	
+}
 .custom .face{
-    width: 1517px;
-    height: 1138px;
+    position: absolute;	
     opacity: 0;
 }
 .custom .face.up{
-    background: url(https://i.imgur.com/bjMM8Cy.png);
+    top: 0px;
+    left: 45px;
+    background: url(https://i.imgur.com/eTB19tb.png);
+    width: 41px;
+    height: 65px;
+
 }
 .custom .face.down{
-    background: url(https://i.imgur.com/1tnG9Wk.png);
+    top: 66px;
+    left: 45px;
+    background: url(https://i.imgur.com/teS4fGI.png);
+    width: 41px;
+    height: 65px;
+
 }
 .custom .face.left{
-    background: url(https://i.imgur.com/Ysc9HZb.png);
+    top: 45px;
+    left: 0px;
+    background: url(https://i.imgur.com/BlDYiEl.png);
+    width: 65px;
+    height: 41px;
+
 }
 .custom .face.right{
-    background: url(https://i.imgur.com/o8nepAd.png);
+    top: 45px;
+    left: 66px;
+    background: url(https://i.imgur.com/gqegoHz.png);
+    width: 65px;
+    height: 41px;
 }
 .custom .face.pressed{
     opacity: 1;
@@ -57,9 +91,11 @@ GBA input viewer skin by Animach1ne twitch.tv/animach1ne
 
 .custom .back{ 
     position: absolute;
-    background: url(https://i.imgur.com/aj0xmcL.png);
-    width: 1517px;
-    height: 1138px;
+    background: url(https://i.imgur.com/Z0kCBqF.png);
+    width: 72px;
+    height: 30px;
+    top: 84px;
+    left: 186px;
     opacity: 0;
 }
 .custom .back.pressed{
@@ -67,27 +103,37 @@ GBA input viewer skin by Animach1ne twitch.tv/animach1ne
 }
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/yD3vEN3.png);
-    width: 1517px;
-    height: 1138px;
+    background: url(https://i.imgur.com/uemOWed.png);
+    width: 72px;
+    height: 30px;
+    top: 84px;
+    left: 274px;
     opacity: 0;
 }
 .custom .start.pressed{
     opacity: 1;
 }
 
-/* AB */
+/* AX */
 
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/BP8ELOO.png);
-    width: 1517px;
-    height: 1138px;
+    background: url(https://i.imgur.com/ri6ETMj.png);
+    width: 96px;
+    height: 96px;
+    top: 186px;
+    left: 408px;
     opacity: 1;
 }
-.custom .button.b.pressed{
-    background: url(https://i.imgur.com/zkDCAN1.png);
-    width: 1517px;
-    height: 1138px;
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/ri6ETMj.png);
+    width: 96px;
+    height: 96px;
+    top: 151px;
+    left: 306px;
     opacity: 1;
 }
 
