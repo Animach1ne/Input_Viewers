@@ -1,0 +1,94 @@
+/*
+GBA input viewer skin by Animach1ne twitch.tv/animach1ne
+*/
+
+/* Base */
+
+.controller.custom{
+    background: url(https://i.imgur.com/7OpdOZQ.png);
+    width: 1517px;
+    height: 1138px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/72JY4fA.png);
+}
+
+/* Bumpers */
+
+.custom .bumper{
+    width: 1517px;
+    height: 1138px;
+    opacity: 0;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    background: url(https://i.imgur.com/rk8nwtp.png);
+}
+.custom .bumper.right{
+    background: url(https://i.imgur.com/3VZn80f.png);
+}
+
+/* Dpad */
+
+.custom .face{
+    width: 1517px;
+    height: 1138px;
+    opacity: 0;
+}
+.custom .face.up{
+    background: url(https://i.imgur.com/bjMM8Cy.png);
+}
+.custom .face.down{
+    background: url(https://i.imgur.com/1tnG9Wk.png);
+}
+.custom .face.left{
+    background: url(https://i.imgur.com/Ysc9HZb.png);
+}
+.custom .face.right{
+    background: url(https://i.imgur.com/o8nepAd.png);
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/aj0xmcL.png);
+    width: 1517px;
+    height: 1138px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/yD3vEN3.png);
+    width: 1517px;
+    height: 1138px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* AB */
+
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/BP8ELOO.png);
+    width: 1517px;
+    height: 1138px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/zkDCAN1.png);
+    width: 1517px;
+    height: 1138px;
+    opacity: 1;
+}
+
+/* END */
