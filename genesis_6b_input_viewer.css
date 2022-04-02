@@ -1,0 +1,156 @@
+/*
+genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
+*/
+
+/* Base */
+
+.controller.custom{
+    background: url(https://i.imgur.com/3IjMaeC.png);
+    width: 1447px;
+    height: 762px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/6xUPjTj.png);
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 267px;	
+    height: 267px;	
+    top: 259px;	
+    left: 221px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 94px;
+    background: url(https://i.imgur.com/2Cjj64x.png);
+    width: 79px;
+    height: 117px;
+
+}
+.custom .face.down{
+    top: 150px;
+    left: 94px;
+    background: url(https://i.imgur.com/q6JKyeS.png);
+    width: 79px;
+    height: 117px;
+
+}
+.custom .face.left{
+    top: 97px;
+    left: 0px;
+    background: url(https://i.imgur.com/INyHjhK.png);
+    width: 79px;
+    height: 117px;
+
+}
+.custom .face.right{
+    top: 97px;
+    left: 150px;
+    background: url(https://i.imgur.com/LkIYU7Z.png);
+    width: 79px;
+    height: 117px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/8usoxHp.png);
+    width: 186px;
+    height: 117px;
+    top: 88px;
+    left: 1097px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/sztlPhw.png);
+    width: 135px;
+    height: 43px;
+    top: 349px;
+    left: 656px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* ABXY */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/NzNZ6dB.png);
+    width: 144px;
+    height: 142px;
+    top: 458px;
+    left: 926px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/NzNZ6dB.png);
+    width: 144px;
+    height: 142px;
+    top: 381px;
+    left: 1066px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/lk1H7vV.png);
+    width: 100px;
+    height: 100px;
+    top: 316px;
+    left: 897px;
+    opacity: 1;
+}.custom .button.y.pressed{
+    background: url(https://i.imgur.com/lk1H7vV.png);
+    width: 100px;
+    height: 100px;
+    top: 254px;
+    left: 1027px;
+    opacity: 1;
+}
+
+/* CZ - Tricking Gamepadviewer to think R2 is a trigger */
+
+ .custom .triggers{
+    width: 76px;
+    height: 76px;
+    top: 221px;
+    left: 849px;
+    position: absolute;
+} 
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.left.pressed{ /* Actually R2 */
+    background: url(https://i.imgur.com/A08Nwd1.png);
+    width: 76px;
+    height: 76px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.right.pressed{ /* Actually Nothing */
+    background: url(https://i.imgur.com/A08Nwd1.png);
+    width: 76px;
+    height: 76px;
+    opacity: 1;
+    position: absolute;
+}
+/* END */
