@@ -1,0 +1,154 @@
+/*
+snes input viewer skin by Animach1ne twitch.tv/animach1ne
+*/
+
+/* Base */
+
+.controller.custom{
+    background: url(https://i.imgur.com/2gKT7yG.png);
+    width: 1347px;
+    height: 611px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/RAxGuAF.png);
+}
+
+/* Bumpers */
+
+.custom .bumper{
+    background: url(https://i.imgur.com/3f5QSSD.png);
+    width: 449px;
+    height: 64px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 1347px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    float: right;
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 210px;	
+    height: 210px;	
+    top: 209px;	
+    left: 193px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 68px;
+    background: url(https://i.imgur.com/bQ2nVtB.png);
+    width: 74px;
+    height: 105px;
+
+}
+.custom .face.down{
+    top: 105px;
+    left: 68px;
+    background: url(https://i.imgur.com/XOZAhC8.png);
+    width: 74px;
+    height: 105px;
+
+}
+.custom .face.left{
+    top: 68px;
+    left: 0px;
+    background: url(https://i.imgur.com/BZ5GzC1.png);
+    width: 105px;
+    height: 74px;
+
+}
+.custom .face.right{
+    top: 68px;
+    left: 105px;
+    background: url(https://i.imgur.com/8WzLcdk.png);
+    width: 105px;
+    height: 74px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/ZwDBObt.png);
+    width: 82px;
+    height: 74px;
+    top: 317px;
+    left: 513px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/ZwDBObt.png);
+    width: 82px;
+    height: 74px;
+    top: 317px;
+    left: 656px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* ABXY */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/https://ViUH4KJ.png);
+    width: 98px;
+    height: 98px;
+    top: 265px;
+    left: 1113px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/https://ViUH4KJ.png);
+    width: 98px;
+    height: 98px;
+    top: 359px;
+    left: 1001px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/https://ViUH4KJ.png);
+    width: 98px;
+    height: 98px;
+    top: 170px;
+    left: 1000px;
+    opacity: 1;
+}.custom .button.y.pressed{
+    background: url(https://i.imgur.com/https://ViUH4KJ.png);
+    width: 98px;
+    height: 98px;
+    top: 264px;
+    left: 888px;
+    opacity: 1;
+}
+/* END */
