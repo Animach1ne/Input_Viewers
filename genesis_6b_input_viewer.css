@@ -126,30 +126,27 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 1;
 }
 
-/* CZ - Tricking Gamepadviewer to think R2 is a trigger */
+/* CZ - Tricking Gamepadviewer to think these are triggers */
 
- .custom .triggers{
-    width: 76px;
-    height: 76px;
-    top: 221px;
-    left: 849px;
-    position: absolute;
-} 
 .custom .trigger{
     position: absolute;
     opacity: 0;
 }
-.custom .trigger-button.left.pressed{ /* Actually R2 */
-    background: url(https://i.imgur.com/A08Nwd1.png);
-    width: 76px;
-    height: 76px;
+.custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/NzNZ6dB.png);
+    width: 144px;
+    height: 142px;
+    top: 338px;
+    left: 1218px;
     opacity: 1;
     position: absolute;
 }
-.custom .trigger-button.right.pressed{ /* Actually Nothing */
-    background: url(https://i.imgur.com/A08Nwd1.png);
-    width: 76px;
-    height: 76px;
+.custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/lk1H7vV.png);
+    width: 100px;
+    height: 100px;
+    top: 220px;
+    left: 1162px;
     opacity: 1;
     position: absolute;
 }
