@@ -1,0 +1,101 @@
+/*
+Run : the World in-between input viewer skin by Animach1ne twitch.tv/animach1ne
+*/
+
+/* Base */
+
+.controller.custom{
+    background: url(https://i.imgur.com/k24yy8J.png);
+    width: 544px;
+    height: 280px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/QsKiXt7.png);
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 224px;	
+    height: 224px;	
+    top: 28px;	
+    left: 16px;	
+}
+
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+
+.custom .face.up{
+    top: 0px;
+    left: 72px;
+    background: url(https://i.imgur.com/2gKhy2C.png);
+    width: 80px;
+    height: 96px;
+}
+
+.custom .face.down{
+    top: 128px;
+    left: 72px;
+    background: url(https://i.imgur.com/OCbvzvs.png);
+    width: 80px;
+    height: 96px;
+}
+
+.custom .face.left{
+    top: 99px;
+    left: 0px;
+    background: url(https://i.imgur.com/oxeWKJW.png);
+    width: 96px;
+    height: 80px;
+}
+
+.custom .face.right{
+    top: 99px;
+    left: 128px;
+    background: url(https://i.imgur.com/bSAqrhl.png);
+    width: 96px;
+    height: 80px;
+}
+
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* ABXY */
+
+.custom .button{
+    background: url(https://i.imgur.com/5ETsvRv.png);
+    width: 104px;
+    height: 104px;
+    position: absolute;
+    opacity: 0;
+}
+
+.custom .button.a.pressed{
+    top: 160px;
+    left: 352px;
+    opacity: 1;
+}
+
+.custom .button.b.pressed{
+    top: 88px;
+    left: 424px;
+    opacity: 1;
+}
+
+.custom .button.x.pressed{
+    top: 88px;
+    left: 280px;
+    opacity: 1;
+}
+
+.custom .button.y.pressed{
+    top: 16px;
+    left: 352px;
+    opacity: 1;
+}
+
+/* END */
