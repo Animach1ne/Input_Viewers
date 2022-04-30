@@ -1,0 +1,188 @@
+/*
+Haiku the Robot Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
+Using sprites from the game
+*/
+
+/* Base */
+
+.controller.custom{
+    background: url(https://i.imgur.com/1AUsxgs.png);
+    width: 497px;
+    height: 255px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/b6TY7i5.png);
+}
+
+/* Bumpers */
+
+.custom .bumper{
+    width: 65px;
+    height: 47px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 479px;
+    height: 47px;
+    left: 9px;
+    top: 6px;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    background: url(https://i.imgur.com/3jfZW5F.png);
+    float: left;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    background: url(https://i.imgur.com/Omb5bG9.png);    
+    float: right;
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 165px;	
+    height: 165px;	
+    top: 84px;	
+    left: 55px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 55px;
+    background: url(https://i.imgur.com/V6k2WGH.png);
+    width: 55px;
+    height: 83px;
+}
+.custom .face.down{
+    top: 83px;
+    left: 55px;
+    background: url(https://i.imgur.com/vY2wpKk.png);
+    width: 55px;
+    height: 83px;
+}
+.custom .face.left{
+    top: 55px;
+    left: 0px;
+    background: url(https://i.imgur.com/cxHLQ7C.png);
+    width: 83px;
+    height: 55px;
+}
+.custom .face.right{
+    top: 55px;
+    left: 83px;
+    background: url(https://i.imgur.com/pJAx8IO.png);
+    width: 83px;
+    height: 55px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/7sZHLCg.png);
+    width: 44px;
+    height: 44px;
+    top: 26px;
+    left: 184px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/u4F6dcM.png);
+    width: 44px;
+    height: 44px;
+    top: 26px;
+    left: 270px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* AB */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/87b4B15.png);
+    width: 65px;
+    height: 65px;
+    top: 184px;
+    left:328px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/WatXtNS.png);
+    width: 65px;
+    height: 65px;
+    top: 134px;
+    left: 377px;
+    opacity: 1;
+}
+
+/* XY */
+
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/ypo6JkK.png);
+    width: 65px;
+    height: 65px;
+    top: 134px;
+    left: 278px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    background: url(https://i.imgur.com/B2qC2OX.png);
+    width: 65px;
+    height: 65px;
+    top: 84px;
+    left: 328px;
+    opacity: 1;
+}
+
+/* Triggers */
+
+ .custom .triggers{
+    width: 485px;
+    height: 57px;
+    top: 54px;
+    left: 6px;
+    position: absolute;
+} 
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/BGY9BSk.png);
+    width: 65px;
+    height: 67px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/5EmzwR6.png);
+    width: 65px;
+    height: 67px;
+    top: 0px;
+    left: 420px;
+    opacity: 1;
+    position: absolute;
+}
+
+/* END */
