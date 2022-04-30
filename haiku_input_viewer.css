@@ -36,7 +36,6 @@ Using sprites from the game
     float: left;
 }
 .custom .bumper.right{
-    -webkit-transform: rotateY(180deg);
     background: url(https://i.imgur.com/Omb5bG9.png);    
     float: right;
 }
@@ -62,7 +61,7 @@ Using sprites from the game
     height: 83px;
 }
 .custom .face.down{
-    top: 83px;
+    top: 82px;
     left: 55px;
     background: url(https://i.imgur.com/vY2wpKk.png);
     width: 55px;
@@ -77,7 +76,7 @@ Using sprites from the game
 }
 .custom .face.right{
     top: 55px;
-    left: 83px;
+    left: 82px;
     background: url(https://i.imgur.com/pJAx8IO.png);
     width: 83px;
     height: 55px;
@@ -120,7 +119,7 @@ Using sprites from the game
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/87b4B15.png);
+    background: url(https://i.imgur.com/LPnTcRE.png);
     width: 65px;
     height: 65px;
     top: 184px;
@@ -128,7 +127,7 @@ Using sprites from the game
     opacity: 1;
 }
 .custom .button.b.pressed{
-    background: url(https://i.imgur.com/WatXtNS.png);
+    background: url(https://i.imgur.com/S7O3n6T.png);
     width: 65px;
     height: 65px;
     top: 134px;
@@ -139,7 +138,7 @@ Using sprites from the game
 /* XY */
 
 .custom .button.x.pressed{
-    background: url(https://i.imgur.com/ypo6JkK.png);
+    background: url(https://i.imgur.com/WnOmIxH.png);
     width: 65px;
     height: 65px;
     top: 134px;
@@ -147,7 +146,7 @@ Using sprites from the game
     opacity: 1;
 }
 .custom .button.y.pressed{
-    background: url(https://i.imgur.com/B2qC2OX.png);
+    background: url(https://i.imgur.com/xFPQmq6.png);
     width: 65px;
     height: 65px;
     top: 84px;
@@ -171,14 +170,14 @@ Using sprites from the game
 .custom .trigger-button.left.pressed{
     background: url(https://i.imgur.com/BGY9BSk.png);
     width: 65px;
-    height: 67px;
+    height: 57px;
     opacity: 1;
     position: absolute;
 }
 .custom .trigger-button.right.pressed{
     background: url(https://i.imgur.com/5EmzwR6.png);
     width: 65px;
-    height: 67px;
+    height: 57px;
     top: 0px;
     left: 420px;
     opacity: 1;
