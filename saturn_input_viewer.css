@@ -1,0 +1,140 @@
+/*
+saturn input viewer skin by Animach1ne twitch.tv/animach1ne
+*/
+
+/* Base */
+
+.controller.custom{
+    background: url(https://i.imgur.com/3IjMaeC.png);
+    width: 616px;
+    height: 344px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/6xUPjTj.png);
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 120px;	
+    height: 120px;	
+    top: 108px;	
+    left: 84px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 44px;
+    background: url(https://i.imgur.com/2Cjj64x.png);
+    width: 32px;
+    height: 48px;
+
+}
+.custom .face.down{
+    top: 72px;
+    left: 44px;
+    background: url(https://i.imgur.com/q6JKyeS.png);
+    width: 32px;
+    height: 48px;
+
+}
+.custom .face.left{
+    top: 44px;
+    left: 0px;
+    background: url(https://i.imgur.com/INyHjhK.png);
+    width: 48px;
+    height: 32px;
+}
+.custom .face.right{
+    top: 44px;
+    left: 72px;
+    background: url(https://i.imgur.com/LkIYU7Z.png);
+    width: 48px;
+    height: 32px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Start */
+
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/sztlPhw.png);
+    width: 48px;
+    height: 20px;
+    top: 208px;
+    left: 284px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* ABXY */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/NzNZ6dB.png);
+    width: 60px;
+    height: 60px;
+    top: 192px;
+    left: 392px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/NzNZ6dB.png);
+    width: 60px;
+    height: 60px;
+    top: 148px;
+    left: 444px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/lk1H7vV.png);
+    width: 40px;
+    height: 40px;
+    top: 132px;
+    left: 380px;
+    opacity: 1;
+}.custom .button.y.pressed{ /*Actually C*/
+    background: url(https://i.imgur.com/lk1H7vV.png);
+    width: 60px;
+    height: 60px;
+    top: 120px;
+    left: 504px;
+    opacity: 1;
+}
+
+/* YZ - Tricking Gamepadviewer to think these are triggers */
+
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/NzNZ6dB.png);
+    width: 40px;
+    height: 40px;
+    top: 80px;
+    left: 476px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/lk1H7vV.png);
+    width: 40px;
+    height: 40px;
+    top: 100px;
+    left: 424px;
+    opacity: 1;
+    position: absolute;
+}
+/* END */
