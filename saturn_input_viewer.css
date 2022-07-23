@@ -5,12 +5,12 @@ saturn input viewer skin by Animach1ne twitch.tv/animach1ne
 /* Base */
 
 .controller.custom{
-    background: url(https://i.imgur.com/3IjMaeC.png);
+    background: url(https://i.imgur.com/VAIbrjz.png);
     width: 616px;
     height: 344px;
 }
 .custom.disconnected {
-    background: url(https://i.imgur.com/6xUPjTj.png);
+    background: url(https://i.imgur.com/FwLHuqF.png);
 }
 
 /* Dpad */
@@ -29,7 +29,7 @@ saturn input viewer skin by Animach1ne twitch.tv/animach1ne
 .custom .face.up{
     top: 0px;
     left: 44px;
-    background: url(https://i.imgur.com/2Cjj64x.png);
+    background: url(https://i.imgur.com/BSPm0YR.png);
     width: 32px;
     height: 48px;
 
@@ -37,7 +37,7 @@ saturn input viewer skin by Animach1ne twitch.tv/animach1ne
 .custom .face.down{
     top: 72px;
     left: 44px;
-    background: url(https://i.imgur.com/q6JKyeS.png);
+    background: url(https://i.imgur.com/6xKtMyf.png);
     width: 32px;
     height: 48px;
 
@@ -45,14 +45,14 @@ saturn input viewer skin by Animach1ne twitch.tv/animach1ne
 .custom .face.left{
     top: 44px;
     left: 0px;
-    background: url(https://i.imgur.com/INyHjhK.png);
+    background: url(https://i.imgur.com/WnbI5qX.png);
     width: 48px;
     height: 32px;
 }
 .custom .face.right{
     top: 44px;
     left: 72px;
-    background: url(https://i.imgur.com/LkIYU7Z.png);
+    background: url(https://i.imgur.com/ZiaToJz.png);
     width: 48px;
     height: 32px;
 }
@@ -64,7 +64,7 @@ saturn input viewer skin by Animach1ne twitch.tv/animach1ne
 
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/sztlPhw.png);
+    background: url(https://i.imgur.com/ZiaToJz.png);
     width: 48px;
     height: 20px;
     top: 208px;
@@ -82,7 +82,7 @@ saturn input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/NzNZ6dB.png);
+    background: url(https://i.imgur.com/ljVqKIE.png);
     width: 60px;
     height: 60px;
     top: 192px;
@@ -90,7 +90,7 @@ saturn input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 1;
 }
 .custom .button.b.pressed{
-    background: url(https://i.imgur.com/NzNZ6dB.png);
+    background: url(https://i.imgur.com/ljVqKIE.png);
     width: 60px;
     height: 60px;
     top: 148px;
@@ -98,14 +98,14 @@ saturn input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 1;
 }
 .custom .button.x.pressed{
-    background: url(https://i.imgur.com/lk1H7vV.png);
+    background: url(https://i.imgur.com/7NX4MYC.png);
     width: 40px;
     height: 40px;
     top: 132px;
     left: 380px;
     opacity: 1;
 }.custom .button.y.pressed{ /*Actually C*/
-    background: url(https://i.imgur.com/lk1H7vV.png);
+    background: url(https://i.imgur.com/ljVqKIE.png);
     width: 60px;
     height: 60px;
     top: 120px;
@@ -120,7 +120,7 @@ saturn input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 0;
 }
 .custom .trigger-button.right.pressed{
-    background: url(https://i.imgur.com/NzNZ6dB.png);
+    background: url(https://i.imgur.com/7NX4MYC.png);
     width: 40px;
     height: 40px;
     top: 80px;
@@ -129,7 +129,7 @@ saturn input viewer skin by Animach1ne twitch.tv/animach1ne
     position: absolute;
 }
 .custom .trigger-button.left.pressed{
-    background: url(https://i.imgur.com/lk1H7vV.png);
+    background: url(https://i.imgur.com/7NX4MYC.png);
     width: 40px;
     height: 40px;
     top: 100px;
