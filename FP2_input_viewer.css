@@ -28,32 +28,32 @@ Using sprites Freedom Planet 2
     opacity: 0;
 }
 .custom .face.up{
-    top: 18px;
-    left: 60px;
+    top: 0px;
+    left: 42px;
     background: url(https://i.imgur.com/hPOKoRn.png);
     width: 60px;
     height: 66px;
 
 }
 .custom .face.down{
-    top: 96px;
-    left: 60px;
+    top: 78px;
+    left: 42px;
     background: url(https://i.imgur.com/UMsxTo3.png);
     width: 60px;
     height: 66px;
 
 }
 .custom .face.left{
-    top: 60px;
-    left: 16px;
+    top: 42px;
+    left: 0px;
     background: url(https://i.imgur.com/CUIewqh.png);
     width: 66px;
     height: 60px;
 
 }
 .custom .face.right{
-    top: 60px;
-    left: 96px;
+    top: 0px;
+    left: 78px;
     background: url(https://i.imgur.com/43QAjsN.png);
     width: 66px;
     height: 60px;
