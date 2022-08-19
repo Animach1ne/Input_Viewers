@@ -30,7 +30,7 @@ Using sprites Freedom Planet 2
 .custom .face.up{
     top: 0px;
     left: 42px;
-    background: url(https://i.imgur.com/hPOKoRn.png);
+    background: url(https://i.imgur.com/kOdIiJK.png);
     width: 60px;
     height: 66px;
 
@@ -38,7 +38,7 @@ Using sprites Freedom Planet 2
 .custom .face.down{
     top: 78px;
     left: 42px;
-    background: url(https://i.imgur.com/UMsxTo3.png);
+    background: url(https://i.imgur.com/35MGiKb.png);
     width: 60px;
     height: 66px;
 
@@ -46,7 +46,7 @@ Using sprites Freedom Planet 2
 .custom .face.left{
     top: 42px;
     left: 0px;
-    background: url(https://i.imgur.com/CUIewqh.png);
+    background: url(https://i.imgur.com/0RdHGX1.png);
     width: 66px;
     height: 60px;
 
@@ -54,7 +54,7 @@ Using sprites Freedom Planet 2
 .custom .face.right{
     top: 42px;
     left: 78px;
-    background: url(https://i.imgur.com/43QAjsN.png);
+    background: url(https://i.imgur.com/J9gfbXy.png);
     width: 66px;
     height: 60px;
 }
@@ -66,7 +66,7 @@ Using sprites Freedom Planet 2
 
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/fGkAlb6.png);
+    background: url(https://i.imgur.com/Vtbg2jT.png);
     width: 48px;
     height: 18px;
     top: 12px;
@@ -84,7 +84,7 @@ Using sprites Freedom Planet 2
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/TCiyBQk.png);
+    background: url(https://i.imgur.com/Vml67X2.png);
     width: 60px;
     height: 60px;
     top: 108px;
@@ -92,7 +92,7 @@ Using sprites Freedom Planet 2
     opacity: 1;
 }
 .custom .button.b.pressed{
-    background: url(https://i.imgur.com/TCiyBQk.png);
+    background: url(https://i.imgur.com/Vml67X2.png);
     width: 60px;
     height: 60px;
     top: 60px;
@@ -100,7 +100,7 @@ Using sprites Freedom Planet 2
     opacity: 1;
 }
 .custom .button.x.pressed{
-    background: url(https://i.imgur.com/TCiyBQk.png);
+    background: url(https://i.imgur.com/Vml67X2.png);
     width: 60px;
     height: 60px;
     top: 60px;
@@ -108,7 +108,7 @@ Using sprites Freedom Planet 2
     opacity: 1;
 }
 .custom .button.y.pressed{
-    background: url(https://i.imgur.com/TCiyBQk.png);
+    background: url(https://i.imgur.com/Vml67X2.png);
     width: 60px;
     height: 60px;
     top: 12px;
