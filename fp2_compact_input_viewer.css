@@ -5,12 +5,12 @@ Using sprites from Freedom Planet 2 + Adding some custom ones
 
 /* Base */
 .controller.custom{
-    background: url(https://i.imgur.com/wymF8QZ.png);
+    background: url(https://i.imgur.com/UNEcviA.png);
     width: 768px;
     height: 301px;
 }
 .custom.disconnected {
-    background: url(https://i.imgur.com/Uq6I6xo.png);
+    background: url(https://i.imgur.com/9raUTj.png);
 }
 
 /* Bumpers */
