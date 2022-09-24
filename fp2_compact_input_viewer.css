@@ -6,7 +6,7 @@ Using sprites from Freedom Planet 2 + Adding some custom ones
 /* Base */
 .controller.custom{
     background: url(https://i.imgur.com/UNEcviA.png);
-    width: 768px;
+    width: 624px;
     height: 301px;
 }
 .custom.disconnected {
@@ -131,7 +131,7 @@ Using sprites from Freedom Planet 2 + Adding some custom ones
     background: url(https://i.imgur.com/jHGHg9l.png);
     width: 90px;
     height: 90px;
-    top: 48px;
+    top: 49px;
     left: 495px;
     opacity: 1;
 }
