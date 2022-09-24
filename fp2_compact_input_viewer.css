@@ -1,0 +1,139 @@
+/*
+FP2 Gamepad Viewer skin by Animach1ne twitch.tv/animach1ne
+Using sprites from Freedom Planet 2 + Adding some custom ones
+*/
+
+/* Base */
+.controller.custom{
+    background: url(https://i.imgur.com/wymF8QZ.png);
+    width: 768px;
+    height: 301px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/Uq6I6xo.png);
+}
+
+/* Bumpers */
+.custom .bumper{
+    background: url(https://i.imgur.com/rm7j06u.png);
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 624px;
+    height: 120px;
+    left: 72px;
+    top: 0px;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    float: right;
+}
+
+/* Dpad */
+.custom .dpad{	
+    position: absolute;	
+    width: 216px;	
+    height: 216px;	
+    top: 48px;	
+    left: 120px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 63px;
+    background: url(https://i.imgur.com/2coGtGP.png);
+    width: 90px;
+    height: 99px;
+}
+.custom .face.down{
+    top: 117px;
+    left: 63px;
+    background: url(https://i.imgur.com/yTngcXG.png);
+    width: 90px;
+    height: 99px;
+
+}
+.custom .face.left{
+    top: 63px;
+    left: 0px;
+    background: url(https://i.imgur.com/LcMc7zd.png);
+    width: 99px;
+    height: 90px;
+
+}
+.custom .face.right{
+    top: 63px;
+    left: 117px;
+    background: url(https://i.imgur.com/cDgPXzI.png);
+    width: 99px;
+    height: 90px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Start */
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/zHb9g2K.png);
+    width: 72px;
+    height: 27px;
+    top: 274px;
+    left: 348px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* ABXY */
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/jHGHg9l.png);
+    width: 90px;
+    height: 90px;
+    top: 174px;
+    left: 495px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/jHGHg9l.png);
+    width: 90px;
+    height: 90px;
+    top: 111px;
+    left: 558px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/jHGHg9l.png);
+    width: 90px;
+    height: 90px;
+    top: 111px;
+    left: 432px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    background: url(https://i.imgur.com/jHGHg9l.png);
+    width: 90px;
+    height: 90px;
+    top: 48px;
+    left: 495px;
+    opacity: 1;
+}
+
+/*END */
