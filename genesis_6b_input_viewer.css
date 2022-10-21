@@ -29,7 +29,7 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
 .custom .face.up{
     top: 0px;
     left: 94px;
-    background: url(https://i.imgur.com/2Cjj64x.png);
+    background: url(https://i.imgur.com/j9YJObm.png);
     width: 79px;
     height: 117px;
 
@@ -37,7 +37,7 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
 .custom .face.down{
     top: 150px;
     left: 94px;
-    background: url(https://i.imgur.com/q6JKyeS.png);
+    background: url(https://i.imgur.com/JNiJda4.png);
     width: 79px;
     height: 117px;
 
@@ -45,14 +45,14 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
 .custom .face.left{
     top: 95px;
     left: 0px;
-    background: url(https://i.imgur.com/INyHjhK.png);
+    background: url(https://i.imgur.com/khUCStA.png);
     width: 117px;
     height: 79px;
 }
 .custom .face.right{
     top: 95px;
     left: 150px;
-    background: url(https://i.imgur.com/LkIYU7Z.png);
+    background: url(https://i.imgur.com/rOzHaT4.png);
     width: 117px;
     height: 79px;
 }
@@ -64,11 +64,11 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
 
 .custom .back{ 
     position: absolute;
-    background: url(https://i.imgur.com/8usoxHp.png);
-    width: 186px;
-    height: 117px;
-    top: 88px;
-    left: 1097px;
+    background: url(https://i.imgur.com/bI9RLLF.png);
+    width: 195px;
+    height: 125px;
+    top: 83px;
+    left: 1093px;
     opacity: 0;
 }
 .custom .back.pressed{
@@ -76,7 +76,7 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
 }
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/sztlPhw.png);
+    background: url(https://i.imgur.com/6YeGdv6.png);
     width: 135px;
     height: 43px;
     top: 349px;
@@ -94,7 +94,7 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/NzNZ6dB.png);
+    background: url(https://i.imgur.com/3IBPjQZ.png);
     width: 144px;
     height: 142px;
     top: 458px;
@@ -102,7 +102,7 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 1;
 }
 .custom .button.b.pressed{
-    background: url(https://i.imgur.com/NzNZ6dB.png);
+    background: url(https://i.imgur.com/3IBPjQZ.png);
     width: 144px;
     height: 142px;
     top: 381px;
@@ -110,14 +110,14 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 1;
 }
 .custom .button.x.pressed{
-    background: url(https://i.imgur.com/lk1H7vV.png);
+    background: url(https://i.imgur.com/FFwJCJb.png);
     width: 100px;
     height: 100px;
     top: 316px;
     left: 897px;
     opacity: 1;
 }.custom .button.y.pressed{
-    background: url(https://i.imgur.com/lk1H7vV.png);
+    background: url(https://i.imgur.com/FFwJCJb.png);
     width: 100px;
     height: 100px;
     top: 254px;
@@ -132,7 +132,7 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 0;
 }
 .custom .trigger-button.right.pressed{
-    background: url(https://i.imgur.com/NzNZ6dB.png);
+    background: url(https://i.imgur.com/3IBPjQZ.png);
     width: 144px;
     height: 142px;
     top: 338px;
@@ -141,7 +141,7 @@ genesis 6 buttons input viewer skin by Animach1ne twitch.tv/animach1ne
     position: absolute;
 }
 .custom .trigger-button.left.pressed{
-    background: url(https://i.imgur.com/lk1H7vV.png);
+    background: url(https://i.imgur.com/FFwJCJb.png);
     width: 100px;
     height: 100px;
     top: 220px;
