@@ -33,7 +33,7 @@
     width: 432px;
     top: 0px;
     left: 0px;
-    opacity: 0;
+    opacity: 1;
 }
 .custom .button.b.pressed{
     position: absolute;
@@ -42,7 +42,7 @@
     width: 432px;
     top: 0px;
     left: 0px;
-    opacity: 0;
+    opacity: 1;
 }
 .custom .button.y.pressed{
     position: absolute;
@@ -51,7 +51,7 @@
     width: 432px;
     top: 0px;
     left: 0px;
-    opacity: 0;
+    opacity: 1;
 }
 /* *********************************************************** */
 .custom .face.up{
