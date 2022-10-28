@@ -1,12 +1,12 @@
 /*Genesis Pixel Controller Styling by Animach1ne*/
 /* *********************************************************** */
 .controller.custom{
-    background: url(https://i.imgur.com/p9Mx4ig.png); 
+    background: url(https://i.imgur.com/Ar4YCKk.png); 
     height: 108px;
-    width: 432px;
+    width: 282px;
 }
 .custom.disconnected {
-    background: url(https://i.imgur.com/dGQ8BVV.png);
+    background: url(https://i.imgur.com/eBp4dVh.png);
 }
 .custom.disconnected div {
     display: none;
@@ -14,9 +14,9 @@
 /* *********************************************************** */
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/BFcXLIh.png);
+    background: url(https://i.imgur.com/DDbp7Di.png);
     height: 108px;
-    width: 432px;
+    width: 282px;
     top: 0px;
     left: 0px;
     opacity: 0;
@@ -28,27 +28,27 @@
 /* base class used to simplify the sprite mapping */
 .custom .button.a.pressed{
     position: absolute;
-    background: url(https://i.imgur.com/AiBUW3a.png);
+    background: url(https://i.imgur.com/RVunyie.png);
     height: 108px;
-    width: 432px;
+    width: 282px;
     top: 0px;
     left: 0px;
     opacity: 1;
 }
 .custom .button.b.pressed{
     position: absolute;
-    background: url(https://i.imgur.com/P0kb2yG.png);
+    background: url(https://i.imgur.com/PPE8M3w.png);
     height: 108px;
-    width: 432px;
+    width: 282px;
     top: 0px;
     left: 0px;
     opacity: 1;
 }
 .custom .button.y.pressed{
     position: absolute;
-    background: url(https://i.imgur.com/youmJCf.png);
+    background: url(https://i.imgur.com/Dn0l9pv.png);
     height: 108px;
-    width: 432px;
+    width: 282px;
     top: 0px;
     left: 0px;
     opacity: 1;
@@ -56,36 +56,36 @@
 /* *********************************************************** */
 .custom .face.up{
     position: absolute;
-    background: url(https://i.imgur.com/lptzM7d.png);
+    background: url(https://i.imgur.com/GIjom1O.png);
     height: 108px;
-    width: 432px;
+    width: 282px;
     top: 0px;
     left: 0px;
     opacity: 0;
 }
 .custom .face.down{
     position: absolute;
-    background: url(https://i.imgur.com/ZCBhuJW.png);
+    background: url(https://i.imgur.com/N1V85iu.png);
     height: 108px;
-    width: 432px;
+    width: 282px;
     top: 0px;
     left: 0px;
     opacity: 0;
 }
 .custom .face.left{
     position: absolute;
-    background: url(https://i.imgur.com/4aPonNR.png);
+    background: url(https://i.imgur.com/X6E1XAZ.png);
     height: 108px;
-    width: 432px;
+    width: 282px;
     top: 0px;
     left: 0px;
     opacity: 0;
 }
 .custom .face.right{
     position: absolute;
-    background: url(https://i.imgur.com/833GZOb.png);
+    background: url(https://i.imgur.com/nxtIivD.png);
     height: 108px;
-    width: 432px;
+    width: 282px;
     top: 0px;
     left: 0px;
     opacity: 0;
