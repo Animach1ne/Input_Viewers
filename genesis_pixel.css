@@ -1,0 +1,96 @@
+/*Genesis Pixel Controller Styling by Animach1ne*/
+/* *********************************************************** */
+.controller.custom{
+    background: url(https://i.imgur.com/p9Mx4ig.png); 
+    height: 108px;
+    width: 432px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/dGQ8BVV.png);
+}
+.custom.disconnected div {
+    display: none;
+}
+/* *********************************************************** */
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/BFcXLIh.png);
+    height: 108px;
+    width: 432px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+/* *********************************************************** */
+/* base class used to simplify the sprite mapping */
+.custom .button.a.pressed{
+    position: absolute;
+    background: url(https://i.imgur.com/AiBUW3a.png);
+    height: 108px;
+    width: 432px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .button.b.pressed{
+    position: absolute;
+    background: url(https://i.imgur.com/P0kb2yG.png);
+    height: 108px;
+    width: 432px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .button.y.pressed{
+    position: absolute;
+    background: url(https://i.imgur.com/youmJCf.png);
+    height: 108px;
+    width: 432px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+/* *********************************************************** */
+.custom .face.up{
+    position: absolute;
+    background: url(https://i.imgur.com/lptzM7d.png);
+    height: 108px;
+    width: 432px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .face.down{
+    position: absolute;
+    background: url(https://i.imgur.com/ZCBhuJW.png);
+    height: 108px;
+    width: 432px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .face.left{
+    position: absolute;
+    background: url(https://i.imgur.com/4aPonNR.png);
+    height: 108px;
+    width: 432px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .face.right{
+    position: absolute;
+    background: url(https://i.imgur.com/833GZOb.png);
+    height: 108px;
+    width: 432px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+/*END Genesis Pixel Controller Styling*/
