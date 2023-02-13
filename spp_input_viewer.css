@@ -1,0 +1,152 @@
+/*
+Soda Powered Penguin input viewer skin by Animach1ne twitch.tv/animach1ne
+*/
+
+/* Base */
+
+.controller.custom{
+    background: url(https://i.imgur.com/tpe7QdL.png);
+    width: 528px;
+    height: 152px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/v5Rwqob.png);
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 267px;	
+    height: 267px;	
+    top: 259px;	
+    left: 221px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 94px;
+    background: url(https://i.imgur.com/j9YJObm.png);
+    width: 79px;
+    height: 117px;
+
+}
+.custom .face.down{
+    top: 150px;
+    left: 94px;
+    background: url(https://i.imgur.com/JNiJda4.png);
+    width: 79px;
+    height: 117px;
+
+}
+.custom .face.left{
+    top: 95px;
+    left: 0px;
+    background: url(https://i.imgur.com/khUCStA.png);
+    width: 117px;
+    height: 79px;
+}
+.custom .face.right{
+    top: 95px;
+    left: 150px;
+    background: url(https://i.imgur.com/rOzHaT4.png);
+    width: 117px;
+    height: 79px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/bI9RLLF.png);
+    width: 195px;
+    height: 125px;
+    top: 83px;
+    left: 1093px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/6YeGdv6.png);
+    width: 135px;
+    height: 43px;
+    top: 349px;
+    left: 656px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* ABXY */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/3IBPjQZ.png);
+    width: 144px;
+    height: 142px;
+    top: 458px;
+    left: 926px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/3IBPjQZ.png);
+    width: 144px;
+    height: 142px;
+    top: 381px;
+    left: 1066px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/FFwJCJb.png);
+    width: 100px;
+    height: 100px;
+    top: 316px;
+    left: 897px;
+    opacity: 1;
+}.custom .button.y.pressed{
+    background: url(https://i.imgur.com/FFwJCJb.png);
+    width: 100px;
+    height: 100px;
+    top: 254px;
+    left: 1027px;
+    opacity: 1;
+}
+
+/* CZ - Tricking Gamepadviewer to think these are triggers */
+
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/3IBPjQZ.png);
+    width: 144px;
+    height: 142px;
+    top: 338px;
+    left: 1218px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/FFwJCJb.png);
+    width: 100px;
+    height: 100px;
+    top: 220px;
+    left: 1162px;
+    opacity: 1;
+    position: absolute;
+}
+/* END */
