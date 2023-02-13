@@ -75,66 +75,43 @@ Soda Powered Penguin input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 1;
 }
 
-/* ABXY */
+/* ABXY - SAJB */
 
 .custom .button{
     position: absolute;
     opacity: 0;
 }
 .custom .button.a.pressed{
-    background: url(https://i.imgur.com/3IBPjQZ.png);
-    width: 144px;
-    height: 142px;
-    top: 458px;
-    left: 926px;
+    background: url(https://i.imgur.com/js5koXp.png);
+    width: 528px;
+    height: 152px;
+    top: 0px;
+    left: 0px;
     opacity: 1;
 }
 .custom .button.b.pressed{
-    background: url(https://i.imgur.com/3IBPjQZ.png);
-    width: 144px;
-    height: 142px;
-    top: 381px;
-    left: 1066px;
+    background: url(https://i.imgur.com/PZyFvt7.png);
+    width: 528px;
+    height: 152px;
+    top: 0px;
+    left: 0px;
     opacity: 1;
 }
 .custom .button.x.pressed{
-    background: url(https://i.imgur.com/FFwJCJb.png);
-    width: 100px;
-    height: 100px;
-    top: 316px;
-    left: 897px;
+    background: url(https://i.imgur.com/Y75OF61.png);
+    width: 528px;
+    height: 152px;
+    top: 0px;
+    left: 0px;
     opacity: 1;
-}.custom .button.y.pressed{
-    background: url(https://i.imgur.com/FFwJCJb.png);
-    width: 100px;
-    height: 100px;
-    top: 254px;
-    left: 1027px;
+}
+.custom .button.y.pressed{
+    background: url(https://i.imgur.com/NHdYIK4.png);
+    width: 528px;
+    height: 152px;
+    top: 0px;
+    left: 0px;
     opacity: 1;
 }
 
-/* CZ - Tricking Gamepadviewer to think these are triggers */
-
-.custom .trigger{
-    position: absolute;
-    opacity: 0;
-}
-.custom .trigger-button.right.pressed{
-    background: url(https://i.imgur.com/3IBPjQZ.png);
-    width: 144px;
-    height: 142px;
-    top: 338px;
-    left: 1218px;
-    opacity: 1;
-    position: absolute;
-}
-.custom .trigger-button.left.pressed{
-    background: url(https://i.imgur.com/FFwJCJb.png);
-    width: 100px;
-    height: 100px;
-    top: 220px;
-    left: 1162px;
-    opacity: 1;
-    position: absolute;
-}
 /* END */
