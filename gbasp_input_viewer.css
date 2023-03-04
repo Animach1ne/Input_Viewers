@@ -32,9 +32,11 @@ GBA input viewer skin by Animach1ne twitch.tv/animach1ne
 }
 .custom .bumper.left{
     background: url(https://i.imgur.com/dgKgRLR.png);
+    float: left;
 }
 .custom .bumper.right{
     background: url(https://i.imgur.com/FiervQ1.png);
+    float: right;
 }
 
 /* Dpad */
