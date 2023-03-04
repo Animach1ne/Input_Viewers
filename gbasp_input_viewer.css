@@ -1,0 +1,140 @@
+/*
+GBA input viewer skin by Animach1ne twitch.tv/animach1ne
+*/
+
+/* Base */
+
+.controller.custom{
+    background: url(https://i.imgur.com/7U245xi.png);
+    width: 378px;
+    height: 286px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/pawELsC.png);
+}
+
+/* Bumpers */
+
+.custom .bumper{
+    background: url(https://i.imgur.com/dgKgRLR.png);
+    width: 378px;
+    height: 286px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 378px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    float: right;
+}
+
+/* Dpad */
+
+.custom .dpad{	
+    position: absolute;	
+    width: 378px;
+    height: 286px;	
+    top: 0px;	
+    left: 0px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 0px;
+    background: url(https://i.imgur.com/XPt4cg6.png);
+    width: 378px;
+    height: 286px;
+
+}
+.custom .face.down{
+    top: 0px;
+    left: 0px;
+    background: url(https://i.imgur.com/spoLwNX.png);
+    width: 378px;
+    height: 286px;
+
+}
+.custom .face.left{
+    top: 0px;
+    left: 0px;
+    background: url(https://i.imgur.com/nZVIOyl.png);
+    width: 378px;
+    height: 286px;
+
+}
+.custom .face.right{
+    top: 0px;
+    left: 0px;
+    background: url(https://i.imgur.com/z49H7xE.png);
+    width: 378px;
+    height: 286px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* Back & Start */
+
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/tRJ3u1Y.png);
+    width: 378px;
+    height: 286px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/mKpH1Sp.png);
+    width: 378px;
+    height: 286px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* AB */
+
+.custom .button{
+    position: absolute;
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/vVHOzYt.png);
+    width: 378px;
+    height: 286px;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/7bTTIQu.png);
+    width: 378px;
+    height: 286px;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+
+/* END */
