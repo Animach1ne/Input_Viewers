@@ -20,14 +20,22 @@ GBA input viewer skin by Animach1ne twitch.tv/animach1ne
     height: 286px;
     opacity: 0;
 }
+.custom .bumpers{
+    position: absolute;
+    width: 378px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+}
 .custom .bumper.pressed{ 
     opacity: 1;
 }
 .custom .bumper.left{
-    background: url(https://i.imgur.com/dgKgRLR.png);
+    float: left;
 }
 .custom .bumper.right{
-    background: url(https://i.imgur.com/FiervQ1.png);
+    -webkit-transform: rotateY(180deg);
+    float: right;
 }
 
 /* Dpad */
