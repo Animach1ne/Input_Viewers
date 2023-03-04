@@ -16,7 +16,6 @@ GBA input viewer skin by Animach1ne twitch.tv/animach1ne
 /* Bumpers */
 
 .custom .bumper{
-    background: url(https://i.imgur.com/dgKgRLR.png);
     width: 378px;
     height: 286px;
     opacity: 0;
@@ -32,11 +31,10 @@ GBA input viewer skin by Animach1ne twitch.tv/animach1ne
     opacity: 1;
 }
 .custom .bumper.left{
-    float: left;
+    background: url(https://i.imgur.com/dgKgRLR.png);
 }
 .custom .bumper.right{
-    -webkit-transform: rotateY(180deg);
-    float: right;
+    background: url(https://i.imgur.com/FiervQ1.png);
 }
 
 /* Dpad */
