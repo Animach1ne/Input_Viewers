@@ -1,82 +1,110 @@
-/*
--How to use Custom CSS for the GamePad Viewer-
-https://gamepadviewer.com/
-Enabling a custom CSS is as easy as adding &css=[url to css file]
-to the end of the url like so:
-https://gamepadviewer.com/?p=1&css=https://gist.github.com/anonymous/526491dc02014099cd14/raw/d7bb0477ba984f794497f3f0f82cb33484dc7889/ps3.css
-If you're going to be using custom CSS for the gamepad viewer
-to design your own skin, we're assuming you have some sort of
-basic knowledge on how CSS works. I'd also suggest uploading
-your custom CSS to GitHub's gist as you can easily get the
-direct link for the file by copying the link address on the
-"Raw" button at the top right of the code.
-NOTE: If you're using gist, MAKE SURE TO NAME YOUR CSS FILE!
-It doesn't matter what you call it, so long as it ends in .css
-else the site won't read it and think it's just a plain text.
-Each CSS entry must be preceded by '.custom' since that's the 
-hardcoded class for a custom style. It doesn't make sense to 
-change this as you can only have one custom skin loaded at a time.
-If you're using images, they have to be uploaded to an image host of
-your choice. Personally, I'd go with Imgur since it's simple to upload
-and get the direct URL of the image. None of the images in this example
-will load because they're pointing to a location relative of the css 
-files, since this is normally in the main CSS file of the site.
-The following is a copy of the code used for displaying the PS3 controller
-skin on the Gamepad viewer. You can scroll below and read the comments to
-get an understanding of how the styling works and whatnot. Happy skinning!
-P.S. If you use this tool often and would like to 'buy me a coffee' you can
-do so via my paypal: https://paypal.me/mrmcpowned
-*/
+/*Generic input viewer by Animach1ne*/
 
-/*BEGIN PS3 Controller Styling*/
-/*This class defines the base attributes of the skin*/
+/* Base Attributes */
 .controller.custom{
-    /* The background image is basically the base for the controller's skin. The 
-    PS3 controller's skin can be found at http://mrmcpowned.com/gamepad/ps3-assets/base.png
-    and you can observe it as an example. The sticks, buttons, and directional arrows are missing
-    because their appropriate elements will be incorperated when their styling is defined below.
-    The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(https://i.imgur.com/WGqq4id.png); 
+    background: url(https://i.imgur.com/WGqq4id.png);
     width: 200px;
     height: 110px;
 }
-.custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(https://i.imgur.com/WGqq4id.png);
-}
-/* This hides the controller's button when disconnected so only the background image remains */ 
-.custom.disconnected div {
-    display: none;
-}
-.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    width: 168px;
-    height: 8px;
-    position: absolute;
-    left: 16px;
-    top : 8px;
-}
-.custom .trigger{/* These are the actual triggers themselves */
-    width:32px;
-    height:8px;
-    background: url(https://i.imgur.com/p3kJfBh.png);
-    opacity: 0;
-}
-/* The left and right classes below are used to position the triggers
-within the div they're contained in. Since their positions is realtive
-to the size of the parent element, we simply resize the parent element 
-above to achieve the desired position. */
-.custom .trigger.left{ 
-    float: left;
-}
-.custom .trigger.right{
-    float: right;
+.custom.disconnected {
+    background: url(https://i.imgur.com/i0uBS4u.png);
 }
 
-/* The bumpers follow the same methodology as the triggers in terms of
-placement */
+/* Dpad */
+.custom .dpad{	
+    position: absolute;	
+    width: 48px;	
+    height: 48px;	
+    top: 36px;	
+    left: 8px;	
+}
+.custom .face{
+    background: url(https://i.imgur.com/jI8Iwmq.png);
+    width: 16px;
+    height: 16px;
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    top: 0px;
+    left: 16px;
+}
+.custom .face.down{
+    top: 32px;
+    left: 16px;
+}
+.custom .face.left{
+    top: 16px;
+    left: 0px;
+}
+.custom .face.right{
+    top: 16px;
+    left: 32px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* AB */
+.custom .button{
+    background: url(https://i.imgur.com/jI8Iwmq.png);
+    width: 16px;
+    height: 16px;
+    position: absolute;	
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    top: 68px;
+    left: 160px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    top: 52px;
+    left: 176px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    top: 68px;
+    left: 160px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    top: 36px;
+    left: 160px;
+    opacity: 1;
+}
+
+/* Back & Start */
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/ILhzz1d.png);
+    width: 16px;
+    height: 8px;
+    top: 36px;
+    left: 74px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/ILhzz1d.png);
+    width: 16px;
+    height: 8px;
+    top: 36px;
+    left: 110px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* Bumpers */
 .custom .bumper{
-    width:16px;
-    height:8px;
-    background: url(https://i.imgur.com/p3kJfBh.png);
+    background: url(https://i.imgur.com/9oe0ckJ.png);
+    width: 32px;
+    height: 8px;
     opacity: 0;
 }
 .custom .bumpers{
@@ -84,78 +112,46 @@ placement */
     width: 168px;
     height: 8px;
     left: 16px;
-    top : 20px;
+    top: 20px;
 }
-.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
+.custom .bumper.pressed{ 
     opacity: 1;
 }
 .custom .bumper.left{
-  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
-  and I can just rotate them in the browser? Also, note that you most likely won't need
-  to use a browser speficic prefix unless it's something that is indeed browser specific.
-  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
     float: left;
 }
 .custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
     float: right;
 }
-/* This is to size and position the containing div for the 
-start and select buttons. */
-.custom .arrows{
+
+/* Triggers */
+ .custom .triggers{
     position: absolute;
-    width: 52px;
+    width: 168px;
     height: 8px;
-    top: 36px;
-    left: 74px;
-}
-/* Setting the size and CSS sprite for the start adn select buttons */
-.custom .back, .custom .start{
-    background: url(https://i.imgur.com/ILhzz1d.png);
-    width: 16px;
-    height: 8px;
-}
-.custom .back.pressed, .custom .start.pressed{
-}
-.custom .back{
-    float: left;
-}
-.custom .start{
-    float: right;
-}
-/* Positioning and size of the container for the face buttons */
-.custom .abxy{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    top: 36px;
-    left: 8px;
-}
-/* base class used to simplify the sprite mapping */
-.custom .button{
-    position: absolute;
-    width:16px;
-    height:16px;
-    background: url(https://i.imgur.com/jI8Iwmq.png);
-}
-.custom .button.pressed{
-    opacity: 1;
-}
-.custom .a{
-    top: 32px;
     left: 16px;
+    top: 8px;
+} 
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
 }
-.custom .b{
-    top: 16px;
-    right: 0px;
+.custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/9oe0ckJ.png);
+    width: 32px;
+    height: 8px;
+    opacity: 1;
+    position: absolute;
 }
-.custom .x{
-    top: 32px;
+.custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/9oe0ckJ.png);
+    width: 32px;
+    height: 8px;
+    opacity: 1;
+    position: absolute;
 }
-.custom .y{
-    left: 32px;
-}
+
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
 the CSS inline. */
@@ -186,43 +182,5 @@ the CSS inline. */
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
-/* Dpad possitioning and sizing */
-.custom .dpad{
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    top: 36px;
-    left: 144px;
-}
-.custom .face{
-    background: url(https://i.imgur.com/jI8Iwmq.png);
-    position: absolute;
-}
-.custom .face.up, .custom .face.down{
-    width: 16px;
-    height: 16px;
-}
-.custom .face.left, .custom .face.right{
-    width: 16px;
-    height: 16px;
-}
-.custom .face.up{
-    left: 16px;
-    top: 0;
-}
-.custom .face.down{
-    left: 16px;
-    top: 32px;
-}
-.custom .face.left{
-    top: 32px;
-    left: 0;
-}
-.custom .face.right{
-    top: 16px;
-    right: 0px;
-}
-.custom .face.pressed{
-    opacity: 1;
-}
-/*END PS3 Controller Styling*/
+
+/*END*/
