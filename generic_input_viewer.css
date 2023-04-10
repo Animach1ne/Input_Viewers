@@ -150,8 +150,7 @@
     position: absolute;
 }
 
-/*
-/*Sticks
+/*Sticks*/
 .custom .sticks{
     position: absolute;
     width: 72px;
@@ -161,14 +160,16 @@
 }
 .custom .stick{
     position: absolute;
-    background: url(https://i.imgur.com/p3kJfBh.png);
+    background: url(https://i.imgur.com/rMsp5bD.png);
     height: 24px;
     width: 24px;
 }
 .custom .stick.pressed.left{
+    background: url(https://i.imgur.com/p3kJfBh.png);
     opacity: 1;
 }
 .custom .stick.pressed.right{
+    background: url(https://i.imgur.com/p3kJfBh.png);
     opacity: 1;
 }
 .custom .stick.left{
@@ -179,5 +180,5 @@
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
-*/
+
 /*END*/
