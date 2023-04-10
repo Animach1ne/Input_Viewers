@@ -140,6 +140,7 @@ start and select buttons. */
     background: url(https://i.imgur.com/jI8Iwmq.png);
 }
 .custom .button.pressed{
+    opacity: 1;
 }
 .custom .a{
     top: 32px;
@@ -208,25 +209,20 @@ the CSS inline. */
 .custom .face.up{
     left: 16px;
     top: 0;
-    background-position: 92px 0px;
 }
 .custom .face.down{
     left: 16px;
     top: 32px;
-    background-position: 131px 0;
 }
 .custom .face.left{
     top: 32px;
     left: 0;
-    background-position: 0px 0;
 }
 .custom .face.right{
     top: 16px;
     right: 0px;
-    background-position: 53px 0;
 }
 .custom .face.pressed{
-    margin-top: 5px;
-    background-position-y: 52px;
+    opacity: 1;
 }
 /*END PS3 Controller Styling*/
