@@ -126,51 +126,49 @@
 }
 
 /* Triggers */
- .custom .triggers{
-    position: absolute;
+.custom .triggers{
     width: 168px;
     height: 8px;
-    left: 16px;
     top: 8px;
+    left: 16px;
+    position: absolute;
 } 
 .custom .trigger{
     position: absolute;
     background: url(https://i.imgur.com/9oe0ckJ.png);
     width: 32px;
-    height: 8px; 
+    height: 16px;
     opacity: 0;
 }
 .custom .trigger-button.left.pressed{
     opacity: 1;
-    float: left;
+    position: absolute;
 }
 .custom .trigger-button.right.pressed{
+    right: 0px;
     opacity: 1;
-    -webkit-transform: rotateY(180deg);
-    float: right;
+    position: absolute;
 }
 
-/* Analog sticks follow the same principles as the triggers in terms of positioning
-Note that the rotation of the sticks in hard coded with javascript, so it applies 
-the CSS inline. */
+/*Sticks*/
 .custom .sticks{
     position: absolute;
-    width: 364px;
-    height: 105px;
-    top: 328px;
-    left: 210px;
+    width: 72px;
+    height: 24px;
+    top: 78px;
+    left: 64px;
 }
 .custom .stick{
     position: absolute;
-    background: url(ps3-assets/thumbs.png);
-    height:105px;
-    width: 105px;
+    background: url(https://i.imgur.com/p3kJfBh.png);
+    height: 24px;
+    width: 24px;
 }
 .custom .stick.pressed.left{
-    background-position-x: -106px;
+    opacity: 1;
 }
 .custom .stick.pressed.right{
-    background-position-x: -211px;
+    opacity: 1;
 }
 .custom .stick.left{
     top: 0;
