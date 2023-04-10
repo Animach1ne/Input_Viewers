@@ -117,17 +117,12 @@ start and select buttons. */
     height: 8px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -21px;
-    margin-top: 2px;
 }
 .custom .back{
     float: left;
-    width: 38px;
 }
 .custom .start{
     float: right;
-    width: 36px;
-    background-position: 37px 0;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
@@ -145,25 +140,19 @@ start and select buttons. */
     background: url(https://i.imgur.com/jI8Iwmq.png);
 }
 .custom .button.pressed{
-    background-position-y: -64px;
-    margin-top: 5px;
 }
 .custom .a{
-    background-position: 62px 0;
     top: 32px;
     left: 16px;
 }
 .custom .b{
-    background-position: 125px 0;
     top: 16px;
     right: 0px;
 }
 .custom .x{
-    background-position: 0 0;
     top: 32px;
 }
 .custom .y{
-    background-position: -63px 0;
     left: 32px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
