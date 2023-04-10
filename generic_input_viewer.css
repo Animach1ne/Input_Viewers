@@ -125,7 +125,6 @@
     float: right;
 }
 
-/* Triggers */
 .custom .triggers{
     width: 168px;
     height: 8px;
@@ -135,17 +134,21 @@
 } 
 .custom .trigger{
     position: absolute;
-    background: url(https://i.imgur.com/9oe0ckJ.png);
-    width: 32px;
-    height: 16px;
     opacity: 0;
 }
 .custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/9oe0ckJ.png);
+    width: 32px;
+    height: 8px;
     opacity: 1;
     position: absolute;
 }
 .custom .trigger-button.right.pressed{
-    right: 0px;
+    background: url(https://i.imgur.com/9oe0ckJ.png);
+    width: 32px;
+    height: 8px;
+    top: 0px;
+    left: 136px;
     opacity: 1;
     position: absolute;
 }
@@ -172,7 +175,7 @@
     background: url(https://i.imgur.com/p3kJfBh.png);
     opacity: 1;
 }
-.custom .stick.left{
+/*.custom .stick.left{
     top: 0;
     left: 0;
 }
@@ -180,5 +183,5 @@
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
-
+*/
 /*END*/
