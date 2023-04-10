@@ -180,8 +180,8 @@
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    top: 0;
+    right: 0;
 }
 
 /*END*/
