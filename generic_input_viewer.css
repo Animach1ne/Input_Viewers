@@ -175,7 +175,7 @@
     background: url(https://i.imgur.com/p3kJfBh.png);
     opacity: 1;
 }
-/*.custom .stick.left{
+.custom .stick.left{
     top: 0;
     left: 0;
 }
@@ -183,5 +183,5 @@
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
-*/
+
 /*END*/
