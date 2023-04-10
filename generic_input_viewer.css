@@ -64,8 +64,8 @@
     opacity: 1;
 }
 .custom .button.x.pressed{
-    top: 68px;
-    left: 160px;
+    top: 52px;
+    left: 144px;
     opacity: 1;
 }
 .custom .button.y.pressed{
@@ -135,21 +135,19 @@
 } 
 .custom .trigger{
     position: absolute;
+    background: url(https://i.imgur.com/9oe0ckJ.png);
+    width: 32px;
+    height: 8px; 
     opacity: 0;
 }
 .custom .trigger-button.left.pressed{
-    background: url(https://i.imgur.com/9oe0ckJ.png);
-    width: 32px;
-    height: 8px;
     opacity: 1;
-    position: absolute;
+    float: left;
 }
 .custom .trigger-button.right.pressed{
-    background: url(https://i.imgur.com/9oe0ckJ.png);
-    width: 32px;
-    height: 8px;
     opacity: 1;
-    position: absolute;
+    -webkit-transform: rotateY(180deg);
+    float: right;
 }
 
 /* Analog sticks follow the same principles as the triggers in terms of positioning
