@@ -52,7 +52,7 @@ do so via my paypal: https://paypal.me/mrmcpowned
     height: 8px;
     position: absolute;
     left: 16px;
-    top : 20px;
+    top : 8px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
     width:32px;
@@ -74,17 +74,17 @@ above to achieve the desired position. */
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
 .custom .bumper{
-    width: 89px;
-    height: 28px;
-    background: url(ps3-assets/bumpers.png);
+    width:16px;
+    height:8px;
+    background: url(https://i.imgur.com/9oe0ckJ.png);
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    width: 586px;
-    height: 28px;
-    left: 99px;
-    top: 72px;
+    width: 168px;
+    height: 8px;
+    left: 16px;
+    top : 20px;
 }
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
     opacity: 1;
@@ -101,47 +101,20 @@ placement */
 .custom .bumper.right{
     float: right;
 }
-/* This bit of code is for the player indicator, which is represented in
-quandrants on the xbox controller. That's note what it's called on the
-PS3 controller but it'd be pointless for me to change the HTML for 
-something as pedantic as a name. */
-.custom .quadrant{
-    position: absolute;
-    background: url(ps3-assets/player-n.png);
-    height: 17px;
-    width: 111px;
-    top: 140px;
-    left: 240px;
-}
-/* Since the player indicator is just a CSS sprite, we change the 
-position of the background to match the player number.
-NOTE: Player orderin starts at 0, so p0 = Player 1 */
-.custom .p0{
-    background-position: 0 -6px;
-}
-.custom .p1{
-    background-position: 0 -28px;
-}
-.custom .p2{
-    background-position: 0 -49px;
-}
-.custom .p3{
-    background-position: 0 -70px;
-}
 /* This is to size and position the containing div for the 
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 205px;
-    height: 19px;
-    top: 250px;
-    left: 291px;
+    width: 52px;
+    height: 8px;
+    top: 36px;
+    left: 74px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(ps3-assets/menus.png);
-    width: 34px;
-    height: 19px;
+    background: url(https://i.imgur.com/ILhzz1d.png);
+    width: 16px;
+    height: 8px;
 }
 .custom .back.pressed, .custom .start.pressed{
     background-position-y: -21px;
@@ -159,17 +132,17 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 204px;
-    height: 205px;
-    top: 156px;
-    left: 538px;
+    width: 48px;
+    height: 48px;
+    top: 36px;
+    left: 8px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:62px;
-    height:62px;
-    background: url(ps3-assets/face-buttons.png);
+    width:16px;
+    height:16px;
+    background: url(https://i.imgur.com/jI8Iwmq.png);
 }
 .custom .button.pressed{
     background-position-y: -64px;
@@ -177,21 +150,21 @@ start and select buttons. */
 }
 .custom .a{
     background-position: 62px 0;
-    top: 142px;
-    left: 71px;
+    top: 32px;
+    left: 16px;
 }
 .custom .b{
     background-position: 125px 0;
-    top: 71px;
+    top: 16px;
     right: 0px;
 }
 .custom .x{
     background-position: 0 0;
-    top: 71px;
+    top: 32px;
 }
 .custom .y{
     background-position: -63px 0;
-    left: 71px;
+    left: 32px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
@@ -226,40 +199,40 @@ the CSS inline. */
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
-    width: 140px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
+    width: 48px;
+    height: 48px;
+    top: 36px;
+    left: 144px;
 }
 .custom .face{
-    background: url(ps3-assets/dpad.png);
+    background: url(https://i.imgur.com/jI8Iwmq.png);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
-    width: 38px;
-    height: 52px;
+    width: 16px;
+    height: 16px;
 }
 .custom .face.left, .custom .face.right{
-    width: 52px;
-    height: 38px;
+    width: 16px;
+    height: 16px;
 }
 .custom .face.up{
-    left: 50px;
+    left: 16px;
     top: 0;
     background-position: 92px 0px;
 }
 .custom .face.down{
-    left: 50px;
-    top: 79px;
+    left: 16px;
+    top: 32px;
     background-position: 131px 0;
 }
 .custom .face.left{
-    top: 47px;
+    top: 32px;
     left: 0;
     background-position: 0px 0;
 }
 .custom .face.right{
-    top: 47px;
+    top: 16px;
     right: 0px;
     background-position: 53px 0;
 }
@@ -267,82 +240,4 @@ the CSS inline. */
     margin-top: 5px;
     background-position-y: 52px;
 }
-/* The following entries are empty because I haven't used them yet, but they
-exist for the purpose of displaying a fightstick. Since fightsticks have 
-the left and right triggers and digital buttons, there are separate 
-html items that allow the triggers to be shown as button presses isntead of
-an opacity setting */
-.custom .trigger-button.left{
-    
-}
-.custom .trigger-button.right{
-    
-}
-.custom .trigger-button.left.pressed{
-    
-}
-.custom .trigger-button.right.pressed{
-    
-}
-/* This is where the fight stick CSS would go. The ideal way of 
-showing the input would be to use an image sprite of a fight stick in
-all 8 positions, and change it according to the inputs. The classes 
-themselves are fairly self explanatory. */
-.fstick{
-    position: absolute;
-    width: 140px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
-}
-.fstick.up{
-  
-}
-.fstick.down{
-  
-}
-.fstick.left{
-  
-}
-.fstick.right{
-  
-}
-.fstick.up.right{
-  
-}
-.fstick.up.left{
-  
-}
-.fstick.down.right{
-  
-}
-.fstick.down.left{
-  
-}
-
 /*END PS3 Controller Styling*/
-@Animach1ne
- 
-Add heading textAdd bold text, <Ctrl+b>Add italic text, <Ctrl+i>
-Add a quote, <Ctrl+Shift+.>Add code, <Ctrl+e>Add a link, <Ctrl+k>
-Add a bulleted list, <Ctrl+Shift+8>Add a numbered list, <Ctrl+Shift+7>Add a task list, <Ctrl+Shift+l>
-Directly mention a user or team
-Reference an issue or pull request
-Leave a comment
-Aucun fichier choisi
-Attach files by dragging & dropping, selecting or pasting them.
-Styling with Markdown is supported
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
