@@ -150,6 +150,7 @@
     position: absolute;
 }
 
+/*
 /*Sticks*/
 .custom .sticks{
     position: absolute;
@@ -178,5 +179,5 @@
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
-
+*/
 /*END*/
