@@ -3,8 +3,8 @@
 /* Base Attributes */
 .controller.custom{
     background: url(https://i.imgur.com/WGqq4id.png);
-    width: 200px;
-    height: 110px;
+    width: 800px;
+    height: 440px;
 }
 .custom.disconnected {
     background: url(https://i.imgur.com/i0uBS4u.png);
@@ -156,23 +156,23 @@
 /*Sticks*/
 .custom .sticks{
     position: absolute;
-    width: 72px;
-    height: 24px;
-    top: 78px;
-    left: 64px;
+    width: 288px;
+    height: 96px;
+    top: 312px;
+    left: 276px;
 }
 .custom .stick{
     position: absolute;
     background: url(https://i.imgur.com/rMsp5bD.png);
-    height: 24px;
-    width: 24px;
+    height: 96px;
+    width: 96px;
 }
 .custom .stick.pressed.left{
     background: url(https://i.imgur.com/jI8Iwmq.png);
     opacity: 1;
 }
 .custom .stick.pressed.right{
-    background: url(https://i.imgur.com/p3kJfBh.png);
+    background: url(https://i.imgur.com/jI8Iwmq.png);
     opacity: 1;
 }
 .custom .stick.left{
