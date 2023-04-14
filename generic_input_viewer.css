@@ -65,7 +65,7 @@
 }
 .custom .button.x.pressed{
     top: 208px;
-    left: 586px;
+    left: 576px;
     opacity: 1;
 }
 .custom .button.y.pressed{
@@ -81,7 +81,7 @@
     width: 64px;
     height: 32px;
     top: 144px;
-    left: 312px;
+    left: 440px;
     opacity: 0;
 }
 .custom .back.pressed{
@@ -159,7 +159,7 @@
     width: 288px;
     height: 96px;
     top: 312px;
-    left: 296px;
+    left: 256px;
 }
 .custom .stick{
     position: absolute;
