@@ -1,0 +1,196 @@
+/*Retro-modern input viewer by Animach1ne*/
+
+/* Base Attributes */
+.controller.custom{
+    background: url(https://i.imgur.com/5l6ITcZ.png);
+    width: 840px;
+    height: 528px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/0ABPVNe.png);
+}
+
+/* Dpad */
+.custom .dpad{	
+    position: absolute;	
+    width: 240px;	
+    height: 240px;	
+    top: 108px;	
+    left: 36px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    background: url(https://i.imgur.com/cxqFcFK.png);
+    width: 72px;
+    height: 108px;
+    top: 0px;
+    left: 84px;
+}
+.custom .face.down{
+    background: url(https://i.imgur.com/ktBkArm.png);
+    width: 72px;
+    height: 108px;
+    top: 156px;
+    left: 84px;
+}
+.custom .face.left{
+    background: url(https://i.imgur.com/fD3zmkn.png);
+    width: 108px;
+    height: 72px;
+    top: 132px;
+    left: 0px;
+}
+.custom .face.right{
+    background: url(https://i.imgur.com/IZTJzfz.png);
+    width: 108px;
+    height: 72px;
+    top: 84px;
+    left: 132px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* ABXY */
+.custom .button{
+    background: url(https://i.imgur.com/uP8LVEj.png);
+    width: 64px;
+    height: 64px;
+    position: absolute;	
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    top: 272px;
+    left: 640px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    top: 208px;
+    left: 704px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    top: 208px;
+    left: 576px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    top: 144px;
+    left: 640px;
+    opacity: 1;
+}
+
+/* Back & Start */
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/dZUnDTy.png);
+    width: 64px;
+    height: 32px;
+    top: 144px;
+    left: 296px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/dZUnDTy.png);
+    width: 64px;
+    height: 32px;
+    top: 144px;
+    left: 440px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* Bumpers */
+.custom .bumper{
+    background: url(https://i.imgur.com/NlsC17W.png);
+    width: 128px;
+    height: 32px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 672px;
+    height: 32px;
+    left: 64px;
+    top: 80px;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    float: right;
+}
+
+.custom .triggers{
+    width: 672px;
+    height: 32px;
+    top: 32px;
+    left: 64px;
+    position: absolute;
+} 
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/NlsC17W.png);
+    width: 128px;
+    height: 32px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/NlsC17W.png);
+    width: 128px;
+    height: 32px;
+    top: 0px;
+    left: 544px;
+    opacity: 1;
+    position: absolute;
+}
+
+/*Sticks*/
+.custom .sticks{
+    position: absolute;
+    width: 288px;
+    height: 96px;
+    top: 312px;
+    left: 256px;
+}
+.custom .stick{
+    position: absolute;
+    background: url(https://i.imgur.com/wJS6pER.png);
+    height: 96px;
+    width: 96px;
+}
+.custom .stick.pressed.left{
+    background: url(https://i.imgur.com/s8TOsP9.png);
+    opacity: 1;
+}
+.custom .stick.pressed.right{
+    background: url(https://i.imgur.com/s8TOsP9.png);
+    opacity: 1;
+}
+.custom .stick.left{
+    top: 0;
+    left: 0;
+}
+.custom .stick.right{
+    top: calc(100% - 96px);
+    left: calc(100% - 96px);
+}
+
+/*END*/
