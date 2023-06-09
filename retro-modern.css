@@ -165,23 +165,23 @@
 /*Sticks*/
 .custom .sticks{
     position: absolute;
-    width: 288px;
-    height: 96px;
+    width: 336px;
+    height: 144px;
     top: 312px;
-    left: 256px;
+    left: 252px;
 }
 .custom .stick{
     position: absolute;
-    background: url(https://i.imgur.com/wJS6pER.png);
-    height: 96px;
-    width: 96px;
+    background: url(https://i.imgur.com/DKX7HiA.png);
+    height: 144px;
+    width: 144px;
 }
 .custom .stick.pressed.left{
-    background: url(https://i.imgur.com/s8TOsP9.png);
+    background: url(https://i.imgur.com/iOTMyFV.png);
     opacity: 1;
 }
 .custom .stick.pressed.right{
-    background: url(https://i.imgur.com/s8TOsP9.png);
+    background: url(https://i.imgur.com/iOTMyFV.png);
     opacity: 1;
 }
 .custom .stick.left{
@@ -189,8 +189,8 @@
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 96px);
-    left: calc(100% - 96px);
+    top: calc(100% - 144px);
+    left: calc(100% - 144px);
 }
 
 /*END*/
