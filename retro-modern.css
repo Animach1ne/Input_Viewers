@@ -111,17 +111,17 @@
 
 /* Bumpers */
 .custom .bumper{
-    background: url(https://i.imgur.com/NlsC17W.png);
-    width: 128px;
-    height: 32px;
+    background: url(https://i.imgur.com/WLtd0Sm.png);
+    width: 240px;
+    height: 60px;
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    width: 672px;
-    height: 32px;
-    left: 64px;
-    top: 80px;
+    width: 768px;
+    height: 60px;
+    left: 36px;
+    top: 24px;
 }
 .custom .bumper.pressed{ 
     opacity: 1;
@@ -135,10 +135,10 @@
 }
 
 .custom .triggers{
-    width: 672px;
-    height: 32px;
-    top: 32px;
-    left: 64px;
+    width: 744px;
+    height: 120px;
+    top: 384px;
+    left: 48px;
     position: absolute;
 } 
 .custom .trigger{
@@ -146,18 +146,18 @@
     opacity: 0;
 }
 .custom .trigger-button.left.pressed{
-    background: url(https://i.imgur.com/NlsC17W.png);
-    width: 128px;
-    height: 32px;
+    background: url(https://i.imgur.com/g35YHSV.png);
+    width: 144px;
+    height: 120px;
     opacity: 1;
     position: absolute;
 }
 .custom .trigger-button.right.pressed{
-    background: url(https://i.imgur.com/NlsC17W.png);
-    width: 128px;
-    height: 32px;
+    background: url(https://i.imgur.com/64m0JIu.png);
+    width: 144px;
+    height: 120px;
     top: 0px;
-    left: 544px;
+    left: 600px;
     opacity: 1;
     position: absolute;
 }
