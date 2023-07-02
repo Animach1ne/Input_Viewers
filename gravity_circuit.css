@@ -13,10 +13,10 @@
 /* Dpad */
 .custom .dpad{	
     position: absolute;	
-    width: 120px;	
-    height: 120px;	
-    top: 66px;	
-    left: 36px;	
+    width: 96px;	
+    height: 96px;	
+    top: 78px;	
+    left: 48px;	
 }
 .custom .face{
     position: absolute;	
@@ -56,33 +56,33 @@
 
 /* ABXY */
 .custom .button{
-    width: 144px;
-    height: 144px;
+    width: 60px;
+    height: 60px;
     position: absolute;	
     opacity: 0;
 }
 .custom .button.a.pressed{
     background: url(https://i.imgur.com/aCgg4uG.png);
-    top: 102px;
-    left: 42px;
+    top: 138px;
+    left: 258px;
     opacity: 1;
 }
 .custom .button.b.pressed{
     background: url(https://i.imgur.com/7NSsHsj.png);
-    top: 42px;
-    left: 102px;
+    top: 96px;
+    left: 300px;
     opacity: 1;
 }
 .custom .button.x.pressed{
     background: url(https://i.imgur.com/cF8nQhJ.png);
-    top: 42px;
-    left: 0px;
+    top: 96px;
+    left: 216px;
     opacity: 1;
 }
 .custom .button.y.pressed{
     background: url(https://i.imgur.com/Ydd003g.png);
-    top: 0px;
-    left: 42px;
+    top: 54px;
+    left: 258px;
     opacity: 1;
 }
 
@@ -160,7 +160,7 @@
     width: 36px;
     height: 60px;
     top: 0px;
-    left: 324px;
+    left: 348px;
     opacity: 1;
     position: absolute;
 }
