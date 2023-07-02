@@ -1,0 +1,168 @@
+/*Gravity Circuit input viewer by Animach1ne*/
+
+/* Base Attributes */
+.controller.custom{
+    background: url(https://i.imgur.com/sfS0CEa.png);
+    width: 384px;
+    height: 198px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/MSLHxJB.png);
+}
+
+/* Dpad */
+.custom .dpad{	
+    position: absolute;	
+    width: 120px;	
+    height: 120px;	
+    top: 66px;	
+    left: 36px;	
+}
+.custom .face{
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    background: url(https://i.imgur.com/HhJaEwp.png);
+    width: 24px;
+    height: 48px;
+    top: 0px;
+    left: 48px;
+}
+.custom .face.down{
+    background: url(https://i.imgur.com/f08GFXH.png);
+    width: 24px;
+    height: 48px;
+    top: 72px;
+    left: 48px;
+}
+.custom .face.left{
+    background: url(https://i.imgur.com/XbARctL.png);
+    width: 48px;
+    height: 24px;
+    top: 48px;
+    left: 0px;
+}
+.custom .face.right{
+    background: url(https://i.imgur.com/gAbJemW.png);
+    width: 48px;
+    height: 24px;
+    top: 48px;
+    left: 72px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* ABXY */
+.custom .button{
+    width: 144px;
+    height: 144px;
+    position: absolute;	
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/aCgg4uG.png);
+    top: 102px;
+    left: 42px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/7NSsHsj.png);
+    top: 42px;
+    left: 102px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/cF8nQhJ.png);
+    top: 42px;
+    left: 0px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    background: url(https://i.imgur.com/Ydd003g.png);
+    top: 0px;
+    left: 42px;
+    opacity: 1;
+}
+
+/* Back & Start */
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/DIfLr4G.png);
+    width: 36px;
+    height: 48px;
+    top: 18px;
+    left: 144px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/DIfLr4G.png);
+    width: 36px;
+    height: 48px;
+    top: 18px;
+    left: 204px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* Bumpers */
+.custom .bumper{
+    background: url(https://i.imgur.com/pecpVhX.png);
+    width: 60px;
+    height: 48px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 318px;
+    height: 48px;
+    left: 30px;
+    top: 0px;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    float: right;
+}
+
+.custom .triggers{
+    width: 384px;
+    height: 60px;
+    top: 12px;
+    left: 0px;
+    position: absolute;
+} 
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/TQ6mUHf.png);
+    width: 36px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/TQ6mUHf.png);
+    width: 36px;
+    height: 60px;
+    top: 0px;
+    left: 324px;
+    opacity: 1;
+    position: absolute;
+}
+
+/*END*/
