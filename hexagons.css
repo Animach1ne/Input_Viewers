@@ -191,8 +191,8 @@
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 144px);
-    left: calc(100% - 144px);
+    top: 0px;
+    left: 120px;
 }
 
 /*END*/
