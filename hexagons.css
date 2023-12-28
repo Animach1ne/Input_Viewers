@@ -168,23 +168,23 @@
 /*Sticks*/
 .custom .sticks{
     position: absolute;
-    width: 160px;
-    height: 40px;
-    top: 160px;
-    left: 258px;
+    width: 148px;
+    height: 28px;
+    top: 166px;
+    left: 264px;
 }
 .custom .stick{
     position: absolute;
-    background: url(https://i.imgur.com/Emg5HPM.png);
-    height: 40px;
-    width: 40px;
+    background: url(https://i.imgur.com/CRqsEby.png);
+    height: 28px;
+    width: 28px;
 }
 .custom .stick.pressed.left{
-    background: url(https://i.imgur.com/g284pTv.png);
+    background: url(https://i.imgur.com/BXkULXL.png);
     opacity: 1;
 }
 .custom .stick.pressed.right{
-    background: url(https://i.imgur.com/g284pTv.png);
+    background: url(https://i.imgur.com/BXkULXL.png);
     opacity: 1;
 }
 .custom .stick.left{
