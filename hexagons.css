@@ -13,10 +13,10 @@
 /* Dpad */
 .custom .dpad{	
     position: absolute;	
-    width: 188px;	
-    height: 136px;	
-    top: 4px;	
-    left: 64px;	
+    width: 196px;	
+    height: 144px;	
+    top: 0px;	
+    left: 60px;	
 }
 .custom .face{
     position: absolute;	
@@ -27,28 +27,28 @@
     width: 76px;
     height: 72px;
     top: 0px;
-    left: 60px;
+    left: 56px;
 }
 .custom .face.down{
     background: url(https://i.imgur.com/Pg1qbBr.png);
     width: 76px;
     height: 72px;
-    top: 72px;
-    left: 60px;
+    top: 68px;
+    left: 56px;
 }
 .custom .face.left{
     background: url(https://i.imgur.com/oOgQmcu.png);
     width: 76px;
     height: 72px;
-    top: 36px;
+    top: 32px;
     left: 0px;
 }
 .custom .face.right{
     background: url(https://i.imgur.com/yWCAkQK.png);
     width: 76px;
     height: 72px;
-    top: 36px;
-    left: 120px;
+    top: 32px;
+    left: 116px;
 }
 .custom .face.pressed{
     opacity: 1;
@@ -63,26 +63,26 @@
 }
 .custom .button.a.pressed{
     background: url(https://i.imgur.com/SHUeZ6W.png);
-    top: 76px;
-    left: 484px;
+    top: 72px;
+    left: 480px;
     opacity: 1;
 }
 .custom .button.b.pressed{
     background: url(https://i.imgur.com/JUhaK9Q.png);
-    top: 40px;
-    left: 544px;
+    top: 36px;
+    left: 540px;
     opacity: 1;
 }
 .custom .button.x.pressed{
     background: url(https://i.imgur.com/hMKtGwQ.png);
-    top: 40px;
-    left: 424px;
+    top: 36px;
+    left: 420px;
     opacity: 1;
 }
 .custom .button.y.pressed{
     background: url(https://i.imgur.com/Qgj31ao.png);
-    top: 4px;
-    left: 484px;
+    top: 0px;
+    left: 480px;
     opacity: 1;
 }
 
@@ -92,8 +92,8 @@
     background: url(https://i.imgur.com/F8tv736.png);
     width: 76px;
     height: 72px;;
-    top: 76px;
-    left: 4px;
+    top: 72px;
+    left: 0px;
     opacity: 0;
 }
 .custom .back.pressed{
@@ -104,8 +104,8 @@
     background: url(https://i.imgur.com/F8tv736.png);
     width: 76px;
     height: 72px;
-    top: 76px;
-    left: 604px;
+    top: 72px;
+    left: 600px;
     opacity: 0;
 }
 .custom .start.pressed{
@@ -121,10 +121,10 @@
 }
 .custom .bumpers{
     position: absolute;
-    width: 308px;
-    height: 72px;
-    left: 184px;
-    top: 112px;
+    width: 316px;
+    height: 80px;
+    left: 180px;
+    top: 108px;
 }
 .custom .bumper.pressed{ 
     opacity: 1;
@@ -138,10 +138,10 @@
 }
 
 .custom .triggers{
-    width: 188px;
-    height: 72px;
-    top: 76px;
-    left: 244px;
+    width: 196px;
+    height: 80px;
+    top: 72px;
+    left: 240px;
     position: absolute;
 } 
 .custom .trigger{
@@ -160,7 +160,7 @@
     width: 76px;
     height: 72px;
     top: 0px;
-    left: 120px;
+    left: 116px;
     opacity: 1;
     position: absolute;
 }
