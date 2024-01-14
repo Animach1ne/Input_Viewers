@@ -27,28 +27,28 @@
     width: 76px;
     height: 72px;
     top: 0px;
-    left: 56px;
+    left: 60px;
 }
 .custom .face.down{
     background: url(https://i.imgur.com/Pg1qbBr.png);
     width: 76px;
     height: 72px;
-    top: 68px;
-    left: 56px;
+    top: 72px;
+    left: 60px;
 }
 .custom .face.left{
     background: url(https://i.imgur.com/oOgQmcu.png);
     width: 76px;
     height: 72px;
-    top: 32px;
+    top: 36px;
     left: 0px;
 }
 .custom .face.right{
     background: url(https://i.imgur.com/yWCAkQK.png);
     width: 76px;
     height: 72px;
-    top: 32px;
-    left: 116px;
+    top: 36px;
+    left: 120px;
 }
 .custom .face.pressed{
     opacity: 1;
@@ -160,7 +160,7 @@
     width: 76px;
     height: 72px;
     top: 0px;
-    left: 116px;
+    left: 120px;
     opacity: 1;
     position: absolute;
 }
