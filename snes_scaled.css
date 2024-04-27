@@ -17,8 +17,8 @@ snes scaled input viewer skin by Animach1ne twitch.tv/animach1ne
 
 .custom .bumper{
     background: url(https://i.imgur.com/oQhKvl7.png);
-    width: 449px;
-    height: 64px;
+    width: 154px;
+    height: 35px;
     opacity: 0;
 }
 .custom .bumpers{
@@ -120,7 +120,7 @@ snes scaled input viewer skin by Animach1ne twitch.tv/animach1ne
     position: absolute;
     opacity: 0;
 }
-.custom .button.a.pressed{
+.custom .button.b.pressed{
     background: url(https://i.imgur.com/sGuxJNH.png);
     width: 56px;
     height: 56px;
@@ -128,7 +128,7 @@ snes scaled input viewer skin by Animach1ne twitch.tv/animach1ne
     left: 544px;
     opacity: 1;
 }
-.custom .button.b.pressed{
+.custom .button.a.pressed{
     background: url(https://i.imgur.com/sGuxJNH.png);
     width: 56px;
     height: 56px;
@@ -136,14 +136,14 @@ snes scaled input viewer skin by Animach1ne twitch.tv/animach1ne
     left: 481px;
     opacity: 1;
 }
-.custom .button.x.pressed{
+.custom .button.y.pressed{
     background: url(https://i.imgur.com/sGuxJNH.png);
     width: 56px;
     height: 56px;
     top: 83px;
     left: 481px;
     opacity: 1;
-}.custom .button.y.pressed{
+}.custom .button.x.pressed{
     background: url(https://i.imgur.com/sGuxJNH.png);
     width: 56px;
     height: 56px;
