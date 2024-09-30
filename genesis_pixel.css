@@ -1,12 +1,12 @@
 /*Genesis Pixel Controller Styling by Animach1ne*/
 /* *********************************************************** */
 .controller.custom{
-    background: url(https://i.imgur.com/IqjyQP1.png); 
+    background: url(https://i.imgur.com/ahRKLen.png); 
     height: 234px;
     width: 528px;
 }
 .custom.disconnected {
-    background: url(https://i.imgur.com/LSyMTUG.png);
+    background: url(https://i.imgur.com/Nsr2Pt0.png);
 }
 .custom.disconnected div {
     display: none;
