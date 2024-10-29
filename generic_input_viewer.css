@@ -2,7 +2,7 @@
 
 /* Base Attributes */
 .controller.custom{
-    background: url(https://i.imgur.com/UytQecC.png);
+    background: url(https://i.imgur.com/45gVtZH.png);
     width: 800px;
     height: 440px;
 }
@@ -19,7 +19,7 @@
     left: 32px;	
 }
 .custom .face{
-    background: url(https://i.imgur.com/uP8LVEj.png);
+    background: url(https://i.imgur.com/VuZAC6b.png);
     width: 64px;
     height: 64px;
     position: absolute;	
@@ -47,7 +47,7 @@
 
 /* ABXY */
 .custom .button{
-    background: url(https://i.imgur.com/uP8LVEj.png);
+    background: url(https://i.imgur.com/VuZAC6b.png);
     width: 64px;
     height: 64px;
     position: absolute;	
@@ -77,7 +77,7 @@
 /* Back & Start */
 .custom .back{ 
     position: absolute;
-    background: url(https://i.imgur.com/dZUnDTy.png);
+    background: url(https://i.imgur.com/6pAJfyY.png);
     width: 64px;
     height: 32px;
     top: 144px;
@@ -89,7 +89,7 @@
 }
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/dZUnDTy.png);
+    background: url(https://i.imgur.com/6pAJfyY.png);
     width: 64px;
     height: 32px;
     top: 144px;
@@ -102,7 +102,7 @@
 
 /* Bumpers */
 .custom .bumper{
-    background: url(https://i.imgur.com/NlsC17W.png);
+    background: url(https://i.imgur.com/sjYBw3Z.png);
     width: 128px;
     height: 32px;
     opacity: 0;
@@ -137,14 +137,14 @@
     opacity: 0;
 }
 .custom .trigger-button.left.pressed{
-    background: url(https://i.imgur.com/NlsC17W.png);
+    background: url(https://i.imgur.com/sjYBw3Z.png);
     width: 128px;
     height: 32px;
     opacity: 1;
     position: absolute;
 }
 .custom .trigger-button.right.pressed{
-    background: url(https://i.imgur.com/NlsC17W.png);
+    background: url(https://i.imgur.com/sjYBw3Z.png);
     width: 128px;
     height: 32px;
     top: 0px;
@@ -163,16 +163,16 @@
 }
 .custom .stick{
     position: absolute;
-    background: url(https://i.imgur.com/wJS6pER.png);
+    background: url(https://i.imgur.com/fVsbnns.png);
     height: 96px;
     width: 96px;
 }
 .custom .stick.pressed.left{
-    background: url(https://i.imgur.com/s8TOsP9.png);
+    background: url(https://i.imgur.com/7tnf6Rp.png);
     opacity: 1;
 }
 .custom .stick.pressed.right{
-    background: url(https://i.imgur.com/s8TOsP9.png);
+    background: url(https://i.imgur.com/7tnf6Rp.png);
     opacity: 1;
 }
 .custom .stick.left{
