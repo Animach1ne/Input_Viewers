@@ -7,7 +7,7 @@
     height: 440px;
 }
 .custom.disconnected {
-    background: url(https://i.imgur.com/Pjw6JoU.png);
+    background: url(https://i.imgur.com/4xfnQBJ.png);
 }
 
 /* Dpad */
@@ -163,16 +163,16 @@
 }
 .custom .stick{
     position: absolute;
-    background: url(https://i.imgur.com/NycgTFz.png);
+    background: url(https://i.imgur.com/kTA1vxF.png);
     height: 96px;
     width: 96px;
 }
 .custom .stick.pressed.left{
-    background: url(https://i.imgur.com/fVsbnns.png);
+    background: url(https://i.imgur.com/Lbmtgw7.png);
     opacity: 1;
 }
 .custom .stick.pressed.right{
-    background: url(https://i.imgur.com/fVsbnns.png);
+    background: url(https://i.imgur.com/Lbmtgw7.png);
     opacity: 1;
 }
 .custom .stick.left{
