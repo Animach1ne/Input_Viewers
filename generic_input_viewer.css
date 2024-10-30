@@ -163,16 +163,16 @@
 }
 .custom .stick{
     position: absolute;
-    background: url(https://i.imgur.com/kTA1vxF.png);
+    background: url(https://i.imgur.com/Lbmtgw7.png);
     height: 96px;
     width: 96px;
 }
 .custom .stick.pressed.left{
-    background: url(https://i.imgur.com/Lbmtgw7.png);
+    background: url(https://i.imgur.com/kTA1vxF.png);
     opacity: 1;
 }
 .custom .stick.pressed.right{
-    background: url(https://i.imgur.com/Lbmtgw7.png);
+    background: url(https://i.imgur.com/kTA1vxF.png);
     opacity: 1;
 }
 .custom .stick.left{
