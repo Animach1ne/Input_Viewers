@@ -157,7 +157,7 @@
 .custom .sticks{
     position: absolute;
     width: 320px;
-    height: 160px;
+    height: 128px;
     top: 296px;
     left: 240px;
 }
@@ -180,7 +180,7 @@
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 160px);
+    top: calc(100% - 128px);
     left: calc(100% - 128px);
 }
 
