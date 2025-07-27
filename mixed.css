@@ -147,11 +147,13 @@
 }
 .custom .trigger-button.left.pressed{
     opacity: 1;
+    position: absolute;
 }
 .custom .trigger-button.right.pressed{
     top: 0px;
     left: 1092px;
     opacity: 1;
+    position: absolute;
 }
 
 /*Sticks*/
