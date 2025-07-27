@@ -132,31 +132,25 @@
 }
 
 .custom .triggers{
-    width: 672px;
-    height: 32px;
-    top: 32px;
-    left: 64px;
+    width: 1698px;
+    height: 84px;
+    top: 48px;
+    left: 180px;
     position: absolute;
 } 
 .custom .trigger{
+    background: url(https://i.imgur.com/.png);
+    width: 132px;
+    height: 84px;
     position: absolute;
     opacity: 0;
 }
 .custom .trigger-button.left.pressed{
-    background: url(https://i.imgur.com/sjYBw3Z.png);
-    width: 128px;
-    height: 32px;
     opacity: 1;
-    position: absolute;
 }
 .custom .trigger-button.right.pressed{
-    background: url(https://i.imgur.com/sjYBw3Z.png);
-    width: 128px;
-    height: 32px;
-    top: 0px;
-    left: 544px;
-    opacity: 1;
-    position: absolute;
+    -webkit-transform: rotateY(180deg);
+    float: right;
 }
 
 /*Sticks*/
