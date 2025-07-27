@@ -182,7 +182,7 @@
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 108px);
+    top: calc(100% - 120px);
     left: calc(100% - 108px);
 }
 
