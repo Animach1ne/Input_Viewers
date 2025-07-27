@@ -2,12 +2,12 @@
 
 /* Base Attributes */
 .controller.custom{
-    background: url(https://i.imgur.com/b3W8MaW.png);
+    background: url(https://i.imgur.com/.png);
     width: 1584px;
     height: 528px;
 }
 .custom.disconnected {
-    background: url(https://i.imgur.com/4xfnQBJ.png);
+    background: url(https://i.imgur.com/.png);
 }
 
 /* Dpad */
@@ -19,25 +19,28 @@
     left: 180px;	
 }
 .custom .face{
-    background: url(https://i.imgur.com/VuZAC6b.png);
-    width: 64px;
-    height: 64px;
+    width: 132px;
+    height: 144px;
     position: absolute;	
     opacity: 0;
 }
 .custom .face.up{
+    background: url(https://i.imgur.com/.png);
     top: 0px;
     left: 156px;
 }
 .custom .face.down{
+    background: url(https://i.imgur.com/.png);
     top: 156px;
     left: 156px;
 }
 .custom .face.left{
+    background: url(https://i.imgur.com/.png);
     top: 156px;
     left: 0px;
 }
 .custom .face.right{
+    background: url(https://i.imgur.com/.png);
     top: 156px;
     left: 312px;
 }
@@ -47,30 +50,33 @@
 
 /* ABXY */
 .custom .button{
-    background: url(https://i.imgur.com/VuZAC6b.png);
-    width: 64px;
-    height: 64px;
+    width: 132px;
+    height: 144px;
     position: absolute;	
     opacity: 0;
 }
 .custom .button.a.pressed{
-    top: 272px;
-    left: 640px;
+    background: url(https://i.imgur.com/.png);
+    top: 336px;
+    left: 1116px;
     opacity: 1;
 }
 .custom .button.b.pressed{
-    top: 208px;
-    left: 704px;
+    background: url(https://i.imgur.com/.png);
+    top: 336px;
+    left: 1272px;
     opacity: 1;
 }
 .custom .button.x.pressed{
-    top: 208px;
-    left: 576px;
+    background: url(https://i.imgur.com/.png);
+    top: 336px;
+    left: 960px;
     opacity: 1;
 }
 .custom .button.y.pressed{
-    top: 144px;
-    left: 640px;
+    background: url(https://i.imgur.com/.png);
+    top: 180px;
+    left: 1116px;
     opacity: 1;
 }
 
