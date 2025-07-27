@@ -139,17 +139,20 @@
     position: absolute;
 } 
 .custom .trigger{
-    background: url(https://i.imgur.com/S36c2yM.png);
-    width: 132px;
-    height: 84px;
     position: absolute;
     opacity: 0;
 }
 .custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/S36c2yM.png);
+    width: 132px;
+    height: 84px;
     opacity: 1;
     position: absolute;
 }
 .custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/S36c2yM.png);
+    width: 132px;
+    height: 84px;
     top: 0px;
     left: 1092px;
     opacity: 1;
