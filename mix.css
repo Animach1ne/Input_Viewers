@@ -83,11 +83,11 @@
 /* Back & Start */
 .custom .back{ 
     position: absolute;
-    background: url(https://i.imgur.com/6pAJfyY.png);
-    width: 64px;
-    height: 32px;
-    top: 144px;
-    left: 296px;
+    background: url(https://i.imgur.com/.png);
+    width: 84px;
+    height: 96px;
+    top: 204px;
+    left: 48px;
     opacity: 0;
 }
 .custom .back.pressed{
@@ -95,11 +95,11 @@
 }
 .custom .start{
     position: absolute;
-    background: url(https://i.imgur.com/6pAJfyY.png);
-    width: 64px;
-    height: 32px;
-    top: 144px;
-    left: 440px;
+    background: url(https://i.imgur.com/.png);
+    width: 84px;
+    height: 96px;
+    top: 204px;
+    left: 1452px;
     opacity: 0;
 }
 .custom .start.pressed{
@@ -108,17 +108,17 @@
 
 /* Bumpers */
 .custom .bumper{
-    background: url(https://i.imgur.com/sjYBw3Z.png);
-    width: 128px;
-    height: 32px;
+    background: url(https://i.imgur.com/.png);
+    width: 132px;
+    height: 84px;
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    width: 672px;
-    height: 32px;
-    left: 64px;
-    top: 80px;
+    width: 600px;
+    height: 84px;
+    left: 492px;
+    top: 48px;
 }
 .custom .bumper.pressed{ 
     opacity: 1;
