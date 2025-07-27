@@ -149,8 +149,9 @@
     opacity: 1;
 }
 .custom .trigger-button.right.pressed{
-    -webkit-transform: rotateY(180deg);
-    float: right;
+    top: 0px;
+    left: 1092px;
+    opacity: 1;
 }
 
 /*Sticks*/
@@ -166,6 +167,7 @@
     background: url(https://i.imgur.com/https://imgur.com/R5yBp5v.png);
     width: 108px;
     height: 120px;
+    opacity: 1;
 }
 .custom .stick.pressed.left{
     background: url(https://i.imgur.com/YoDi21q.png);
