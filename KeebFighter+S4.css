@@ -108,7 +108,6 @@
 
 /* Bumpers */
 .custom .bumper{
-    background: url(https://i.imgur.com/MprYc99.png);
     width: 1000px;
     height: 445px;
     opacity: 0;
@@ -124,10 +123,11 @@
     opacity: 1;
 }
 .custom .bumper.left{
-        float: left;
+    background: url(https://i.imgur.com/MprYc99.png);
+    float: left;
 }
 .custom .bumper.right{
-    -webkit-transform: rotateY(180deg);
+    background: url(https://i.imgur.com/djWnPzk.png);
     float: right;
 }
 
