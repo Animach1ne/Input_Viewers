@@ -108,6 +108,7 @@
 
 /* Bumpers */
 .custom .bumper{
+    background: url(https://i.imgur.com/MprYc99.png);
     width: 1000px;
     height: 445px;
     opacity: 0;
@@ -123,10 +124,11 @@
     opacity: 1;
 }
 .custom .bumper.left{
-    background: url(https://i.imgur.com/MprYc99.png);
+        float: left;
 }
 .custom .bumper.right{
-    background: url(https://i.imgur.com/djWnPzk.png);
+    -webkit-transform: rotateY(180deg);
+    float: right;
 }
 
 .custom .triggers{
@@ -154,8 +156,6 @@
     opacity: 1;
     position: absolute;
 }
-
-/*Sticks*/
 
 /*Sticks*/
 .custom .sticks{
