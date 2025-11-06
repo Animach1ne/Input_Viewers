@@ -110,6 +110,9 @@
 .custom .bumper{
     width: 1000px;
     height: 445px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
     opacity: 0;
 }
 .custom .bumpers{
@@ -124,11 +127,9 @@
 }
 .custom .bumper.left{
     background: url(https://i.imgur.com/MprYc99.png);
-    float: left;
 }
 .custom .bumper.right{
     background: url(https://i.imgur.com/djWnPzk.png);
-    float: right;
 }
 
 .custom .triggers{
