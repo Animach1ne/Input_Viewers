@@ -1,0 +1,175 @@
+/*KeebFighter+S4 viewer by Animach1ne*/
+
+/* Base Attributes */
+.controller.custom{
+    background: url(https://i.imgur.com/6kkU5gI.png);
+    width: 1000px;
+    height: 445px;
+}
+.custom.disconnected {
+    background: url(https://i.imgur.com/0tnoxDe.png);
+}
+
+/* Dpad */
+.custom .dpad{	
+    position: absolute;	
+    width: 1000px;	
+    height: 445px;	
+    top: 0px;	
+    left: 0px;	
+}
+.custom .face{
+    width: 1000px;
+    height: 445px;
+    position: absolute;	
+    opacity: 0;
+}
+.custom .face.up{
+    background: url(https://i.imgur.com/QWMIJxJ.png);
+    top: 0px;
+    left: 0px;
+}
+.custom .face.down{
+    background: url(https://i.imgur.com/AJyko51.png);
+    top: 0px;
+    left: 0px;
+}
+.custom .face.left{
+    background: url(https://i.imgur.com/XnUOb0N.png);
+    top: 0px;
+    left: 0px;
+}
+.custom .face.right{
+    background: url(https://i.imgur.com/nRCsPna.png);
+    top: 0px;
+    left: 0px;
+}
+.custom .face.pressed{
+    opacity: 1;
+}
+
+/* ABXY */
+.custom .button{
+    width: 1000px;
+    height: 445px;
+    position: absolute;	
+    opacity: 0;
+}
+.custom .button.a.pressed{
+    background: url(https://i.imgur.com/EmQrCMz.png);
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+.custom .button.b.pressed{
+    background: url(https://i.imgur.com/sqBKMMm.png);
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+.custom .button.x.pressed{
+    background: url(https://i.imgur.com/oKFHiYx.png);
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+.custom .button.y.pressed{
+    background: url(https://i.imgur.com/KYqCJy5.png);
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+
+/* Back & Start */
+.custom .back{ 
+    position: absolute;
+    background: url(https://i.imgur.com/INrDsdi.png);
+    width: 1000px;
+    height: 445px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .back.pressed{
+    opacity: 1;
+}
+.custom .start{
+    position: absolute;
+    background: url(https://i.imgur.com/o6NCy15.png);
+    width: 1000px;
+    height: 445px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.custom .start.pressed{
+    opacity: 1;
+}
+
+/* Bumpers */
+.custom .bumper{
+    background: url(https://i.imgur.com/MprYc99.png);
+    width: 1000px;
+    height: 445px;
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 1000px;
+    height: 445px;
+    left: 0px;
+    top: 0px;
+}
+.custom .bumper.pressed{ 
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    -webkit-transform: rotateY(180deg);
+    float: right;
+}
+
+.custom .triggers{
+    width: 1000px;
+    height: 445px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+} 
+.custom .trigger{
+    position: absolute;
+    opacity: 0;
+}
+.custom .trigger-button.left.pressed{
+    background: url(https://i.imgur.com/Qm7mGdf.png);
+    width: 1000px;
+    height: 445px;
+    opacity: 1;
+    position: absolute;
+}
+.custom .trigger-button.right.pressed{
+    background: url(https://i.imgur.com/vZdvB55.png);
+    width: 1000px;
+    height: 445px;
+    opacity: 1;
+    position: absolute;
+}
+
+/*Sticks*/
+
+.custom .stick.pressed.left{
+    width: 1000px;
+    height: 445px;
+    background: url(https://i.imgur.com/GJ39pBh.png);
+    opacity: 1;
+}
+.custom .stick.pressed.right{
+    width: 1000px;
+    height: 445px;
+    background: url(https://i.imgur.com/WdE1hyc.png);
+    opacity: 1;
+}
+
+/*END*/
