@@ -108,7 +108,6 @@
 
 /* Bumpers */
 .custom .bumper{
-    background: url(https://i.imgur.com/MprYc99.png);
     width: 1000px;
     height: 445px;
     opacity: 0;
@@ -124,10 +123,11 @@
     opacity: 1;
 }
 .custom .bumper.left{
+    background: url(https://i.imgur.com/MprYc99.png);
     float: left;
 }
 .custom .bumper.right{
-    -webkit-transform: rotateY(180deg);
+    background: url(https://i.imgur.com/djWnPzk.png);
     float: right;
 }
 
@@ -159,17 +159,34 @@
 
 /*Sticks*/
 
-.custom .stick.pressed.left{
+/*Sticks*/
+.custom .sticks{
+    position: absolute;
     width: 1000px;
     height: 445px;
+    top: 0px;
+    left: 0px;
+}
+.custom .stick{
+    position: absolute;
+    width: 1000px;
+    height: 445px;
+}
+.custom .stick.pressed.left{
     background: url(https://i.imgur.com/GJ39pBh.png);
     opacity: 1;
 }
 .custom .stick.pressed.right{
-    width: 1000px;
-    height: 445px;
     background: url(https://i.imgur.com/WdE1hyc.png);
     opacity: 1;
+}
+.custom .stick.left{
+    top: 0;
+    left: 0;
+}
+.custom .stick.right{
+    top: calc(100% - 128px);
+    left: calc(100% - 128px);
 }
 
 /*END*/
