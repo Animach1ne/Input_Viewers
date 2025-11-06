@@ -124,11 +124,9 @@
 }
 .custom .bumper.left{
     background: url(https://i.imgur.com/MprYc99.png);
-    float: left;
 }
 .custom .bumper.right{
     background: url(https://i.imgur.com/djWnPzk.png);
-    float: right;
 }
 
 .custom .triggers{
